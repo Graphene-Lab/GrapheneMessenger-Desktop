@@ -6,7 +6,7 @@
 # a GitHub Release with all three installers.
 #
 # Installers are UNSIGNED (no code-signing certificate is configured). To sign
-# them later, add the signing secrets and drop the noop signing overrides.
+# them later, add the signing secrets and drop the unsigned overrides.
 
 name: Release
 
@@ -63,14 +63,14 @@ jobs:
     timeout-minutes: 40
     strategy:
       fail-fast: false
-      matrix:
-        include:
-          - os: windows-latest
-            target: win
-          - os: ubuntu-22.04
-            target: linux
-          - os: macos-14
-            target: macos
+    matrix:
+      include:
+        - os: windows-latest
+          target: win
+        - os: ubuntu-22.04
+          target: linux
+        - os: macos-26
+          target: macos
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
@@ -80,6 +80,7 @@ jobs:
         uses: ./.github/actions/setup
         with:
           cache-electron-builder: true
+          apt-packages: ${{ matrix.target == 'linux' && 'xvfb libpulse0' || '' }}
 
       - name: Prepare build
         run: pnpm run prepare-beta-build
@@ -87,22 +88,40 @@ jobs:
       - name: Generate
         run: pnpm run generate
 
+      - name: Run node tests (linux needs xvfb)
+        if: matrix.target == 'linux'
+        run: xvfb-run --auto-servernum pnpm run test-node
+
       - name: Run node tests
+        if: matrix.target != 'linux'
         run: pnpm run test-node
 
+      - name: Create preload cache (linux needs xvfb)
+        if: matrix.target == 'linux'
+        run: xvfb-run --auto-servernum pnpm run build:preload-cache
+        env:
+          ARTIFACTS_DIR: artifacts/${{ matrix.target }}
+
       - name: Create preload cache
+        if: matrix.target != 'linux'
         run: pnpm run build:preload-cache
         env:
           ARTIFACTS_DIR: artifacts/${{ matrix.target }}
+
+      # Unsigned Windows: drop the certificate fields so the sign script skips.
+      - name: Remove Windows certificate fields (unsigned)
+        if: matrix.target == 'win'
+        shell: cmd
+        run: |
+          copy package.json temp.json
+          del package.json
+          type temp.json | findstr /v certificateSubjectName | findstr /v certificateSha1 > package.json
 
       - name: Build installer (unsigned)
         run: |
           if [ "$RUNNER_OS" = "macOS" ]; then
             touch noop.sh && chmod +x noop.sh
             SIGN_MACOS_SCRIPT=noop.sh DISABLE_INSPECT_FUSE=on \
-              pnpm run build:release --publish=never -c.extraMetadata.version=${{ needs.version.outputs.version }}
-          elif [ "$RUNNER_OS" = "Windows" ]; then
-            DISABLE_INSPECT_FUSE=on \
               pnpm run build:release --publish=never -c.extraMetadata.version=${{ needs.version.outputs.version }}
           else
             DISABLE_INSPECT_FUSE=on \
