@@ -176,19 +176,44 @@ jobs:
           git push origin "${{ needs.version.outputs.tag }}" || true
 
       - name: Publish release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: ${{ needs.version.outputs.tag }}
-          name: GrapheneMessenger Desktop ${{ needs.version.outputs.version }}
-          body: |
-            GrapheneMessenger Desktop ${{ needs.version.outputs.version }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ needs.version.outputs.tag }}
+          VER: ${{ needs.version.outputs.version }}
+        run: |
+          set -euo pipefail
+          shopt -s nullglob globstar
+          # Create the release as a draft once (reuse if it already exists).
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --draft \
+              --title "GrapheneMessenger Desktop $VER" \
+              --notes "GrapheneMessenger Desktop $VER
 
-            Installers for Windows, Linux and macOS.
+          Installers for Windows, Linux and macOS.
 
-            > Note: these installers are currently unsigned.
-          files: |
-            dist/**/*.exe
-            dist/**/*.dmg
-            dist/**/*.zip
-            dist/**/*.deb
-          prerelease: false
+          > Note: these installers are currently unsigned."
+          fi
+          # Upload each installer on its own, with retries. Large files (the macOS
+          # .dmg) can hit transient "other side closed" connection errors.
+          fail=0
+          for f in dist/**/*.exe dist/**/*.dmg dist/**/*.zip dist/**/*.deb; do
+            [ -f "$f" ] || continue
+            ok=0
+            for attempt in 1 2 3 4 5; do
+              if gh release upload "$TAG" "$f" --clobber; then
+                ok=1
+                break
+              fi
+              echo "upload failed for $f (attempt $attempt), retrying in 15s..."
+              sleep 15
+            done
+            if [ "$ok" -ne 1 ]; then
+              echo "::error::could not upload $f after 5 attempts"
+              fail=1
+            fi
+          done
+          # Only publish (un-draft) when every installer uploaded successfully.
+          if [ "$fail" -eq 0 ]; then
+            gh release edit "$TAG" --draft=false
+          fi
+          exit "$fail"
