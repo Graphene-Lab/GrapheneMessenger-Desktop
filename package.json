@@ -1,12 +1,12 @@
 {
   "$schema": "./package.schema.json",
   "private": true,
-  "name": "signal-desktop",
-  "productName": "Signal",
+  "name": "graphene-messenger-desktop",
+  "productName": "GrapheneMessenger",
   "description": "Private messaging from your desktop",
-  "desktopName": "signal.desktop",
-  "repository": "https://github.com/signalapp/Signal-Desktop.git",
-  "version": "8.30.0-alpha.1",
+  "desktopName": "graphene.desktop",
+  "repository": "https://github.com/Graphene-Lab/GrapheneMessenger-Desktop.git",
+  "version": "1.0.0",
   "license": "AGPL-3.0-only",
   "author": {
     "name": "Signal Messenger, LLC",
@@ -359,7 +359,7 @@
     }
   },
   "build": {
-    "appId": "org.whispersystems.signal-desktop",
+    "appId": "com.graphene.messenger.desktop",
     "nativeRebuilder": "parallel",
     "mac": {
       "artifactName": "${name}-mac-${arch}-${version}.${ext}",
@@ -371,8 +371,9 @@
       "icon": "build/icons/mac/AppIcon.icon",
       "publish": [
         {
-          "provider": "generic",
-          "url": "https://updates.signal.org/desktop"
+          "provider": "github",
+          "owner": "Graphene-Lab",
+          "repo": "GrapheneMessenger-Desktop"
         }
       ],
       "mergeASARs": true,
@@ -463,8 +464,9 @@
       "icon": "build/icons/win/icon.ico",
       "publish": [
         {
-          "provider": "generic",
-          "url": "https://updates.signal.org/desktop"
+          "provider": "github",
+          "owner": "Graphene-Lab",
+          "repo": "GrapheneMessenger-Desktop"
         }
       ],
       "releaseInfo": {
@@ -498,11 +500,11 @@
       }
     },
     "linux": {
-      "executableName": "signal-desktop",
+      "executableName": "graphene-messenger-desktop",
       "category": "Network;InstantMessaging;Chat",
       "desktop": {
         "entry": {
-          "StartupWMClass": "signal"
+          "StartupWMClass": "graphene"
         }
       },
       "artifactName": "${name}_${version}_${arch}.${ext}",
@@ -515,8 +517,9 @@
       "icon": "build/icons/png",
       "publish": [
         {
-          "provider": "generic",
-          "url": ""
+          "provider": "github",
+          "owner": "Graphene-Lab",
+          "repo": "GrapheneMessenger-Desktop"
         }
       ],
       "releaseInfo": {

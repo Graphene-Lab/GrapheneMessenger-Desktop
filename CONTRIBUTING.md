@@ -8,19 +8,19 @@
 First, there are ways to contribute that don't involve the code at all. It helps to
 _start small_. Here's a list of things to consider:
 
-1. Talk about Signal with your friends and family - get them to join you in using it!
+1. Talk about GrapheneMessenger with your friends and family - get them to join you in using it!
 1. Join the Beta and test out recently-released features before the general public gets access
 1. Find and comment on duplicate GitHub issues, so we can close them
 1. Determine and provide workarounds on existing GitHub issues
-1. Test Signal Desktop and find reliable, well-defined reproduction steps for existing GitHub issues
-1. For a given GitHub issue, test Signal iOS and/or Signal Android to see if their behavior matches Signal Desktop, and provide the details of your analysis.
+1. Test GrapheneMessenger Desktop and find reliable, well-defined reproduction steps for existing GitHub issues
+1. For a given GitHub issue, test GrapheneMessenger iOS and/or GrapheneMessenger Android to see if their behavior matches GrapheneMessenger Desktop, and provide the details of your analysis.
 
 If you're ready to spend some time on a GitHub issue, please consider commenting to ask us
 if there's interest. That will help ensure we minimize wasted time.
 
 ### Getting into the code
 
-Have you spent some good time with Signal Desktop and GitHub issues? You can go deeper
+Have you spent some good time with GrapheneMessenger Desktop and GitHub issues? You can go deeper
 and get into the code itself.
 
 Again, it helps to start small. You don't need to create a PR to contribute!
@@ -33,7 +33,7 @@ Again, it helps to start small. You don't need to create a PR to contribute!
 ### Considering a Pull Request?
 
 If you're getting more comfortable with the code, you can consider assembling a PR. We
-have very high standards for the code we put into Signal Desktop, so take special care
+have very high standards for the code we put into GrapheneMessenger Desktop, so take special care
 in changing the code, adding tests, and crafting the PR summary.
 
 Because this can take a lot of time, it's a good idea to gauge interest in your intended
@@ -52,7 +52,7 @@ more [guidelines on pull requests](#pull-requests).
 ## Developer Setup
 
 First, you'll need [Node.js](https://nodejs.org/) which matches our current version.
-You can check [`.nvmrc` in the `main` branch](https://github.com/signalapp/Signal-Desktop/blob/main/.nvmrc)
+You can check [`.nvmrc` in the `main` branch](https://github.com/signalapp/GrapheneMessenger-Desktop/blob/main/.nvmrc)
 to see what the current version is. If you have [nvm](https://github.com/creationix/nvm)
 you can just run `nvm use` in the project directory and it will switch to the project's
 desired Node.js version. [nvm for windows](https://github.com/coreybutler/nvm-windows) is
@@ -82,13 +82,13 @@ Install the [Xcode Command-Line Tools](http://osxdaily.com/2014/02/12/install-co
 Now, run these commands in your preferred terminal in a good directory for development:
 
 ```
-git clone https://github.com/signalapp/Signal-Desktop.git
-cd Signal-Desktop
+git clone https://github.com/signalapp/GrapheneMessenger-Desktop.git
+cd GrapheneMessenger-Desktop
 npm install -g pnpm
 pnpm install       # Install and build dependencies (this will take a while)
 pnpm run generate  # Generate final JS and CSS assets
 pnpm test          # A good idea to make sure tests run first
-pnpm start         # Start Signal!
+pnpm start         # Start GrapheneMessenger!
 ```
 
 You'll need to restart the application regularly to see your changes, as there
@@ -129,14 +129,14 @@ $ ./node_modules/.bin/electron-builder install-app-deps
                                           arch=x64
                                           napi=
                                           reason=prebuild-install failed with error (run with env DEBUG=electron-builder to get more information)
-                                          error=/home/ben/sauce/Signal-Desktop/node_modules/node-abi/index.js:30
+                                          error=/home/ben/sauce/GrapheneMessenger-Desktop/node_modules/node-abi/index.js:30
       throw new Error('Could not detect abi for version ' + target + ' and runtime ' + runtime + '.  Updating "node-abi" might help solve this issue if it is a new release of ' + runtime)
       ^
 
     Error: Could not detect abi for version 30.0.6 and runtime electron.  Updating "node-abi" might help solve this issue if it is a new release of electron
-        at getAbi (/home/ben/sauce/Signal-Desktop/node_modules/node-abi/index.js:30:9)
-        at module.exports (/home/ben/sauce/Signal-Desktop/node_modules/prebuild-install/rc.js:53:57)
-        at Object.<anonymous> (/home/ben/sauce/Signal-Desktop/node_modules/prebuild-install/bin.js:8:25)
+        at getAbi (/home/ben/sauce/GrapheneMessenger-Desktop/node_modules/node-abi/index.js:30:9)
+        at module.exports (/home/ben/sauce/GrapheneMessenger-Desktop/node_modules/prebuild-install/rc.js:53:57)
+        at Object.<anonymous> (/home/ben/sauce/GrapheneMessenger-Desktop/node_modules/prebuild-install/bin.js:8:25)
         at Module._compile (node:internal/modules/cjs/loader:1376:14)
         at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
         at Module.load (node:internal/modules/cjs/loader:1207:32)
@@ -180,18 +180,18 @@ difficult (contacts, profiles, and groups are all solely managed on your phone).
 ## The staging environment
 
 Sadly, this default setup results in no contacts and no message history, an entirely
-empty application. But you can use the information from your production install of Signal
+empty application. But you can use the information from your production install of GrapheneMessenger
 Desktop to populate your testing application!
 
 First, exit both production and development apps (In macOS - literally quit the apps).
 Second, find your application data in the [appData](https://www.electronjs.org/docs/latest/api/app#appgetpathname) directory:
 
-- macOS: `~/Library/Application Support/Signal`
-- Linux: `~/.config/Signal`
-- Windows 10: `C:\Users\<YourName>\AppData\Roaming\Signal`
+- macOS: `~/Library/Application Support/GrapheneMessenger`
+- Linux: `~/.config/GrapheneMessenger`
+- Windows 10: `C:\Users\<YourName>\AppData\Roaming\GrapheneMessenger`
 
-Now make a copy of this production data directory in the same directory (a sibling of the Signal
-directory), and call it `Signal-development`. Now start up the development version of the app as normal,
+Now make a copy of this production data directory in the same directory (a sibling of the GrapheneMessenger
+directory), and call it `GrapheneMessenger-development`. Now start up the development version of the app as normal,
 and you'll see all of your contacts and messages!
 
 You'll notice a prompt to re-link, because your production credentials won't work on
@@ -230,7 +230,7 @@ Then you can start up the application a little differently to load the profile:
 NODE_APP_INSTANCE=alice pnpm start
 ```
 
-This changes the `userData` directory from `%appData%/Signal` to `%appData%/Signal-aliceProfile`.
+This changes the `userData` directory from `%appData%/GrapheneMessenger` to `%appData%/GrapheneMessenger-aliceProfile`.
 
 # Making changes
 
@@ -287,7 +287,7 @@ More guidelines:
   for some tips on formatting. As far as content, try to include the following in your
   summary:
   1.  What you changed
-  2.  Why this change was made. If there is a relevant [GitHub Issue](https://github.com/signalapp/Signal-Desktop/issues), please include the Issue number.
+  2.  Why this change was made. If there is a relevant [GitHub Issue](https://github.com/signalapp/GrapheneMessenger-Desktop/issues), please include the Issue number.
   3.  Any relevant technical details or motivations for your implementation
       choices that may be helpful to someone reviewing or auditing the commit
       history in the future. When in doubt, err on the side of a longer
@@ -300,7 +300,7 @@ see how they did things.
 ## Linking to a staging mobile device
 
 Multiple standalone desktop devices are great for testing of a lot of scenarios. But a lot
-of the Signal experience requires a primary mobile device: contact management,
+of the GrapheneMessenger experience requires a primary mobile device: contact management,
 synchronizing read and verification states among all linked devices, etc.
 
 This presents a problem - even if you had another phone, the production versions of the
@@ -308,17 +308,17 @@ iOS and Android apps are locked to the production servers. To test all scenarios
 staging, your best bet is to pull down the development version of the iOS or Android app,
 and register it with one of your extra phone numbers:
 
-First, build Signal for Android or iOS from source, and point its service URL to `chat.staging.signal.org`:
+First, build GrapheneMessenger for Android or iOS from source, and point its service URL to `chat.staging.signal.org`:
 
-**on Android:** Replace the `SIGNAL_URL` value in [build.gradle](https://github.com/signalapp/Signal-Android/blob/master/build.gradle)
+**on Android:** Replace the `SIGNAL_URL` value in [build.gradle](https://github.com/signalapp/GrapheneMessenger-Android/blob/master/build.gradle)
 
 **on iOS:** Replace the `textSecureServerURL` value in `TSConstants.h`(located in the SignalServiceKit pod)
 
 This task is 1% search and replace, 99% setting up your build environment. Instructions are available for both
-the [Android](https://github.com/signalapp/Signal-Android/blob/master/BUILDING.md)
-and [iOS](https://github.com/signalapp/Signal-iOS/blob/master/BUILDING.md) projects.
+the [Android](https://github.com/signalapp/GrapheneMessenger-Android/blob/master/BUILDING.md)
+and [iOS](https://github.com/signalapp/GrapheneMessenger-iOS/blob/master/BUILDING.md) projects.
 
-Then you can set up your development build of Signal Desktop as normal. If you've already
+Then you can set up your development build of GrapheneMessenger Desktop as normal. If you've already
 set up as a standalone install, you can switch by opening the DevTools (View -> Toggle
 Developer Tools) and entering this into the Console and pressing enter: `window.reduxActions.app.openInstaller();`
 
@@ -358,7 +358,7 @@ SKIP_SIGNING_SCRIPT=1 pnpm run build
 cd release
 # Pick the desired app bundle: mac, mac-arm64, or mac-universal
 cd mac-arm64
-codesign --force --deep --sign - Signal.app
+codesign --force --deep --sign - GrapheneMessenger.app
 ```
 
 2. Now you can run the app locally.

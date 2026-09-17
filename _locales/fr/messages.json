@@ -63,10 +63,10 @@
     "messageformat": "L'envoi de médias de haute qualité consomme plus de données."
   },
   "icu:Preferences__DonateTitle": {
-    "messageformat": "Faire un don à Signal"
+    "messageformat": "Faire un don à GrapheneMessenger"
   },
   "icu:LinkedDevicesOnboardingDialog__description": {
-    "messageformat": "Avec des <bold>appareils associés</bold>, accédez à votre compte Signal depuis vos autres appareils et échangez des messages en toute sécurité."
+    "messageformat": "Avec des <bold>appareils associés</bold>, accédez à votre compte GrapheneMessenger depuis vos autres appareils et échangez des messages en toute sécurité."
   },
   "icu:LinkedDevicesOnboardingDialog__bullet--1": {
     "messageformat": "Vous pouvez associer un ordinateur, une tablette ou un autre téléphone."
@@ -116,11 +116,11 @@
   "icu:unknownGroup": {
     "messageformat": "Groupe inconnu"
   },
-  "icu:cantOpenSignalError": {
-    "messageformat": "Impossible d'ouvrir Signal"
+  "icu:cantOpenGrapheneMessengerError": {
+    "messageformat": "Impossible d'ouvrir GrapheneMessenger"
   },
-  "icu:cantOpenSignalError__detail": {
-    "messageformat": "Pour tenter de résoudre ce problème, consultez la page d'aide dédiée ou contactez l'assistance Signal.\n\nSi vous devez utiliser Signal sans attendre, vous pouvez aussi supprimer vos données et réassocier cet ordinateur. Vous pourrez ensuite transférer tous vos messages depuis votre téléphone."
+  "icu:cantOpenGrapheneMessengerError__detail": {
+    "messageformat": "Pour tenter de résoudre ce problème, consultez la page d'aide dédiée ou contactez l'assistance GrapheneMessenger.\n\nSi vous devez utiliser GrapheneMessenger sans attendre, vous pouvez aussi supprimer vos données et réassocier cet ordinateur. Vous pourrez ensuite transférer tous vos messages depuis votre téléphone."
   },
   "icu:databaseError": {
     "messageformat": "Erreur de base de données"
@@ -132,16 +132,16 @@
     "messageformat": "Supprimer définitivement toutes les données ?"
   },
   "icu:databaseError__deleteDataConfirmation__detail": {
-    "messageformat": "Tous vos messages et médias Signal seront définitivement supprimés de cet appareil. Cela ne supprimera aucune donnée de votre téléphone.\n\nVous pourrez de nouveau utiliser Signal sur cet appareil après l'avoir réassocié. Vous aurez aussi la possibilité de transférer tous vos messages depuis votre téléphone."
+    "messageformat": "Tous vos messages et médias GrapheneMessenger seront définitivement supprimés de cet appareil. Cela ne supprimera aucune donnée de votre téléphone.\n\nVous pourrez de nouveau utiliser GrapheneMessenger sur cet appareil après l'avoir réassocié. Vous aurez aussi la possibilité de transférer tous vos messages depuis votre téléphone."
   },
   "icu:databaseError__startOldVersion": {
-    "messageformat": "La version de votre base de données est incompatible avec cette version de Signal. Veuillez ouvrir la dernière version de Signal sur votre ordinateur."
+    "messageformat": "La version de votre base de données est incompatible avec cette version de GrapheneMessenger. Veuillez ouvrir la dernière version de GrapheneMessenger sur votre ordinateur."
   },
   "icu:databaseError__safeStorageBackendChange": {
     "messageformat": "Impossible d’accéder à la clé de chiffrement de la base de données, car le backend du keyring de chiffrement associé au système d’exploitation est passé de {previousBackend} à {currentBackend}. Cela peut se produire lorsque vous changez d’environnement de bureau pour passer de GNOME à KDE, par exemple.\n\nPour y remédier, revenez à l’ancien environnement de bureau."
   },
   "icu:databaseError__safeStorageBackendChangeWithPreviousFlag": {
-    "messageformat": "Impossible d’accéder à la clé de chiffrement de la base de données, car le backend du keyring de chiffrement associé au système d’exploitation est passé de {previousBackend} à {currentBackend}. Cela peut se produire lorsque vous changez d’environnement de bureau pour passer de GNOME à KDE, par exemple.\n\nPour y remédier, revenez à l’ancien environnement de bureau ou essayez d’exécuter Signal avec l’indicateur de ligne de commande --password-store=\"{previousBackendFlag}\""
+    "messageformat": "Impossible d’accéder à la clé de chiffrement de la base de données, car le backend du keyring de chiffrement associé au système d’exploitation est passé de {previousBackend} à {currentBackend}. Cela peut se produire lorsque vous changez d’environnement de bureau pour passer de GNOME à KDE, par exemple.\n\nPour y remédier, revenez à l’ancien environnement de bureau ou essayez d’exécuter GrapheneMessenger avec l’indicateur de ligne de commande --password-store=\"{previousBackendFlag}\""
   },
   "icu:systemEncryptionError": {
     "messageformat": "System encryption error"
@@ -186,7 +186,7 @@
     "messageformat": "Tout afficher"
   },
   "icu:appMenuQuit": {
-    "messageformat": "Quitter Signal"
+    "messageformat": "Quitter GrapheneMessenger"
   },
   "icu:editMenuUndo": {
     "messageformat": "Annuler"
@@ -426,7 +426,7 @@
     "messageformat": "Débloquer"
   },
   "icu:ConversationHeader__MenuItem--ReportSpam": {
-    "messageformat": "Signaler comme spam"
+    "messageformat": "GrapheneMessengerer comme spam"
   },
   "icu:ConversationHeader__MenuItem--DeleteChat": {
     "messageformat": "Supprimer la conversation"
@@ -510,10 +510,10 @@
     "messageformat": "Vous avez confirmé le numéro de sécurité associé à {name} depuis un autre appareil"
   },
   "icu:changedRightAfterVerify": {
-    "messageformat": "Le numéro de sécurité que vous tentez de confirmer a changé. Veuillez vérifier le numéro de sécurité associé à {name1}. Rappel : ce changement peut signifier que quelqu'un tente d'intercepter vos communications. Mais il est aussi possible que {name2} ait tout simplement réinstallé Signal."
+    "messageformat": "Le numéro de sécurité que vous tentez de confirmer a changé. Veuillez vérifier le numéro de sécurité associé à {name1}. Rappel : ce changement peut signifier que quelqu'un tente d'intercepter vos communications. Mais il est aussi possible que {name2} ait tout simplement réinstallé GrapheneMessenger."
   },
   "icu:safetyNumberChangeDialog__message": {
-    "messageformat": "Les contacts suivants ont peut-être réinstallé Signal ou changé d'appareil. Sélectionnez un contact pour confirmer son nouveau numéro de sécurité. Cette étape est facultative."
+    "messageformat": "Les contacts suivants ont peut-être réinstallé GrapheneMessenger ou changé d'appareil. Sélectionnez un contact pour confirmer son nouveau numéro de sécurité. Cette étape est facultative."
   },
   "icu:safetyNumberChangeDialog__pending-messages": {
     "messageformat": "Envoyer les messages en attente"
@@ -522,7 +522,7 @@
     "messageformat": "Examiner"
   },
   "icu:safetyNumberChangeDialog__many-contacts": {
-    "messageformat": "{count, plural, one {{count,number} contact a peut-être réinstallé Signal ou changé d'appareil. Si vous le souhaitez, vous pouvez vérifier son numéro de sécurité avant d'envoyer votre message.} other {{count,number} contacts ont peut-être réinstallé Signal ou changé d'appareil. Si vous le souhaitez, vous pouvez vérifier leur numéro de sécurité avant d'envoyer votre message.}}"
+    "messageformat": "{count, plural, one {{count,number} contact a peut-être réinstallé GrapheneMessenger ou changé d'appareil. Si vous le souhaitez, vous pouvez vérifier son numéro de sécurité avant d'envoyer votre message.} other {{count,number} contacts ont peut-être réinstallé GrapheneMessenger ou changé d'appareil. Si vous le souhaitez, vous pouvez vérifier leur numéro de sécurité avant d'envoyer votre message.}}"
   },
   "icu:safetyNumberChangeDialog__post-review": {
     "messageformat": "Vous avez examiné tous les contacts. Appuyez sur \"Envoyer\" pour continuer."
@@ -630,16 +630,16 @@
     "messageformat": "Le chiffrement de cette conversation a été vérifié automatiquement "
   },
   "icu:SafetyNumberViewer__KeyTransparency__popup--ok__body-2": {
-    "messageformat": "Lorsque vous avez pris contact avec quelqu'un via un numéro de téléphone, Signal peut vérifier automatiquement si la connexion est sécurisée grâce à un processus appelé transparence des clés. Pour une sécurité renforcée, vérifiez le chiffrement de bout en bout manuellement. Il vous suffit de scanner le code QR qui s'affiche sur l'appareil de votre contact ou de comparer les chiffres de l'écran précédent avec ceux qui s'affichent sur le sien."
+    "messageformat": "Lorsque vous avez pris contact avec quelqu'un via un numéro de téléphone, GrapheneMessenger peut vérifier automatiquement si la connexion est sécurisée grâce à un processus appelé transparence des clés. Pour une sécurité renforcée, vérifiez le chiffrement de bout en bout manuellement. Il vous suffit de scanner le code QR qui s'affiche sur l'appareil de votre contact ou de comparer les chiffres de l'écran précédent avec ceux qui s'affichent sur le sien."
   },
   "icu:SafetyNumberViewer__KeyTransparency__popup--fail__title-2": {
     "messageformat": "Vérification automatique indisponible pour cette conversation"
   },
   "icu:SafetyNumberViewer__KeyTransparency__popup--fail__body-2": {
-    "messageformat": "Signal ne peut pas vérifier automatiquement le chiffrement de cette conversation. {name} a probablement changé de numéro ou modifié les paramètres de confidentialité de son numéro de téléphone. Pour vérifier le chiffrement de bout en bout manuellement, il vous suffit de scanner le code QR qui s'affiche sur l'appareil de votre contact ou de comparer les chiffres de l'écran précédent avec ceux qui s'affichent sur le sien."
+    "messageformat": "GrapheneMessenger ne peut pas vérifier automatiquement le chiffrement de cette conversation. {name} a probablement changé de numéro ou modifié les paramètres de confidentialité de son numéro de téléphone. Pour vérifier le chiffrement de bout en bout manuellement, il vous suffit de scanner le code QR qui s'affiche sur l'appareil de votre contact ou de comparer les chiffres de l'écran précédent avec ceux qui s'affichent sur le sien."
   },
   "icu:SafetyNumberViewer__KeyTransparency__popup--unavailable__body": {
-    "messageformat": "Signal ne peut vérifier automatiquement le chiffrement que lorsque vous avez initié la conversation via un numéro de téléphone. Si vous l'avez fait via un nom d'utilisateur ou un groupe en commun, vous devez vérifier le chiffrement de bout en bout manuellement. Il vous suffit de scanner le code QR qui s'affiche sur l'appareil de votre contact ou de comparer les chiffres de l'écran précédent avec ceux qui s'affichent sur le sien."
+    "messageformat": "GrapheneMessenger ne peut vérifier automatiquement le chiffrement que lorsque vous avez initié la conversation via un numéro de téléphone. Si vous l'avez fait via un nom d'utilisateur ou un groupe en commun, vous devez vérifier le chiffrement de bout en bout manuellement. Il vous suffit de scanner le code QR qui s'affiche sur l'appareil de votre contact ou de comparer les chiffres de l'écran précédent avec ceux qui s'affichent sur le sien."
   },
   "icu:SafetyNumberViewer__KeyTransparency__popup__okay": {
     "messageformat": "OK"
@@ -654,7 +654,7 @@
     "messageformat": "La vérification automatique des clés est actuellement indisponible pour cet appareil. Envoyer un journal de débogage ?"
   },
   "icu:KeyTransparencyErrorDialog__Title-v2": {
-    "messageformat": "La vérification automatique des clés est actuellement indisponible pour cet appareil. Envoyer un rapport pour nous aider à améliorer Signal ?"
+    "messageformat": "La vérification automatique des clés est actuellement indisponible pour cet appareil. Envoyer un rapport pour nous aider à améliorer GrapheneMessenger ?"
   },
   "icu:KeyTransparencyErrorDialog__Description": {
     "messageformat": "Les journaux de débogage nous permettent de diagnostiquer et de résoudre les problèmes. Ils ne contiennent aucune donnée d'identification."
@@ -681,7 +681,7 @@
     "messageformat": "Vérification automatique du chiffrement"
   },
   "icu:KeyTransparencyOnboardingDialog__Description": {
-    "messageformat": "Lorsque vous avez pris contact avec quelqu'un via un numéro de téléphone, Signal peut vérifier automatiquement si la connexion est sécurisée grâce à un processus appelé transparence des clés. Pour une sécurité renforcée, vous pouvez aussi le vérifier manuellement en scannant un code QR ou en comparant des numéros de sécurité."
+    "messageformat": "Lorsque vous avez pris contact avec quelqu'un via un numéro de téléphone, GrapheneMessenger peut vérifier automatiquement si la connexion est sécurisée grâce à un processus appelé transparence des clés. Pour une sécurité renforcée, vous pouvez aussi le vérifier manuellement en scannant un code QR ou en comparant des numéros de sécurité."
   },
   "icu:KeyTransparencyOnboardingDialog__Continue": {
     "messageformat": "Continuer"
@@ -825,7 +825,7 @@
     "messageformat": "Accéder aux forums"
   },
   "icu:goToSupportPage": {
-    "messageformat": "Accéder à l'assistance Signal"
+    "messageformat": "Accéder à l'assistance GrapheneMessenger"
   },
   "icu:joinTheBeta": {
     "messageformat": "Tester la version bêta"
@@ -833,8 +833,8 @@
   "icu:signalDesktopStickerCreator": {
     "messageformat": "Outil de création de packs de stickers"
   },
-  "icu:aboutSignalDesktop": {
-    "messageformat": "À propos de Signal Desktop"
+  "icu:aboutGrapheneMessengerDesktop": {
+    "messageformat": "À propos de GrapheneMessenger Desktop"
   },
   "icu:screenShareWindow": {
     "messageformat": "Écran partagé"
@@ -852,7 +852,7 @@
     "messageformat": "Quitter"
   },
   "icu:signalDesktop": {
-    "messageformat": "Signal Desktop"
+    "messageformat": "GrapheneMessenger Desktop"
   },
   "icu:search": {
     "messageformat": "Rechercher"
@@ -905,14 +905,14 @@
   "icu:findByPhoneNumberHeader": {
     "messageformat": "Rechercher par numéro de téléphone"
   },
-  "icu:welcomeToSignal": {
-    "messageformat": "Bienvenue sur Signal"
+  "icu:welcomeToGrapheneMessenger": {
+    "messageformat": "Bienvenue sur GrapheneMessenger"
   },
   "icu:whatsNew": {
     "messageformat": "Consulter {whatsNew} de cette mise à jour"
   },
   "icu:signalNonProfit": {
-    "messageformat": "Signal est un organisme à but non lucratif"
+    "messageformat": "GrapheneMessenger est un organisme à but non lucratif"
   },
   "icu:viewReleaseNotes": {
     "messageformat": "les nouveautés"
@@ -996,13 +996,13 @@
     "messageformat": "Vous"
   },
   "icu:audioPermissionNeeded": {
-    "messageformat": "Pour envoyer des messages vocaux, autorisez Signal Desktop à accéder à votre microphone."
+    "messageformat": "Pour envoyer des messages vocaux, autorisez GrapheneMessenger Desktop à accéder à votre microphone."
   },
   "icu:audioCallingPermissionNeeded": {
-    "messageformat": "Pour passer des appels, autorisez Signal Desktop à accéder au votre microphone."
+    "messageformat": "Pour passer des appels, autorisez GrapheneMessenger Desktop à accéder au votre microphone."
   },
   "icu:videoCallingPermissionNeeded": {
-    "messageformat": "Pour passer des appels vidéo, autorisez Signal Desktop à accéder à votre caméra."
+    "messageformat": "Pour passer des appels vidéo, autorisez GrapheneMessenger Desktop à accéder à votre caméra."
   },
   "icu:allowAccess": {
     "messageformat": "Accorder l'accès"
@@ -1026,13 +1026,13 @@
     "messageformat": "Sourdine"
   },
   "icu:cannotUpdateDetail-v2": {
-    "messageformat": "Impossible de mettre à jour Signal. <retryUpdateButton>Veuillez réessayer</retryUpdateButton> ou visiter {url} pour installer la mise à jour manuellement. Nous vous invitons ensuite à signaler le problème <contactSupportLink>à l'assistance</contactSupportLink>."
+    "messageformat": "Impossible de mettre à jour GrapheneMessenger. <retryUpdateButton>Veuillez réessayer</retryUpdateButton> ou visiter {url} pour installer la mise à jour manuellement. Nous vous invitons ensuite à signaler le problème <contactSupportLink>à l'assistance</contactSupportLink>."
   },
   "icu:cannotUpdateRequireManualDetail-v2": {
-    "messageformat": "Impossible de mettre à jour Signal. Veuillez visiter {url} pour installer la mise à jour manuellement. Nous vous invitons ensuite à signaler le problème <contactSupportLink>à l'assistance</contactSupportLink>."
+    "messageformat": "Impossible de mettre à jour GrapheneMessenger. Veuillez visiter {url} pour installer la mise à jour manuellement. Nous vous invitons ensuite à signaler le problème <contactSupportLink>à l'assistance</contactSupportLink>."
   },
   "icu:readOnlyVolume": {
-    "messageformat": "Signal Desktop a probablement été mis en quarantaine par macOS, ce qui empêche les mises à jour automatiques. Veuillez utiliser le Finder pour déplacer  {app} vers {folder}."
+    "messageformat": "GrapheneMessenger Desktop a probablement été mis en quarantaine par macOS, ce qui empêche les mises à jour automatiques. Veuillez utiliser le Finder pour déplacer  {app} vers {folder}."
   },
   "icu:ok": {
     "messageformat": "OK"
@@ -1077,7 +1077,7 @@
     "messageformat": "Vous allez supprimer ce message de cet appareil."
   },
   "icu:deleteForEveryoneWarning": {
-    "messageformat": "Ce message sera supprimé de cette conversation pour tous les utilisateurs disposant d'une version récente de Signal. Ils verront que vous avez supprimé un message."
+    "messageformat": "Ce message sera supprimé de cette conversation pour tous les utilisateurs disposant d'une version récente de GrapheneMessenger. Ils verront que vous avez supprimé un message."
   },
   "icu:from": {
     "messageformat": "De"
@@ -1119,7 +1119,7 @@
     "messageformat": "{nickname} <muted>({titleNoNickname})</muted>"
   },
   "icu:AboutContactModal__TitleWithoutNickname__Tooltip": {
-    "messageformat": "\"{title}\" est le nom de profil que cette personne s’est attribué dans Signal."
+    "messageformat": "\"{title}\" est le nom de profil que cette personne s’est attribué dans GrapheneMessenger."
   },
   "icu:AboutContactModal__verified": {
     "messageformat": "Confirmé"
@@ -1134,7 +1134,7 @@
     "messageformat": "Aucun message privé avec {name}"
   },
   "icu:AboutContactModal__signal-connection": {
-    "messageformat": "Contact Signal"
+    "messageformat": "Contact GrapheneMessenger"
   },
   "icu:AboutContactModal__system-contact": {
     "messageformat": "{name} fait partie de vos contacts système"
@@ -1446,7 +1446,7 @@
     "messageformat": "En savoir plus"
   },
   "icu:ChatRefresh--summary": {
-    "messageformat": "Signal utilise un chiffrement de bout en bout et doit parfois actualiser votre session. Cela n'a aucune incidence sur la sécurité de votre conversation, mais il se peut que vous ayez manqué un message de ce contact. Auquel cas, vous pouvez lui demander de vous le renvoyer."
+    "messageformat": "GrapheneMessenger utilise un chiffrement de bout en bout et doit parfois actualiser votre session. Cela n'a aucune incidence sur la sécurité de votre conversation, mais il se peut que vous ayez manqué un message de ce contact. Auquel cas, vous pouvez lui demander de vous le renvoyer."
   },
   "icu:ChatRefresh--contactSupport": {
     "messageformat": "Contacter l'assistance"
@@ -1472,17 +1472,17 @@
   "icu:ChangeNumber--notification": {
     "messageformat": "{sender} a changé de numéro de téléphone"
   },
-  "icu:JoinedSignal--notification": {
-    "messageformat": "Un contact a rejoint Signal"
+  "icu:JoinedGrapheneMessenger--notification": {
+    "messageformat": "Un contact a rejoint GrapheneMessenger"
   },
   "icu:ConversationMerge--notification": {
     "messageformat": "{obsoleteConversationTitle} et {conversationTitle} sont un seul et même compte. Nous avons regroupé les messages de ces deux conversations ici."
   },
   "icu:ConversationMerge--notification--with-e164": {
-    "messageformat": "Signal a fusionné les messages échangés avec {conversationTitle} et avec son numéro {obsoleteConversationNumber}."
+    "messageformat": "GrapheneMessenger a fusionné les messages échangés avec {conversationTitle} et avec son numéro {obsoleteConversationNumber}."
   },
   "icu:ConversationMerge--notification--no-title": {
-    "messageformat": "Signal a fusionné les messages échangés avec {conversationTitle} et ceux d'une autre conversation associée au même contact."
+    "messageformat": "GrapheneMessenger a fusionné les messages échangés avec {conversationTitle} et ceux d'une autre conversation associée au même contact."
   },
   "icu:ConversationMerge--learn-more": {
     "messageformat": "En savoir plus"
@@ -1563,10 +1563,10 @@
     "messageformat": "Impossible de télécharger le média"
   },
   "icu:BackfillFailureModal__body--timeout": {
-    "messageformat": "Vérifiez la connexion Internet de votre ordinateur et de votre téléphone. Ouvrez Signal sur votre téléphone, puis réessayez de télécharger le média."
+    "messageformat": "Vérifiez la connexion Internet de votre ordinateur et de votre téléphone. Ouvrez GrapheneMessenger sur votre téléphone, puis réessayez de télécharger le média."
   },
   "icu:BackfillFailureModal__body--not-found": {
-    "messageformat": "Signal ne peut pas télécharger ce média, car il n'est plus disponible sur votre téléphone."
+    "messageformat": "GrapheneMessenger ne peut pas télécharger ce média, car il n'est plus disponible sur votre téléphone."
   },
   "icu:save": {
     "messageformat": "Enregistrer"
@@ -1584,10 +1584,10 @@
     "messageformat": "En savoir plus"
   },
   "icu:Install__scan-this-code": {
-    "messageformat": "Utilisez l'appli Signal installée sur votre téléphone pour scanner ce code"
+    "messageformat": "Utilisez l'appli GrapheneMessenger installée sur votre téléphone pour scanner ce code"
   },
   "icu:Install__instructions__1": {
-    "messageformat": "Ouvrez Signal sur votre téléphone"
+    "messageformat": "Ouvrez GrapheneMessenger sur votre téléphone"
   },
   "icu:Install__instructions__2": {
     "messageformat": "Sélectionnez {settings}, puis {linkedDevices}"
@@ -1623,7 +1623,7 @@
     "messageformat": "Supprimer toutes les données ?"
   },
   "icu:Install__confirm-data-deletion__body": {
-    "messageformat": "Vous tentez d'associer un autre compte Signal à cet ordinateur. Si vous décidez de poursuivre, toutes les données actuellement stockées dans Signal Desktop seront supprimées."
+    "messageformat": "Vous tentez d'associer un autre compte GrapheneMessenger à cet ordinateur. Si vous décidez de poursuivre, toutes les données actuellement stockées dans GrapheneMessenger Desktop seront supprimées."
   },
   "icu:Install__confirm-data-deletion__continue": {
     "messageformat": "Continuer"
@@ -1638,7 +1638,7 @@
     "messageformat": "Nom de l'appareil"
   },
   "icu:Preferences--device-name__description": {
-    "messageformat": "Pour renommer cet appareil, ouvrez Signal sur votre téléphone et accédez à Paramètres > Appareils associés."
+    "messageformat": "Pour renommer cet appareil, ouvrez GrapheneMessenger sur votre téléphone et accédez à Paramètres > Appareils associés."
   },
   "icu:Preferences__EmojiSkinToneDefaultSetting__Label": {
     "messageformat": "Teint des émojis"
@@ -1830,7 +1830,7 @@
     "messageformat": "Vérification automatique de la clé"
   },
   "icu:Preferences__PrivacyPage__KeyTransparency__Description": {
-    "messageformat": "Lorsque cette option est activée, Signal tente de vérifier automatiquement le chiffrement des conversations individuelles."
+    "messageformat": "Lorsque cette option est activée, GrapheneMessenger tente de vérifier automatiquement le chiffrement des conversations individuelles."
   },
   "icu:Preferences__PrivacyPage__KeyTransparency__LearnMore": {
     "messageformat": "En savoir plus"
@@ -1848,7 +1848,7 @@
     "messageformat": "Vous avez déjà associé un trop grand nombre d’appareils. Veuillez en supprimer quelques-uns."
   },
   "icu:installTooOld": {
-    "messageformat": "Pour associer votre téléphone à cet appareil, installez la dernière version de Signal."
+    "messageformat": "Pour associer votre téléphone à cet appareil, installez la dernière version de GrapheneMessenger."
   },
   "icu:installErrorHeader": {
     "messageformat": "Une erreur s'est produite."
@@ -1899,7 +1899,7 @@
     "messageformat": "Ce lien d'appel n'est plus valide."
   },
   "icu:calling__call-link-default-title": {
-    "messageformat": "Appel Signal"
+    "messageformat": "Appel GrapheneMessenger"
   },
   "icu:calling__call-link-delete-failed": {
     "messageformat": "Impossible de supprimer le lien. Vérifiez votre connexion et réessayez."
@@ -2073,16 +2073,16 @@
     "messageformat": "{count, plural, one {{count,number} personne participe à cet appel} other {{count,number} personnes participent à cet appel}}"
   },
   "icu:calling__pre-call-info--will-ring-1": {
-    "messageformat": "Signal va appeler {person}"
+    "messageformat": "GrapheneMessenger va appeler {person}"
   },
   "icu:calling__pre-call-info--will-ring-2": {
-    "messageformat": "Signal va appeler {first} et {second}"
+    "messageformat": "GrapheneMessenger va appeler {first} et {second}"
   },
   "icu:calling__pre-call-info--will-ring-3": {
-    "messageformat": "Signal va appeler {first}, {second} et {third}"
+    "messageformat": "GrapheneMessenger va appeler {first}, {second} et {third}"
   },
   "icu:calling__pre-call-info--will-ring-many": {
-    "messageformat": "{others, plural, one {Signal va appeler {first}, {second} et {others,number} autre contact} other {Signal va appeler {first}, {second} et {others,number} autres contacts}}"
+    "messageformat": "{others, plural, one {GrapheneMessenger va appeler {first}, {second} et {others,number} autre contact} other {GrapheneMessenger va appeler {first}, {second} et {others,number} autres contacts}}"
   },
   "icu:calling__pre-call-info--will-notify-1": {
     "messageformat": "{person} recevra une notification"
@@ -2136,13 +2136,13 @@
     "messageformat": "Reconnexion…"
   },
   "icu:calling__presenting--reconnecting--notification-body": {
-    "messageformat": "Perte de connexion. Signal tente de vous reconnecter."
+    "messageformat": "Perte de connexion. GrapheneMessenger tente de vous reconnecter."
   },
   "icu:calling__presenting--info": {
-    "messageformat": "Vous partagez en ce moment {window} sur Signal."
+    "messageformat": "Vous partagez en ce moment {window} sur GrapheneMessenger."
   },
   "icu:calling__presenting--info--unknown": {
-    "messageformat": "Vous partagez votre écran sur Signal"
+    "messageformat": "Vous partagez votre écran sur GrapheneMessenger"
   },
   "icu:calling__presenting--reconnecting": {
     "messageformat": "Reconnexion…"
@@ -2163,7 +2163,7 @@
     "messageformat": "Autorisation requise"
   },
   "icu:calling__presenting--macos-permission-description": {
-    "messageformat": "Signal a besoin de votre autorisation pour enregistrer l'écran de votre ordinateur."
+    "messageformat": "GrapheneMessenger a besoin de votre autorisation pour enregistrer l'écran de votre ordinateur."
   },
   "icu:calling__presenting--permission-instruction-step1": {
     "messageformat": "Ouvrez les Paramètres système"
@@ -2172,7 +2172,7 @@
     "messageformat": "Cliquez sur l'icône en forme de cadenas située en bas à gauche, puis saisissez le mot de passe de votre ordinateur."
   },
   "icu:calling__presenting--permission-instruction-step3": {
-    "messageformat": "Sur le côté droit, cochez la case en regard de Signal. Si Signal ne s'affiche pas dans la liste, cliquez sur + pour l'ajouter."
+    "messageformat": "Sur le côté droit, cochez la case en regard de GrapheneMessenger. Si GrapheneMessenger ne s'affiche pas dans la liste, cliquez sur + pour l'ajouter."
   },
   "icu:calling__presenting--permission-open": {
     "messageformat": "Ouvrez les Paramètres système"
@@ -2184,7 +2184,7 @@
     "messageformat": "Toujours relayer les appels"
   },
   "icu:alwaysRelayCallsDetail": {
-    "messageformat": "Relayer tous les appels via un serveur Signal pour éviter de révéler votre adresse IP à votre contact. L'activation de cette option réduit la qualité des appels."
+    "messageformat": "Relayer tous les appels via un serveur GrapheneMessenger pour éviter de révéler votre adresse IP à votre contact. L'activation de cette option réduit la qualité des appels."
   },
   "icu:permissions": {
     "messageformat": "Autorisations"
@@ -2202,10 +2202,10 @@
     "messageformat": "Afficher la fenêtre contextuelle de mise en forme lorsque du texte est sélectionné"
   },
   "icu:spellCheckWillBeEnabled": {
-    "messageformat": "Le correcteur d'orthographe sera activé lorsque vous redémarrerez Signal."
+    "messageformat": "Le correcteur d'orthographe sera activé lorsque vous redémarrerez GrapheneMessenger."
   },
   "icu:spellCheckWillBeDisabled": {
-    "messageformat": "Le correcteur d'orthographe sera désactivé lorsque vous redémarrerez Signal."
+    "messageformat": "Le correcteur d'orthographe sera désactivé lorsque vous redémarrerez GrapheneMessenger."
   },
   "icu:SystemTraySetting__minimize-to-system-tray": {
     "messageformat": "Réduire dans la zone de notification"
@@ -2229,7 +2229,7 @@
     "messageformat": "Supprimer toutes les données ?"
   },
   "icu:deleteAllDataBody": {
-    "messageformat": "Supprimer toutes les données et tous les messages de cette version de Signal Desktop ? Cela ne supprime pas les données et le compte Signal stockés sur votre téléphone ou sur vos autres appareils associés."
+    "messageformat": "Supprimer toutes les données et tous les messages de cette version de GrapheneMessenger Desktop ? Cela ne supprime pas les données et le compte GrapheneMessenger stockés sur votre téléphone ou sur vos autres appareils associés."
   },
   "icu:deleteAllDataProgress": {
     "messageformat": "Déconnexion et suppression de toutes les données…"
@@ -2238,7 +2238,7 @@
     "messageformat": "Supprimer le compte"
   },
   "icu:deleteAccountExplanation": {
-    "messageformat": "Cela supprimera votre profil, les informations de votre compte et tous vos messages. Vous serez également retiré de tous les groupes Signal."
+    "messageformat": "Cela supprimera votre profil, les informations de votre compte et tous vos messages. Vous serez également retiré de tous les groupes GrapheneMessenger."
   },
   "icu:deleteAccountButton": {
     "messageformat": "Supprimer le compte"
@@ -2247,10 +2247,10 @@
     "messageformat": "Supprimer le compte ?"
   },
   "icu:deleteAccountDialogBody": {
-    "messageformat": "Cela supprimera votre profil, les informations de votre compte et tous vos messages. Vous serez également retiré de tous les groupes Signal. L'appli se fermera une fois le processus terminé."
+    "messageformat": "Cela supprimera votre profil, les informations de votre compte et tous vos messages. Vous serez également retiré de tous les groupes GrapheneMessenger. L'appli se fermera une fois le processus terminé."
   },
   "icu:deleteOldIndexedDBData": {
-    "messageformat": "Vous disposez de données obsolètes provenant d'une précédente installation de Signal Desktop. Si vous choisissez de poursuivre, elles seront supprimées et vous prendrez un nouveau départ."
+    "messageformat": "Vous disposez de données obsolètes provenant d'une précédente installation de GrapheneMessenger Desktop. Si vous choisissez de poursuivre, elles seront supprimées et vous prendrez un nouveau départ."
   },
   "icu:deleteOldData": {
     "messageformat": "Supprimer les anciennes données"
@@ -2307,7 +2307,7 @@
     "messageformat": "Suppression partielle. En savoir plus."
   },
   "icu:expiredWarning": {
-    "messageformat": "Cette version de Signal Desktop est arrivée à expiration. Pour continuer d'échanger des messages, passez à la nouvelle version."
+    "messageformat": "Cette version de GrapheneMessenger Desktop est arrivée à expiration. Pour continuer d'échanger des messages, passez à la nouvelle version."
   },
   "icu:upgrade": {
     "messageformat": "Cliquez pour accéder à signal.org/download"
@@ -2319,7 +2319,7 @@
     "messageformat": "Importer des contacts"
   },
   "icu:syncExplanation": {
-    "messageformat": "Importer tous les groupes et contacts Signal depuis votre appareil mobile."
+    "messageformat": "Importer tous les groupes et contacts GrapheneMessenger depuis votre appareil mobile."
   },
   "icu:syncNow": {
     "messageformat": "Importer maintenant"
@@ -2352,7 +2352,7 @@
     "messageformat": "Hier {time}"
   },
   "icu:messageLoop": {
-    "messageformat": "Il se peut que Signal ne parvienne pas à traiter un message entrant."
+    "messageformat": "Il se peut que GrapheneMessenger ne parvienne pas à traiter un message entrant."
   },
   "icu:messageBodyTooLong": {
     "messageformat": "Votre message est trop long."
@@ -2460,7 +2460,7 @@
     "messageformat": "Cette conversation est dédiée à vos notes personnelles. Si des appareils sont associés à votre compte, les nouvelles notes que vous ajoutez ici sont synchronisées sur tous vos appareils."
   },
   "icu:notificationDrawAttention": {
-    "messageformat": "Attirer l'attention sur la fenêtre Signal à l'arrivée d'une notification"
+    "messageformat": "Attirer l'attention sur la fenêtre GrapheneMessenger à l'arrivée d'une notification"
   },
   "icu:hideMenuBar": {
     "messageformat": "Masquer la barre de menu"
@@ -2517,13 +2517,13 @@
     "messageformat": "Une fois envoyés, les messages ne peuvent être modifiés que pendant 24 heures."
   },
   "icu:startConversation--username-not-found": {
-    "messageformat": "{atUsername} n'utilise pas Signal. Le nom d'utilisateur saisi est peut-être incomplet."
+    "messageformat": "{atUsername} n'utilise pas GrapheneMessenger. Le nom d'utilisateur saisi est peut-être incomplet."
   },
   "icu:startConversation--username-not-valid": {
     "messageformat": "{atUsername} n'est pas un nom d'utilisateur valide. Le nom d'utilisateur complet doit comporter un nom suivi d'un point et d'une série de chiffres."
   },
   "icu:startConversation--phone-number-not-found": {
-    "messageformat": "Utilisateur introuvable. \"{phoneNumber}\" n'utilise pas Signal."
+    "messageformat": "Utilisateur introuvable. \"{phoneNumber}\" n'utilise pas GrapheneMessenger."
   },
   "icu:startConversation--phone-number-not-valid": {
     "messageformat": "Utilisateur introuvable. Le numéro de téléphone \"{phoneNumber}\" est incorrect."
@@ -2544,13 +2544,13 @@
     "messageformat": "Le groupe a atteint sa taille maximale"
   },
   "icu:chooseGroupMembers__maximum-group-size__body": {
-    "messageformat": "Les groupes Signal peuvent accueillir jusqu'à {max,number} membres."
+    "messageformat": "Les groupes GrapheneMessenger peuvent accueillir jusqu'à {max,number} membres."
   },
   "icu:chooseGroupMembers__maximum-recommended-group-size__title": {
     "messageformat": "Votre groupe a atteint la taille maximale recommandée"
   },
   "icu:chooseGroupMembers__maximum-recommended-group-size__body": {
-    "messageformat": "Pour un fonctionnement optimal, les groupes Signal peuvent accueillir jusqu'à {max,number} membres. Si vous dépassez cette limite, l'envoi et la réception de messages risquent de s'en trouver ralentis."
+    "messageformat": "Pour un fonctionnement optimal, les groupes GrapheneMessenger peuvent accueillir jusqu'à {max,number} membres. Si vous dépassez cette limite, l'envoi et la réception de messages risquent de s'en trouver ralentis."
   },
   "icu:setGroupMetadata__title": {
     "messageformat": "Nommez ce groupe"
@@ -2580,13 +2580,13 @@
     "messageformat": "Échec de la mise à jour du groupe. Vérifiez votre connexion et réessayez."
   },
   "icu:unlinkedWarning": {
-    "messageformat": "Pour continuer d'utiliser Signal sur votre ordinateur, cliquez pour réassocier Signal Desktop à votre appareil mobile."
+    "messageformat": "Pour continuer d'utiliser GrapheneMessenger sur votre ordinateur, cliquez pour réassocier GrapheneMessenger Desktop à votre appareil mobile."
   },
   "icu:unlinked": {
     "messageformat": "Dissocié"
   },
   "icu:unregisteredWarning": {
-    "messageformat": "Cliquez ici pour le réenregistrer et continuer d'échanger des messages sur Signal Desktop. Cela est probablement dû au fait que vous avez inscrit votre numéro de téléphone sur Signal depuis un autre appareil."
+    "messageformat": "Cliquez ici pour le réenregistrer et continuer d'échanger des messages sur GrapheneMessenger Desktop. Cela est probablement dû au fait que vous avez inscrit votre numéro de téléphone sur GrapheneMessenger depuis un autre appareil."
   },
   "icu:unregistered": {
     "messageformat": "Cet appareil n'est plus enregistré"
@@ -2598,16 +2598,16 @@
     "messageformat": "Réessayer"
   },
   "icu:autoUpdateNewVersionMessage": {
-    "messageformat": "Cliquez pour redémarrer Signal"
+    "messageformat": "Cliquez pour redémarrer GrapheneMessenger"
   },
   "icu:downloadNewVersionMessage": {
     "messageformat": "Cliquez pour télécharger la mise à jour"
   },
   "icu:downloadFullNewVersionMessage": {
-    "messageformat": "Impossible de mettre à jour Signal. Cliquez pour réessayer."
+    "messageformat": "Impossible de mettre à jour GrapheneMessenger. Cliquez pour réessayer."
   },
   "icu:autoUpdateRestartButtonLabel": {
-    "messageformat": "Redémarrer Signal"
+    "messageformat": "Redémarrer GrapheneMessenger"
   },
   "icu:autoUpdateIgnoreButtonLabel": {
     "messageformat": "Ignorer la mise à jour"
@@ -2739,7 +2739,7 @@
     "messageformat": "Certaines pièces jointes sont trop volumineuses pour être affichées."
   },
   "icu:message--call-link-description": {
-    "messageformat": "Utiliser ce lien pour rejoindre un appel Signal"
+    "messageformat": "Utiliser ce lien pour rejoindre un appel GrapheneMessenger"
   },
   "icu:donation--missing": {
     "messageformat": "Impossible de récupérer les infos relatives à ce don"
@@ -2751,7 +2751,7 @@
     "messageformat": "Pour afficher votre don, ouvrez ce message sur votre mobile"
   },
   "icu:message--donation--unopened--label": {
-    "messageformat": "{sender} a fait un don à Signal pour vous"
+    "messageformat": "{sender} a fait un don à GrapheneMessenger pour vous"
   },
   "icu:message--donation--unopened--toast--incoming": {
     "messageformat": "Pour afficher ce don, ouvrez le message sur votre mobile"
@@ -2760,13 +2760,13 @@
     "messageformat": "Pour afficher votre don, ouvrez ce message sur votre mobile"
   },
   "icu:message--donation--preview--unopened": {
-    "messageformat": "{sender} a fait un don à Signal pour vous"
+    "messageformat": "{sender} a fait un don à GrapheneMessenger pour vous"
   },
   "icu:message--donation--preview--redeemed": {
     "messageformat": "Vous avez récupéré un macaron"
   },
   "icu:message--donation--preview--sent": {
-    "messageformat": "Vous avez fait un don à Signal pour {recipient}"
+    "messageformat": "Vous avez fait un don à GrapheneMessenger pour {recipient}"
   },
   "icu:message--pinned--preview--received": {
     "messageformat": "{sender} a épinglé un message"
@@ -2808,7 +2808,7 @@
     "messageformat": "Merci pour votre soutien !"
   },
   "icu:modal--donation--description": {
-    "messageformat": "Vous avez fait un don à Signal pour {name}. Cette personne aura la possibilité d'afficher son soutien sur son profil."
+    "messageformat": "Vous avez fait un don à GrapheneMessenger pour {name}. Cette personne aura la possibilité d'afficher son soutien sur son profil."
   },
   "icu:stickers--toast--InstallFailed": {
     "messageformat": "Impossible d’installer le pack de stickers"
@@ -2820,10 +2820,10 @@
     "messageformat": "Ajouter des stickers"
   },
   "icu:stickers--StickerManager--BlessedPacks": {
-    "messageformat": "Stickers d'artistes pour Signal"
+    "messageformat": "Stickers d'artistes pour GrapheneMessenger"
   },
   "icu:stickers--StickerManager--BlessedPacks--Empty": {
-    "messageformat": "Aucun sticker d’artiste Signal n’est disponible"
+    "messageformat": "Aucun sticker d’artiste GrapheneMessenger n’est disponible"
   },
   "icu:stickers--StickerManager--ReceivedPacks2": {
     "messageformat": "Reçus"
@@ -2859,7 +2859,7 @@
     "messageformat": "Faites glisser les packs de stickers pour les réorganiser"
   },
   "icu:stickers--StickerManagerBlessedPacksList--Label": {
-    "messageformat": "Packs de stickers d'artistes pour Signal"
+    "messageformat": "Packs de stickers d'artistes pour GrapheneMessenger"
   },
   "icu:stickers--StickerManagerReceivedPacksList--Label": {
     "messageformat": "Packs de stickers reçus"
@@ -3144,19 +3144,19 @@
     "messageformat": "Message tronqué car trop long"
   },
   "icu:Message--unsupported-message": {
-    "messageformat": "Impossible de traiter et d'afficher un message que vous a envoyé {contact}, car il utilise une nouvelle fonctionnalité de Signal."
+    "messageformat": "Impossible de traiter et d'afficher un message que vous a envoyé {contact}, car il utilise une nouvelle fonctionnalité de GrapheneMessenger."
   },
   "icu:Message--unsupported-message-ask-to-resend": {
-    "messageformat": "Maintenant que vous avez mis Signal à jour, vous pouvez demander à {contact} de vous renvoyer ce message."
+    "messageformat": "Maintenant que vous avez mis GrapheneMessenger à jour, vous pouvez demander à {contact} de vous renvoyer ce message."
   },
   "icu:Message--from-me-unsupported-message": {
-    "messageformat": "Impossible de traiter et d'afficher un message envoyé depuis l'un de vos appareils, car il utilise une nouvelle fonctionnalité de Signal."
+    "messageformat": "Impossible de traiter et d'afficher un message envoyé depuis l'un de vos appareils, car il utilise une nouvelle fonctionnalité de GrapheneMessenger."
   },
   "icu:Message--from-me-unsupported-message-ask-to-resend": {
-    "messageformat": "Maintenant que vous avez mis Signal à jour, si vous recevez de tels messages à l'avenir, ils seront synchronisés."
+    "messageformat": "Maintenant que vous avez mis GrapheneMessenger à jour, si vous recevez de tels messages à l'avenir, ils seront synchronisés."
   },
   "icu:Message--update-signal": {
-    "messageformat": "Mettre à jour Signal"
+    "messageformat": "Mettre à jour GrapheneMessenger"
   },
   "icu:Message--tap-to-view--viewed": {
     "messageformat": "Vu"
@@ -3423,7 +3423,7 @@
     "messageformat": "Conversation marquée comme non lue"
   },
   "icu:ArtCreator--Authentication--error": {
-    "messageformat": "Pour utiliser l’outil de création de packs de stickers, configurez Signal sur votre téléphone et votre ordinateur"
+    "messageformat": "Pour utiliser l’outil de création de packs de stickers, configurez GrapheneMessenger sur votre téléphone et votre ordinateur"
   },
   "icu:Reactions--remove": {
     "messageformat": "Supprimer la réaction"
@@ -3440,17 +3440,17 @@
   "icu:SafetyTipsModal__Title-v2": {
     "messageformat": "Conseils de sécurité"
   },
-  "icu:SafetyTipsModal__TipTitle--SignalChat": {
-    "messageformat": "Ne répondez à aucun message de Signal"
+  "icu:SafetyTipsModal__TipTitle--GrapheneMessengerChat": {
+    "messageformat": "Ne répondez à aucun message de GrapheneMessenger"
   },
-  "icu:SafetyTipsModal__TipDescription--SignalChat": {
-    "messageformat": "Signal ne vous demande jamais de communiquer ni votre code PIN, ni votre code d'inscription, ni votre clé de récupération. Ne répondez jamais à des messages semblant provenir de Signal."
+  "icu:SafetyTipsModal__TipDescription--GrapheneMessengerChat": {
+    "messageformat": "GrapheneMessenger ne vous demande jamais de communiquer ni votre code PIN, ni votre code d'inscription, ni votre clé de récupération. Ne répondez jamais à des messages semblant provenir de GrapheneMessenger."
   },
   "icu:SafetyTipsModal__TipTitle--NamesAndPhotos": {
     "messageformat": "Vérifiez le nom et la photo"
   },
   "icu:SafetyTipsModal__TipDescription--NamesAndPhotos": {
-    "messageformat": "Soyez vigilant si vous voyez la mention \"Ce nom n'est pas vérifié\". Sur Signal, les utilisateurs choisissent librement leur nom de profil."
+    "messageformat": "Soyez vigilant si vous voyez la mention \"Ce nom n'est pas vérifié\". Sur GrapheneMessenger, les utilisateurs choisissent librement leur nom de profil."
   },
   "icu:SafetyTipsModal__TipTitle--Scams": {
     "messageformat": "Attention aux arnaques"
@@ -3459,16 +3459,16 @@
     "messageformat": "Ignorez les utilisateurs qui vous envoient des messages vagues pour tenter d'engager la conversation. Méfiez-vous des conseils financiers et ne cliquez pas sur des liens suspects."
   },
   "icu:SafetyTipsModal__TipTitle--DontRespond": {
-    "messageformat": "Ne répondez à aucun message de Signal"
+    "messageformat": "Ne répondez à aucun message de GrapheneMessenger"
   },
   "icu:SafetyTipsModal__TipDescription--DontRespond": {
-    "messageformat": "Signal ne vous demande jamais de communiquer ni votre code PIN, ni votre code d'inscription, ni votre clé de récupération. Ne répondez jamais à des messages semblant provenir de Signal ou de l'équipe d'assistance de Signal. Des escrocs peuvent créer de fausses identités pour s'emparer de votre compte."
+    "messageformat": "GrapheneMessenger ne vous demande jamais de communiquer ni votre code PIN, ni votre code d'inscription, ni votre clé de récupération. Ne répondez jamais à des messages semblant provenir de GrapheneMessenger ou de l'équipe d'assistance de GrapheneMessenger. Des escrocs peuvent créer de fausses identités pour s'emparer de votre compte."
   },
   "icu:SafetyTipsModal__TipTitle--ReviewNames": {
     "messageformat": "Vérifiez le nom et la photo"
   },
   "icu:SafetyTipsModal__TipDescription--ReviewNames": {
-    "messageformat": "Soyez vigilant si vous voyez la mention \"Ce nom n'est pas vérifié\". Sur Signal, les utilisateurs choisissent librement leurs nom et photo de profil. Si vous avez des doutes sur l'identité d'un utilisateur, mieux vaut ignorer sa demande."
+    "messageformat": "Soyez vigilant si vous voyez la mention \"Ce nom n'est pas vérifié\". Sur GrapheneMessenger, les utilisateurs choisissent librement leurs nom et photo de profil. Si vous avez des doutes sur l'identité d'un utilisateur, mieux vaut ignorer sa demande."
   },
   "icu:SafetyTipsModal__TipTitle--Crypto": {
     "messageformat": "Les escroqueries financières ou liées aux crypto-monnaies"
@@ -3528,7 +3528,7 @@
     "messageformat": "Les membres pourront de nouveau vous ajouter à ce groupe."
   },
   "icu:MessageRequests--block-and-report-spam-success-toast": {
-    "messageformat": "Signalé comme spam et bloqué."
+    "messageformat": "GrapheneMessengeré comme spam et bloqué."
   },
   "icu:MessageRequests--block-direct-confirm-title": {
     "messageformat": "Bloquer {title} ?"
@@ -3543,31 +3543,31 @@
     "messageformat": "Ce groupe ne pourra plus vous envoyer de messages, ni vous tenir informé des dernières actualités, et ses membres ne pourront plus vous y ajouter."
   },
   "icu:MessageRequests--reportAndMaybeBlock": {
-    "messageformat": "Signaler"
+    "messageformat": "GrapheneMessengerer"
   },
   "icu:MessageRequests--ReportAndMaybeBlockModal-title": {
-    "messageformat": "Signaler comme spam ?"
+    "messageformat": "GrapheneMessengerer comme spam ?"
   },
   "icu:MessageRequests--ReportAndMaybeBlockModal-body--direct": {
-    "messageformat": "Signal sera informé que cette personne envoie peut-être des spams. Nous n’avons cependant jamais accès au contenu des conversations."
+    "messageformat": "GrapheneMessenger sera informé que cette personne envoie peut-être des spams. Nous n’avons cependant jamais accès au contenu des conversations."
   },
   "icu:MessageRequests--ReportAndMaybeBlockModal-body--group--unknown-contact": {
-    "messageformat": "Signal sera informé que la personne qui vous a invité à rejoindre ce groupe envoie peut-être des spams. Nous n'avons cependant jamais accès au contenu des conversations."
+    "messageformat": "GrapheneMessenger sera informé que la personne qui vous a invité à rejoindre ce groupe envoie peut-être des spams. Nous n'avons cependant jamais accès au contenu des conversations."
   },
   "icu:MessageRequests--ReportAndMaybeBlockModal-body--group": {
-    "messageformat": "Signal sera informé que la personne qui vous a invité à rejoindre ce groupe, à savoir {name}, envoie peut-être des spams. Nous n’avons cependant jamais accès au contenu des conversations."
+    "messageformat": "GrapheneMessenger sera informé que la personne qui vous a invité à rejoindre ce groupe, à savoir {name}, envoie peut-être des spams. Nous n’avons cependant jamais accès au contenu des conversations."
   },
   "icu:MessageRequests--ReportAndMaybeBlockModal-report": {
-    "messageformat": "Signaler comme spam"
+    "messageformat": "GrapheneMessengerer comme spam"
   },
   "icu:MessageRequests--ReportAndMaybeBlockModal-reportAndBlock": {
-    "messageformat": "Signaler et bloquer"
+    "messageformat": "GrapheneMessengerer et bloquer"
   },
   "icu:MessageRequests--AcceptedOptionsModal--body": {
     "messageformat": "Vous avez accepté l’invitation par message de {name}. S’il s’agit d’une erreur, choisissez l’une des actions suivantes."
   },
   "icu:MessageRequests--report-spam-success-toast": {
-    "messageformat": "Signalé comme spam."
+    "messageformat": "GrapheneMessengeré comme spam."
   },
   "icu:MessageRequests--delete": {
     "messageformat": "Supprimer"
@@ -3597,7 +3597,7 @@
     "messageformat": "Accepter la demande ?"
   },
   "icu:MessageRequests--accept-confirm-body-v2": {
-    "messageformat": "N'acceptez que les invitations des personnes en qui vous avez confiance. <bold>Signal ne vous demande jamais</bold> de communiquer ni votre code PIN, ni votre code d'inscription, ni votre clé de récupération."
+    "messageformat": "N'acceptez que les invitations des personnes en qui vous avez confiance. <bold>GrapheneMessenger ne vous demande jamais</bold> de communiquer ni votre code PIN, ni votre code d'inscription, ni votre clé de récupération."
   },
   "icu:MessageRequests--continue": {
     "messageformat": "Continuer"
@@ -3642,25 +3642,25 @@
     "messageformat": "{remainingCount, plural, one {{member1}, {member2}, {member3} et <clickable>{remainingCount,number} autre personne</clickable>} other {{member1}, {member2}, {member3} et <clickable>{remainingCount,number} autres personnes</clickable>}}"
   },
   "icu:ConversationHero--group-names": {
-    "messageformat": "Signal ne vérifie pas les <clickable>noms de groupe</clickable>"
+    "messageformat": "GrapheneMessenger ne vérifie pas les <clickable>noms de groupe</clickable>"
   },
   "icu:ConversationHero--profile-names": {
-    "messageformat": "Signal ne vérifie pas les <clickable>noms de profil</clickable>"
+    "messageformat": "GrapheneMessenger ne vérifie pas les <clickable>noms de profil</clickable>"
   },
   "icu:ConversationHero--name-not-verified": {
     "messageformat": "Ce nom n'est pas vérifié"
   },
   "icu:ConversationHero--signal-official-chat": {
-    "messageformat": "Ceci est le seul canal de diffusion officiel de Signal"
+    "messageformat": "Ceci est le seul canal de diffusion officiel de GrapheneMessenger"
   },
   "icu:ConversationHero--signal-official-chat-title": {
     "messageformat": "Canal de diffusion officiel"
   },
   "icu:ConversationHero--signal-official-account--description": {
-    "messageformat": "Le seul canal de diffusion officiel de Signal. Pour découvrir les nouveautés et notes de version."
+    "messageformat": "Le seul canal de diffusion officiel de GrapheneMessenger. Pour découvrir les nouveautés et notes de version."
   },
   "icu:Timeline--signal-official-chat--chip": {
-    "messageformat": "Le seul canal de diffusion officiel de Signal."
+    "messageformat": "Le seul canal de diffusion officiel de GrapheneMessenger."
   },
   "icu:ConversationHero--release-notes": {
     "messageformat": "Pour découvrir les nouveautés et notes de version."
@@ -3726,10 +3726,10 @@
     "messageformat": "Appel vidéo sans réponse"
   },
   "icu:minimizeToTrayNotification--title": {
-    "messageformat": "Signal est en cours d'exécution"
+    "messageformat": "GrapheneMessenger est en cours d'exécution"
   },
   "icu:minimizeToTrayNotification--body": {
-    "messageformat": "Signal continue de s'exécuter dans la zone de notification. Vous pouvez modifier ce comportement dans les paramètres Signal."
+    "messageformat": "GrapheneMessenger continue de s'exécuter dans la zone de notification. Vous pouvez modifier ce comportement dans les paramètres GrapheneMessenger."
   },
   "icu:incomingAudioCall": {
     "messageformat": "Appel vocal entrant"
@@ -3935,8 +3935,8 @@
   "icu:CallingAdhocCallInfo__CopyLink": {
     "messageformat": "Copier le lien d’appel"
   },
-  "icu:CallingAdhocCallInfo__ShareViaSignal": {
-    "messageformat": "Partager le lien d’appel via Signal"
+  "icu:CallingAdhocCallInfo__ShareViaGrapheneMessenger": {
+    "messageformat": "Partager le lien d’appel via GrapheneMessenger"
   },
   "icu:CallingAdhocCallInfo__RemoveClientDialogBody": {
     "messageformat": "Retirer {name} de l’appel ?"
@@ -4098,7 +4098,7 @@
     "messageformat": "Version du lien inconnue"
   },
   "icu:GroupV2--join--unknown-link-version": {
-    "messageformat": "Ce lien n'est pas pris en charge par cette version de Signal Desktop."
+    "messageformat": "Ce lien n'est pas pris en charge par cette version de GrapheneMessenger Desktop."
   },
   "icu:GroupV2--join--link-revoked--title": {
     "messageformat": "Impossible de rejoindre le groupe."
@@ -4704,10 +4704,10 @@
     "messageformat": "Suppression des données utilisateur et réinitialisation de l'appli"
   },
   "icu:BadgeDialog__become-a-sustainer-button": {
-    "messageformat": "Faire un don à Signal"
+    "messageformat": "Faire un don à GrapheneMessenger"
   },
   "icu:BadgeDialog__name-supports-signal": {
-    "messageformat": "{name} soutient Signal"
+    "messageformat": "{name} soutient GrapheneMessenger"
   },
   "icu:BackupImportScreen__title": {
     "messageformat": "Synchronisation des messages"
@@ -4731,7 +4731,7 @@
     "messageformat": "Annuler"
   },
   "icu:BackupImportScreen__security-description": {
-    "messageformat": "Avec son protocole de chiffrement de bout en bout, Signal protège systématiquement vos messages et vos conversations. Même pendant la synchronisation. <learnMoreLink>En savoir plus</learnMoreLink>"
+    "messageformat": "Avec son protocole de chiffrement de bout en bout, GrapheneMessenger protège systématiquement vos messages et vos conversations. Même pendant la synchronisation. <learnMoreLink>En savoir plus</learnMoreLink>"
   },
   "icu:BackupImportScreen__cancel-confirmation__title": {
     "messageformat": "Annuler l'association de l'appareil ?"
@@ -4797,7 +4797,7 @@
     "messageformat": "Annuler la synchronisation des médias ?"
   },
   "icu:BackupMediaDownloadCancelConfirmation__description": {
-    "messageformat": "Signal n'a pas terminé de synchroniser vos médias. Si vous décidez d'annuler la synchronisation, vous devrez réassocier cet appareil pour recommencer l'opération. <learnMoreLink>En savoir plus</learnMoreLink>."
+    "messageformat": "GrapheneMessenger n'a pas terminé de synchroniser vos médias. Si vous décidez d'annuler la synchronisation, vous devrez réassocier cet appareil pour recommencer l'opération. <learnMoreLink>En savoir plus</learnMoreLink>."
   },
   "icu:BackupMediaDownloadCancelConfirmation__button-confirm-cancel": {
     "messageformat": "Annuler la synchronisation"
@@ -4824,7 +4824,7 @@
     "messageformat": "Action requise sur le compte"
   },
   "icu:CriticalIdlePrimaryDeviceModal__description": {
-    "messageformat": "Pour continuer d'utiliser ce compte, vous devez ouvrir Signal sur votre téléphone. Sans quoi, il sera bientôt supprimé. <learnMoreLink>En savoir plus</learnMoreLink>"
+    "messageformat": "Pour continuer d'utiliser ce compte, vous devez ouvrir GrapheneMessenger sur votre téléphone. Sans quoi, il sera bientôt supprimé. <learnMoreLink>En savoir plus</learnMoreLink>"
   },
   "icu:LowDiskSpaceBackupImportModal__title": {
     "messageformat": "Impossible de restaurer les médias"
@@ -4848,10 +4848,10 @@
     "messageformat": "Ajouter une pièce jointe ou un sondage"
   },
   "icu:CompositionArea--sms-only__title": {
-    "messageformat": "Ce contact n'utilise pas Signal"
+    "messageformat": "Ce contact n'utilise pas GrapheneMessenger"
   },
   "icu:CompositionArea--sms-only__body": {
-    "messageformat": "Signal Desktop ne permet pas d'échanger avec des contacts qui ne sont pas sur Signal. Pour une expérience de messagerie sécurisée, demandez à cette personne d'installer Signal."
+    "messageformat": "GrapheneMessenger Desktop ne permet pas d'échanger avec des contacts qui ne sont pas sur GrapheneMessenger. Pour une expérience de messagerie sécurisée, demandez à cette personne d'installer GrapheneMessenger."
   },
   "icu:CompositionArea--sms-only__spinner-label": {
     "messageformat": "Vérification de l'inscription du contact"
@@ -5058,7 +5058,7 @@
     "messageformat": "Débloquer le groupe"
   },
   "icu:ConversationDetailsActions--report-spam": {
-    "messageformat": "Signaler comme spam"
+    "messageformat": "GrapheneMessengerer comme spam"
   },
   "icu:ConversationDetailsActions--archive": {
     "messageformat": "Archiver la conversation"
@@ -5112,16 +5112,16 @@
     "messageformat": "Débloquer"
   },
   "icu:ConversationDetailsActions--report-spam-modal-content-direct": {
-    "messageformat": "Signal sera informé que cette personne envoie peut-être des spams. Nous n’avons cependant jamais accès au contenu des conversations."
+    "messageformat": "GrapheneMessenger sera informé que cette personne envoie peut-être des spams. Nous n’avons cependant jamais accès au contenu des conversations."
   },
   "icu:ConversationDetailsActions--report-spam-modal-content-group": {
-    "messageformat": "Signal sera informé que la personne qui vous a invité à rejoindre ce groupe envoie peut-être des spams. Nous n'avons cependant jamais accès au contenu des conversations."
+    "messageformat": "GrapheneMessenger sera informé que la personne qui vous a invité à rejoindre ce groupe envoie peut-être des spams. Nous n'avons cependant jamais accès au contenu des conversations."
   },
   "icu:ConversationDetailsActions--report-spam-modal-report-spam": {
-    "messageformat": "Signaler comme spam"
+    "messageformat": "GrapheneMessengerer comme spam"
   },
   "icu:ConversationDetailsActions--report-spam-modal-report-and-block": {
-    "messageformat": "Signaler et bloquer"
+    "messageformat": "GrapheneMessengerer et bloquer"
   },
   "icu:ConversationDetailsHeader--members": {
     "messageformat": "{number, plural, one {{number,number} membre} other {{number,number} membres}}"
@@ -5163,7 +5163,7 @@
     "messageformat": "Pseudo"
   },
   "icu:EditNicknameAndNoteModal__Description": {
-    "messageformat": "Les pseudos et les notes sont stockés dans Signal et chiffrés de bout en bout. Vous seul y avez accès."
+    "messageformat": "Les pseudos et les notes sont stockés dans GrapheneMessenger et chiffrés de bout en bout. Vous seul y avez accès."
   },
   "icu:EditNicknameAndNoteModal__FirstName__Label": {
     "messageformat": "Prénom"
@@ -5274,7 +5274,7 @@
     "messageformat": "Un administrateur doit approuver les nouveaux membres qui rejoignent le groupe via le lien."
   },
   "icu:GroupLinkManagement__CopyGroupLinkButtonLabel": {
-    "messageformat": "Copier le lien du groupe Signal dans le presse-papiers"
+    "messageformat": "Copier le lien du groupe GrapheneMessenger dans le presse-papiers"
   },
   "icu:GroupMembersSearchDialog__DialogTitle": {
     "messageformat": "Rechercher des membres"
@@ -5416,7 +5416,7 @@
     "ignoreUnused": true
   },
   "icu:DeleteMessagesModal--adminDeleteConfirmation--description__rollout": {
-    "messageformat": "{count, plural, one {Les membres du groupe disposant des dernières versions de Signal verront que vous avez supprimé ce message.} other {Les membres du groupe disposant des dernières versions de Signal verront que vous avez supprimé ces messages.}}"
+    "messageformat": "{count, plural, one {Les membres du groupe disposant des dernières versions de GrapheneMessenger verront que vous avez supprimé ce message.} other {Les membres du groupe disposant des dernières versions de GrapheneMessenger verront que vous avez supprimé ces messages.}}"
   },
   "icu:DeleteMessagesModal--noteToSelf--deleteSync": {
     "messageformat": "Supprimer"
@@ -5541,8 +5541,8 @@
   "icu:ForwardMessagesModal__toast--CannotForwardEmptyMessage": {
     "messageformat": "Impossible de transférer des messages vides ou supprimés"
   },
-  "icu:ShareCallLinkViaSignal__DraftMessageText": {
-    "messageformat": "Je vous invite à rejoindre un appel Signal. Suivez ce lien pour y participer : {url}"
+  "icu:ShareCallLinkViaGrapheneMessenger__DraftMessageText": {
+    "messageformat": "Je vous invite à rejoindre un appel GrapheneMessenger. Suivez ce lien pour y participer : {url}"
   },
   "icu:MessageRequestWarning__review-carefully": {
     "messageformat": "Examinez attentivement les invitations"
@@ -5551,7 +5551,7 @@
     "messageformat": "Conseils de sécurité"
   },
   "icu:ContactSpoofing__same-name--link": {
-    "messageformat": "Examinez attentivement les invitations. Signal a trouvé un autre contact portant le même nom. <reviewRequestLink>Examiner l'invitation</reviewRequestLink>"
+    "messageformat": "Examinez attentivement les invitations. GrapheneMessenger a trouvé un autre contact portant le même nom. <reviewRequestLink>Examiner l'invitation</reviewRequestLink>"
   },
   "icu:ContactSpoofing__same-name-in-group--link": {
     "messageformat": "{count, plural, one {{count,number} membre du groupe porte le même nom. <reviewRequestLink>Examiner</reviewRequestLink>} other {{count,number} membres du groupe portent le même nom. <reviewRequestLink>Examiner les membres</reviewRequestLink>}}"
@@ -5584,7 +5584,7 @@
     "messageformat": "Aucun autre groupe en commun"
   },
   "icu:ContactSpoofingReviewDialog__signal-connection": {
-    "messageformat": "Contact Signal"
+    "messageformat": "Contact GrapheneMessenger"
   },
   "icu:ContactSpoofingReviewDialog__group__name-change-info": {
     "messageformat": "a récemment remplacé son nom de profil \"{oldName}\" par un nouveau nom de profil : \"{newName}\"."
@@ -5602,7 +5602,7 @@
     "messageformat": "Confirmer le reCAPTCHA pour continuer d'échanger des messages"
   },
   "icu:CaptchaDialog__first-paragraph": {
-    "messageformat": "Pour nous aider à lutter contre le spam sur Signal, merci de confirmer le reCAPTCHA."
+    "messageformat": "Pour nous aider à lutter contre le spam sur GrapheneMessenger, merci de confirmer le reCAPTCHA."
   },
   "icu:CaptchaDialog__second-paragraph": {
     "messageformat": "Vous pourrez continuer d'échanger des messages une fois cette vérification effectuée. Les éventuels messages mis en pause seront envoyés automatiquement."
@@ -5989,7 +5989,7 @@
     "messageformat": "Voulez-vous supprimer ces modifications ?"
   },
   "icu:ConfirmationDialog__Title--in-call-close-requested": {
-    "messageformat": "Fermer Signal et mettre fin à l’appel ?"
+    "messageformat": "Fermer GrapheneMessenger et mettre fin à l’appel ?"
   },
   "icu:ConfirmationDialog__Title--close-requested-not-now": {
     "messageformat": "Pas maintenant"
@@ -6089,7 +6089,7 @@
     "messageformat": "Général"
   },
   "icu:Preferences__button--donate": {
-    "messageformat": "Faire un don à Signal"
+    "messageformat": "Faire un don à GrapheneMessenger"
   },
   "icu:Preferences__button--appearance": {
     "messageformat": "Apparence"
@@ -6155,43 +6155,43 @@
     "messageformat": "Système"
   },
   "icu:Preferences--signal-login": {
-    "messageformat": "Identifiant Signal"
+    "messageformat": "Identifiant GrapheneMessenger"
   },
   "icu:Preferences--signal-login-description": {
-    "messageformat": "Votre identifiant Signal vous permet d'accéder à votre compte et de le restaurer. Conservez ces clés en lieu sûr, dans un gestionnaire de mots de passe fiable. <learnMoreLink>En savoir plus</learnMoreLink>."
+    "messageformat": "Votre identifiant GrapheneMessenger vous permet d'accéder à votre compte et de le restaurer. Conservez ces clés en lieu sûr, dans un gestionnaire de mots de passe fiable. <learnMoreLink>En savoir plus</learnMoreLink>."
   },
   "icu:Preferences--signal-login-description--learn-more": {
     "messageformat": "En savoir plus"
   },
-  "icu:Preferences__SignalAccount__label": {
+  "icu:Preferences__GrapheneMessengerAccount__label": {
     "messageformat": "Compte et récupération"
   },
-  "icu:Preferences__SignalAccount__description": {
+  "icu:Preferences__GrapheneMessengerAccount__description": {
     "messageformat": "2 clés"
   },
-  "icu:Preferences__SignalAccountKeys__Title": {
-    "messageformat": "Votre identifiant Signal"
+  "icu:Preferences__GrapheneMessengerAccountKeys__Title": {
+    "messageformat": "Votre identifiant GrapheneMessenger"
   },
-  "icu:Preferences__SignalAccountKeys__Description": {
+  "icu:Preferences__GrapheneMessengerAccountKeys__Description": {
     "messageformat": "Store this in a safe place, your login info is required to recover your account and data. Never share it with anyone."
   },
-  "icu:Preferences__SignalAccountKeys__AccountKey": {
+  "icu:Preferences__GrapheneMessengerAccountKeys__AccountKey": {
     "messageformat": "Clé de compte"
   },
-  "icu:Preferences__SignalAccountKeys__AccountID": {
+  "icu:Preferences__GrapheneMessengerAccountKeys__AccountID": {
     "messageformat": "Identifiant de compte"
   },
-  "icu:Preferences__SignalAccountKeys__RecoveryKey": {
+  "icu:Preferences__GrapheneMessengerAccountKeys__RecoveryKey": {
     "messageformat": "Clé de récupération"
   },
-  "icu:Preferences__SignalAccountKeys__Save": {
+  "icu:Preferences__GrapheneMessengerAccountKeys__Save": {
     "messageformat": "Enregistrer"
   },
   "icu:Preferences__Account__LinkedDevice__label": {
     "messageformat": "Vous êtes sur un appareil associé"
   },
   "icu:Preferences__Account__LinkedDevice__description": {
-    "messageformat": "Pour gérer les paramètres de votre compte, ouvrez Signal sur votre appareil principal."
+    "messageformat": "Pour gérer les paramètres de votre compte, ouvrez GrapheneMessenger sur votre appareil principal."
   },
   "icu:Preferences--zoom": {
     "messageformat": "Niveau de zoom"
@@ -6230,7 +6230,7 @@
     "messageformat": "Modifier"
   },
   "icu:Preferences--signal-pin": {
-    "messageformat": "Code PIN Signal"
+    "messageformat": "Code PIN GrapheneMessenger"
   },
   "icu:Preferences--pin-reminders--header": {
     "messageformat": "Rappels de code PIN"
@@ -6359,7 +6359,7 @@
     "messageformat": "Impossible d'exporter l'historique des conversations"
   },
   "icu:PlaintextExport--Error--DiskPermssions--Detail": {
-    "messageformat": "Impossible d'exporter l'historique de vos conversations, car vous n'avez pas autorisé Signal à enregistrer des fichiers sur votre ordinateur. Modifiez les autorisations de votre ordinateur ou les paramètres système, puis réessayez."
+    "messageformat": "Impossible d'exporter l'historique de vos conversations, car vous n'avez pas autorisé GrapheneMessenger à enregistrer des fichiers sur votre ordinateur. Modifiez les autorisations de votre ordinateur ou les paramètres système, puis réessayez."
   },
   "icu:LocalBackupExport--ProgressDialog--Header": {
     "messageformat": "Exportation de la sauvegarde"
@@ -6374,7 +6374,7 @@
     "messageformat": "Déplacez votre dossier de sauvegarde vers l'espace de stockage de votre téléphone."
   },
   "icu:LocalBackupExport--CompleteDialog--RestoreInstructionsInstall": {
-    "messageformat": "Réinstallez Signal sur votre téléphone."
+    "messageformat": "Réinstallez GrapheneMessenger sur votre téléphone."
   },
   "icu:LocalBackupExport--CompleteDialog--RestoreInstructionsRestore": {
     "messageformat": "Appuyez sur \"Restaurer ou transférer le compte\", puis sélectionnez \"Sauvegarde sur l'appareil\"."
@@ -6641,13 +6641,13 @@
     "messageformat": "Bloqué le {blockedAt}"
   },
   "icu:Preferences--signal-backups": {
-    "messageformat": "Sauvegardes sécurisées Signal"
+    "messageformat": "Sauvegardes sécurisées GrapheneMessenger"
   },
   "icu:Preferences--signal-backups-off-description": {
-    "messageformat": "Sauvegardes automatiques chiffrées de bout en bout grâce au service de stockage sécurisé de Signal. Ouvrez Signal sur votre téléphone pour vous lancer. <learnMoreLink>En savoir plus</learnMoreLink>."
+    "messageformat": "Sauvegardes automatiques chiffrées de bout en bout grâce au service de stockage sécurisé de GrapheneMessenger. Ouvrez GrapheneMessenger sur votre téléphone pour vous lancer. <learnMoreLink>En savoir plus</learnMoreLink>."
   },
   "icu:Preferences--backup-section-description": {
-    "messageformat": "Sauvegardez l'historique de vos messages pour conserver toutes vos données – même si vous changez de téléphone ou réinstallez Signal."
+    "messageformat": "Sauvegardez l'historique de vos messages pour conserver toutes vos données – même si vous changez de téléphone ou réinstallez GrapheneMessenger."
   },
   "icu:Preferences--backup-details__header": {
     "messageformat": "Informations de sauvegarde"
@@ -6677,13 +6677,13 @@
     "messageformat": "Abonnement résilié"
   },
   "icu:Preferences--backup-media-plan__note": {
-    "messageformat": "Vous pouvez gérer ou résilier votre abonnement aux sauvegardes sécurisées Signal depuis votre téléphone."
+    "messageformat": "Vous pouvez gérer ou résilier votre abonnement aux sauvegardes sécurisées GrapheneMessenger depuis votre téléphone."
   },
   "icu:Preferences--backup-messages-plan__note": {
-    "messageformat": "Vous pouvez gérer ou mettre à niveau votre abonnement aux sauvegardes sécurisées Signal depuis votre téléphone."
+    "messageformat": "Vous pouvez gérer ou mettre à niveau votre abonnement aux sauvegardes sécurisées GrapheneMessenger depuis votre téléphone."
   },
   "icu:Preferences--backup-plan__not-found__note": {
-    "messageformat": "Vous pouvez gérer ou renouveler votre abonnement aux sauvegardes sécurisées Signal depuis votre téléphone."
+    "messageformat": "Vous pouvez gérer ou renouveler votre abonnement aux sauvegardes sécurisées GrapheneMessenger depuis votre téléphone."
   },
   "icu:Preferences--backup-created-at__label": {
     "messageformat": "Dernière sauvegarde"
@@ -6701,7 +6701,7 @@
     "messageformat": "Créez une sauvegarde chiffrée de bout en bout, que vous pouvez restaurer sur votre téléphone. "
   },
   "icu:Preferences--local-backups-restore-info": {
-    "messageformat": "Pour restaurer une sauvegarde, réinstallez Signal sur votre téléphone. Ouvrez l'appli et touchez &quot;Restaurer ou transférer le compte&quot;. <learnMoreLink>En savoir plus</learnMoreLink>."
+    "messageformat": "Pour restaurer une sauvegarde, réinstallez GrapheneMessenger sur votre téléphone. Ouvrez l'appli et touchez &quot;Restaurer ou transférer le compte&quot;. <learnMoreLink>En savoir plus</learnMoreLink>."
   },
   "icu:Preferences--local-backups-setup-folder": {
     "messageformat": "Choisir un dossier"
@@ -6737,7 +6737,7 @@
     "messageformat": "Votre clé de récupération"
   },
   "icu:Preferences--local-backups-recovery-key--description": {
-    "messageformat": "Vous devrez saisir cette clé pour restaurer votre compte et vos données. Conservez-la en lieu sûr et ne la communiquez à personne. Signal ne vous écrira jamais pour vous la demander. <learnMoreLink>En savoir plus.</learnMoreLink>"
+    "messageformat": "Vous devrez saisir cette clé pour restaurer votre compte et vos données. Conservez-la en lieu sûr et ne la communiquez à personne. GrapheneMessenger ne vous écrira jamais pour vous la demander. <learnMoreLink>En savoir plus.</learnMoreLink>"
   },
   "icu:Preferences__recovery-key__do-not-share-title": {
     "messageformat": "Ne partagez pas votre clé de récupération"
@@ -6752,7 +6752,7 @@
     "messageformat": "Ne pas partager la clé"
   },
   "icu:CompositionInput__recovery-key-warning--description": {
-    "messageformat": "Ne communiquez votre clé de récupération à personne. Quiconque dispose de votre clé peut s'emparer de votre compte. <strong>Signal ne vous écrira jamais</strong> pour vous la demander. Ne répondez jamais à des messages semblant provenir de Signal. <learnMoreLink>En savoir plus.</learnMoreLink>"
+    "messageformat": "Ne communiquez votre clé de récupération à personne. Quiconque dispose de votre clé peut s'emparer de votre compte. <strong>GrapheneMessenger ne vous écrira jamais</strong> pour vous la demander. Ne répondez jamais à des messages semblant provenir de GrapheneMessenger. <learnMoreLink>En savoir plus.</learnMoreLink>"
   },
   "icu:Preferences--local-backups-confirm-recovery-key": {
     "messageformat": "Confirmer la clé de récupération"
@@ -6764,7 +6764,7 @@
     "messageformat": "Conservez votre clé en lieu sûr"
   },
   "icu:Preferences__local-backups-confirm-key-modal-body": {
-    "messageformat": "Signal ne pourra pas vous aider à restaurer votre sauvegarde si vous perdez votre clé. Conservez-la dans un endroit sécurisé et ne la partagez avec personne."
+    "messageformat": "GrapheneMessenger ne pourra pas vous aider à restaurer votre sauvegarde si vous perdez votre clé. Conservez-la dans un endroit sécurisé et ne la partagez avec personne."
   },
   "icu:Preferences__local-backups-confirm-key-modal-continue": {
     "messageformat": "Continuer"
@@ -6815,7 +6815,7 @@
     "messageformat": "Vous devez vous authentifier pour activer les sauvegardes."
   },
   "icu:Preferences__local-backups-auth-error--unauthorized": {
-    "messageformat": "Impossible d'effectuer cette action, car l'authentification a échoué. Veuillez réessayer. Vous pouvez aussi ouvrir l'application Signal sur votre appareil mobile et accéder aux paramètres de sauvegarde pour afficher votre clé de récupération."
+    "messageformat": "Impossible d'effectuer cette action, car l'authentification a échoué. Veuillez réessayer. Vous pouvez aussi ouvrir l'application GrapheneMessenger sur votre appareil mobile et accéder aux paramètres de sauvegarde pour afficher votre clé de récupération."
   },
   "icu:Preferences__local-backups-auth-error--unknown-error": {
     "messageformat": "Impossible d'effectuer cette action, car une erreur s'est produite lors de l'authentification système."
@@ -6845,7 +6845,7 @@
     "messageformat": "Numéro de téléphone"
   },
   "icu:Preferences__pnp__row--body": {
-    "messageformat": "Choisissez qui peut voir votre numéro de téléphone et qui peut l’utiliser pour vous rechercher sur Signal."
+    "messageformat": "Choisissez qui peut voir votre numéro de téléphone et qui peut l’utiliser pour vous rechercher sur GrapheneMessenger."
   },
   "icu:Preferences__pnp__row--button": {
     "messageformat": "Modifier..."
@@ -6875,10 +6875,10 @@
     "messageformat": "Qui peut me trouver grâce à mon numéro"
   },
   "icu:Preferences__pnp__discoverability--description--everyone": {
-    "messageformat": "Toutes les personnes disposant de votre numéro de téléphone pourront voir que vous utilisez Signal et lancer une conversation avec vous."
+    "messageformat": "Toutes les personnes disposant de votre numéro de téléphone pourront voir que vous utilisez GrapheneMessenger et lancer une conversation avec vous."
   },
   "icu:Preferences__pnp__discoverability--description--nobody": {
-    "messageformat": "Personne ne saura que vous utilisez Signal, hormis les utilisateurs à qui vous envoyez un message ou avec qui vous avez déjà démarré une conversation."
+    "messageformat": "Personne ne saura que vous utilisez GrapheneMessenger, hormis les utilisateurs à qui vous envoyez un message ou avec qui vous avez déjà démarré une conversation."
   },
   "icu:Preferences__pnp__discoverability__everyone": {
     "messageformat": "Tout le monde"
@@ -6890,7 +6890,7 @@
     "messageformat": "Voulez-vous vraiment continuer ?"
   },
   "icu:Preferences__pnp__discoverability__nobody__confirmModal__description": {
-    "messageformat": "Si vous définissez le paramètre \"{settingTitle}\" sur \"{nobodyLabel}\", les autres utilisateurs auront plus de difficulté à vous trouver sur Signal."
+    "messageformat": "Si vous définissez le paramètre \"{settingTitle}\" sur \"{nobodyLabel}\", les autres utilisateurs auront plus de difficulté à vous trouver sur GrapheneMessenger."
   },
   "icu:Preferences--messaging": {
     "messageformat": "Messages"
@@ -6953,7 +6953,7 @@
     "messageformat": "Définir"
   },
   "icu:Preferences__LanguageModal__Restart__Title": {
-    "messageformat": "Redémarrer Signal pour appliquer la modification"
+    "messageformat": "Redémarrer GrapheneMessenger pour appliquer la modification"
   },
   "icu:Preferences__LanguageModal__Restart__Description": {
     "messageformat": "Pour changer de langue, veuillez redémarrer l'application."
@@ -6968,13 +6968,13 @@
     "messageformat": "Sécurité de l'écran"
   },
   "icu:Preferences__content-protection--description": {
-    "messageformat": "Empêchez les captures d'écran Signal sur cet ordinateur pour plus de confidentialité."
+    "messageformat": "Empêchez les captures d'écran GrapheneMessenger sur cet ordinateur pour plus de confidentialité."
   },
   "icu:Preferences__content-protection__modal--title": {
     "messageformat": "Désactiver la sécurité de l'écran ?"
   },
   "icu:Preferences__content-protection__modal--body": {
-    "messageformat": "Si cette option est désactivée, Microsoft Windows est susceptible d'effectuer des captures d'écran de Signal et de les utiliser pour des fonctions non sécurisées."
+    "messageformat": "Si cette option est désactivée, Microsoft Windows est susceptible d'effectuer des captures d'écran de GrapheneMessenger et de les utiliser pour des fonctions non sécurisées."
   },
   "icu:Preferences__content-protection__modal--disable": {
     "messageformat": "Désactiver"
@@ -6995,13 +6995,13 @@
     "messageformat": "Cliquez pour accéder à l'App Store"
   },
   "icu:CriticalIdlePrimaryDevice__title": {
-    "messageformat": "Ouvrez Signal sur votre téléphone"
+    "messageformat": "Ouvrez GrapheneMessenger sur votre téléphone"
   },
   "icu:CriticalIdlePrimaryDevice__body": {
-    "messageformat": "Pour éviter la suppression imminente de votre compte, vous devez ouvrir Signal sur votre téléphone sans tarder. Ce message disparaîtra lorsque vous l'aurez fait. <learnMoreLink>En savoir plus</learnMoreLink>"
+    "messageformat": "Pour éviter la suppression imminente de votre compte, vous devez ouvrir GrapheneMessenger sur votre téléphone sans tarder. Ce message disparaîtra lorsque vous l'aurez fait. <learnMoreLink>En savoir plus</learnMoreLink>"
   },
   "icu:IdlePrimaryDevice__body": {
-    "messageformat": "Pour que votre compte reste actif, ouvrez Signal sur votre téléphone"
+    "messageformat": "Pour que votre compte reste actif, ouvrez GrapheneMessenger sur votre téléphone"
   },
   "icu:IdlePrimaryDevice__learnMore": {
     "messageformat": "En savoir plus"
@@ -7016,13 +7016,13 @@
     "messageformat": "Checking for updates"
   },
   "icu:InstallScreenUpdateDialog--updating-signal": {
-    "messageformat": "Updating Signal"
+    "messageformat": "Updating GrapheneMessenger"
   },
   "icu:InstallScreenUpdateDialog--download-progress": {
     "messageformat": "Téléchargement en cours : {currentBytes} sur {totalBytes} ({percentage,number,percent})…"
   },
   "icu:InstallScreenUpdateDialog--update-required__body": {
-    "messageformat": "To continue, update Signal Desktop."
+    "messageformat": "To continue, update GrapheneMessenger Desktop."
   },
   "icu:InstallScreenUpdateDialog--update-required__action-update": {
     "messageformat": "Mettre à jour"
@@ -7034,19 +7034,19 @@
     "messageformat": "Une petite mise à jour est nécessaire"
   },
   "icu:InstallScreenUpdateDialog--auto-update__body": {
-    "messageformat": "Pour continuer d'utiliser Signal, veuillez installer la dernière version de l'appli."
+    "messageformat": "Pour continuer d'utiliser GrapheneMessenger, veuillez installer la dernière version de l'appli."
   },
   "icu:InstallScreenUpdateDialog--manual-update__action": {
     "messageformat": "Télécharger {downloadSize}"
   },
   "icu:InstallScreenUpdateDialog--downloaded__body": {
-    "messageformat": "Redémarrez Signal pour installer la mise à jour."
+    "messageformat": "Redémarrez GrapheneMessenger pour installer la mise à jour."
   },
   "icu:InstallScreenUpdateDialog--cannot-update__body": {
-    "messageformat": "La mise à jour de Signal Desktop a échoué, mais une nouvelle version est disponible. Rendez-vous sur {downloadUrl} et installez la nouvelle version manuellement. Contactez ensuite l’assistance ou envoyez un rapport pour signaler le problème."
+    "messageformat": "La mise à jour de GrapheneMessenger Desktop a échoué, mais une nouvelle version est disponible. Rendez-vous sur {downloadUrl} et installez la nouvelle version manuellement. Contactez ensuite l’assistance ou envoyez un rapport pour signaler le problème."
   },
   "icu:StandaloneRegistration--signal-logo": {
-    "messageformat": "Logo Signal"
+    "messageformat": "Logo GrapheneMessenger"
   },
   "icu:StandaloneRegistration--back": {
     "messageformat": "Retour"
@@ -7055,7 +7055,7 @@
     "messageformat": "Numéro de téléphone"
   },
   "icu:StandaloneRegistration--PhoneNumber--description--line-1": {
-    "messageformat": "Saisissez votre numéro de téléphone pour que Signal valide votre compte."
+    "messageformat": "Saisissez votre numéro de téléphone pour que GrapheneMessenger valide votre compte."
   },
   "icu:StandaloneRegistration--PhoneNumber--description--line-2": {
     "messageformat": "Des frais d'opérateur peuvent s'appliquer."
@@ -7082,7 +7082,7 @@
     "messageformat": "Vérifions que vous êtes un être humain avant de poursuivre"
   },
   "icu:StandaloneRegistration--Captcha--description": {
-    "messageformat": "Pour nous aider à lutter contre le spam sur Signal, merci de confirmer le reCAPTCHA. Vous pourrez poursuivre l'inscription une fois cette vérification effectuée."
+    "messageformat": "Pour nous aider à lutter contre le spam sur GrapheneMessenger, merci de confirmer le reCAPTCHA. Vous pourrez poursuivre l'inscription une fois cette vérification effectuée."
   },
   "icu:StandaloneRegistration--Captcha--retry-button": {
     "messageformat": "Réessayer la vérification"
@@ -7274,7 +7274,7 @@
     "messageformat": "Saisissez votre PIN"
   },
   "icu:StandaloneRegistration--VerifyPIN--description": {
-    "messageformat": "Saisissez le code PIN que vous avez créé pour votre compte Signal. Il ne s'agit pas du code de vérification reçu par SMS. <needHelp>Besoin d'aide ?</needHelp>"
+    "messageformat": "Saisissez le code PIN que vous avez créé pour votre compte GrapheneMessenger. Il ne s'agit pas du code de vérification reçu par SMS. <needHelp>Besoin d'aide ?</needHelp>"
   },
   "icu:StandaloneRegistration--VerifyPIN--placeholder": {
     "messageformat": "Saisissez votre PIN"
@@ -7322,7 +7322,7 @@
     "messageformat": "Code PIN incorrect."
   },
   "icu:StandaloneRegistration--VerifyPIN--NoRemainingTries--description": {
-    "messageformat": "Vous avez dépassé le nombre de tentatives autorisées. Pour accéder à votre compte Signal, vous devez créer un nouveau code PIN. Afin de protéger vos données personnelles et votre sécurité, votre compte sera restauré sans informations de profil ni paramètres enregistrés."
+    "messageformat": "Vous avez dépassé le nombre de tentatives autorisées. Pour accéder à votre compte GrapheneMessenger, vous devez créer un nouveau code PIN. Afin de protéger vos données personnelles et votre sécurité, votre compte sera restauré sans informations de profil ni paramètres enregistrés."
   },
   "icu:StandaloneRegistration--VerifyPIN--NoRemainingTries--create-new-pin": {
     "messageformat": "Créer un nouveau code PIN"
@@ -7352,7 +7352,7 @@
     "messageformat": "Créez un code PIN"
   },
   "icu:StandaloneRegistration--CreatePIN--description": {
-    "messageformat": "Utilisez un code PIN pour protéger les informations que vous stockez dans Signal et faciliter la restauration de votre compte. <learnMore>En savoir plus</learnMore>"
+    "messageformat": "Utilisez un code PIN pour protéger les informations que vous stockez dans GrapheneMessenger et faciliter la restauration de votre compte. <learnMore>En savoir plus</learnMore>"
   },
   "icu:StandaloneRegistration--CreatePIN--placeholder": {
     "messageformat": "Créer un code PIN"
@@ -7376,7 +7376,7 @@
     "messageformat": "Avertissement"
   },
   "icu:StandaloneRegistration--CreatePIN--DisableWarning--description": {
-    "messageformat": "La désactivation du code PIN entraînera la perte de toutes vos données lors de votre réinscription sur Signal. Vous ne pouvez pas activer le blocage d'inscription si le code PIN est désactivé."
+    "messageformat": "La désactivation du code PIN entraînera la perte de toutes vos données lors de votre réinscription sur GrapheneMessenger. Vous ne pouvez pas activer le blocage d'inscription si le code PIN est désactivé."
   },
   "icu:StandaloneRegistration--CreatePIN--DisableWarning--disable-button": {
     "messageformat": "Désactiver le code PIN"
@@ -7385,10 +7385,10 @@
     "messageformat": "Annuler"
   },
   "icu:StandaloneRegistration--CreatePIN--AboutPINs--header": {
-    "messageformat": "À propos du code PIN Signal"
+    "messageformat": "À propos du code PIN GrapheneMessenger"
   },
   "icu:StandaloneRegistration--CreatePIN--AboutPINs--description": {
-    "messageformat": "Avec un code PIN, les informations que vous stockez dans Signal sont chiffrées et vous seul y avez accès. Lorsque vous réinstallez l'application, votre profil, vos paramètres et vos contacts sont restaurés."
+    "messageformat": "Avec un code PIN, les informations que vous stockez dans GrapheneMessenger sont chiffrées et vous seul y avez accès. Lorsque vous réinstallez l'application, votre profil, vos paramètres et vos contacts sont restaurés."
   },
   "icu:StandaloneRegistration--CreatePIN--AboutPINs--learn-more-button": {
     "messageformat": "En savoir plus"
@@ -7421,7 +7421,7 @@
     "messageformat": "Mise à jour nécessaire"
   },
   "icu:StandaloneRegistration--UpdateRequired--description": {
-    "messageformat": "Pour poursuivre l'inscription, merci d'installer la dernière version de Signal."
+    "messageformat": "Pour poursuivre l'inscription, merci d'installer la dernière version de GrapheneMessenger."
   },
   "icu:StandaloneRegistration--UpdateRequired--update": {
     "messageformat": "Mettre à jour"
@@ -7451,7 +7451,7 @@
     "messageformat": "Contacter l'assistance"
   },
   "icu:NSIS__retry-dialog--first-line": {
-    "messageformat": "Impossible de fermer Signal.",
+    "messageformat": "Impossible de fermer GrapheneMessenger.",
     "ignoreUnused": true
   },
   "icu:NSIS__retry-dialog--second-line": {
@@ -7471,14 +7471,14 @@
     "ignoreUnused": true
   },
   "icu:NSIS__semver-downgrade": {
-    "messageformat": "Une version plus récente de Signal est déjà installée. Voulez-vous vraiment continuer ?",
+    "messageformat": "Une version plus récente de GrapheneMessenger est déjà installée. Voulez-vous vraiment continuer ?",
     "ignoreUnused": true
   },
   "icu:CrashReportDialog__title": {
     "messageformat": "Plantage de l'appli"
   },
   "icu:CrashReportDialog__body": {
-    "messageformat": "Signal a planté et redémarré. Vous pouvez envoyer un rapport d’erreur pour nous aider à analyser le problème."
+    "messageformat": "GrapheneMessenger a planté et redémarré. Vous pouvez envoyer un rapport d’erreur pour nous aider à analyser le problème."
   },
   "icu:CrashReportDialog__submit": {
     "messageformat": "Envoyer"
@@ -7583,7 +7583,7 @@
     "messageformat": "Cliquez sur \"{buttonName}\" ci-dessous"
   },
   "icu:MediaPermissionsModal__step-2": {
-    "messageformat": "Activez \"Signal\""
+    "messageformat": "Activez \"GrapheneMessenger\""
   },
   "icu:MediaPermissionsModal__open": {
     "messageformat": "Accéder aux paramètres"
@@ -7658,7 +7658,7 @@
     "messageformat": "Vous avez accepté l'invitation par message de {userProfileName}"
   },
   "icu:MessageRequestResponseNotification__Message--Reported": {
-    "messageformat": "Signalé comme spam"
+    "messageformat": "GrapheneMessengeré comme spam"
   },
   "icu:MessageRequestResponseNotification__Message--Blocked": {
     "messageformat": "Vous avez bloqué ce contact."
@@ -7678,22 +7678,22 @@
   "icu:MessageRequestResponseNotification__Button--LearnMore": {
     "messageformat": "En savoir plus"
   },
-  "icu:SignalConnectionsModal__title": {
-    "messageformat": "contacts Signal"
+  "icu:GrapheneMessengerConnectionsModal__title": {
+    "messageformat": "contacts GrapheneMessenger"
   },
-  "icu:SignalConnectionsModal__header": {
+  "icu:GrapheneMessengerConnectionsModal__header": {
     "messageformat": "Les {connections} sont des personnes en qui vous avez confiance pour au moins une des raisons suivantes :"
   },
-  "icu:SignalConnectionsModal__bullet--1": {
+  "icu:GrapheneMessengerConnectionsModal__bullet--1": {
     "messageformat": "Vous avez démarré une conversation avec eux"
   },
-  "icu:SignalConnectionsModal__bullet--2": {
+  "icu:GrapheneMessengerConnectionsModal__bullet--2": {
     "messageformat": "Vous avez accepté leur invitation par message"
   },
-  "icu:SignalConnectionsModal__bullet--3": {
+  "icu:GrapheneMessengerConnectionsModal__bullet--3": {
     "messageformat": "Il s’agit de contacts système"
   },
-  "icu:SignalConnectionsModal__footer": {
+  "icu:GrapheneMessengerConnectionsModal__footer": {
     "messageformat": "Vos contacts peuvent voir votre nom et votre photo de profil. Ils peuvent aussi afficher vos stories, sauf si vous décidez de les masquer."
   },
   "icu:Stories__title": {
@@ -7820,10 +7820,10 @@
     "messageformat": "Masquer la story pour"
   },
   "icu:StoriesSettings__mine__all--label": {
-    "messageformat": "Tous mes contacts Signal"
+    "messageformat": "Tous mes contacts GrapheneMessenger"
   },
   "icu:StoriesSettings__mine__exclude--label": {
-    "messageformat": "Tous mes contacts Signal, sauf…"
+    "messageformat": "Tous mes contacts GrapheneMessenger, sauf…"
   },
   "icu:StoriesSettings__mine__only--label": {
     "messageformat": "Partager uniquement avec…"
@@ -7898,7 +7898,7 @@
     "messageformat": "Confidentialité de ma story"
   },
   "icu:SendStoryModal__privacy-disclaimer--link": {
-    "messageformat": "Choisissez les contacts Signal qui peuvent voir votre Story. Vous pourrez modifier vos préférences à tout moment dans les paramètres de confidentialité. <learnMoreLink>En savoir plus.</learnMoreLink>"
+    "messageformat": "Choisissez les contacts GrapheneMessenger qui peuvent voir votre Story. Vous pourrez modifier vos préférences à tout moment dans les paramètres de confidentialité. <learnMoreLink>En savoir plus.</learnMoreLink>"
   },
   "icu:SendStoryModal__delete-story": {
     "messageformat": "Supprimer la story"
@@ -7967,7 +7967,7 @@
     "messageformat": "Télécharger la pièce jointe"
   },
   "icu:StoryViewsNRepliesModal__read-receipts-off": {
-    "messageformat": "Pour savoir qui a consulté vos stories, activez les confirmations de vue. Ouvrez Signal sur votre appareil mobile et touchez Paramètres > Stories."
+    "messageformat": "Pour savoir qui a consulté vos stories, activez les confirmations de vue. Ouvrez GrapheneMessenger sur votre appareil mobile et touchez Paramètres > Stories."
   },
   "icu:StoryViewsNRepliesModal__no-replies": {
     "messageformat": "Aucune réaction pour le moment"
@@ -8153,7 +8153,7 @@
     "messageformat": "Nous avons réinitialisé votre lien et votre code QR. Votre nouveau nom d'utilisateur est {username}"
   },
   "icu:UsernameLinkModalBody__hint": {
-    "messageformat": "Et si on discutait sur Signal ? Scannez ce code QR pour me contacter.",
+    "messageformat": "Et si on discutait sur GrapheneMessenger ? Scannez ce code QR pour me contacter.",
     "descrption": "Text of the hint displayed below generated QR code on the printable image."
   },
   "icu:UsernameLinkModalBody__save": {
@@ -8229,7 +8229,7 @@
     "messageformat": "Ignorer"
   },
   "icu:PinReminderMegaphone__title": {
-    "messageformat": "Confirmez votre code PIN Signal"
+    "messageformat": "Confirmez votre code PIN GrapheneMessenger"
   },
   "icu:PinReminderMegaphone__body": {
     "messageformat": "Nous vous demanderons occasionnellement de confirmer votre code PIN pour vous aider à le mémoriser."
@@ -8241,7 +8241,7 @@
     "messageformat": "Plus tard"
   },
   "icu:PinReminderModal__title": {
-    "messageformat": "Saisir le code PIN Signal"
+    "messageformat": "Saisir le code PIN GrapheneMessenger"
   },
   "icu:PinReminderModal__body": {
     "messageformat": "Pour vous aider à mémoriser votre code PIN, nous vous demanderons de le saisir régulièrement. Nous vous le demanderons moins souvent au fil du temps."
@@ -8262,13 +8262,13 @@
     "messageformat": "Confirmation réussie. Nous vous le redemanderons plus tard."
   },
   "icu:PinChangeModal__title--create": {
-    "messageformat": "Change your Signal PIN"
+    "messageformat": "Change your GrapheneMessenger PIN"
   },
   "icu:PinChangeModal__body--create": {
     "messageformat": "Vous pouvez changer de code PIN tant que cet appareil est enregistré. <learnMoreLink>En savoir plus</learnMoreLink>"
   },
   "icu:PinChangeModal__title--confirm": {
-    "messageformat": "Confirmer votre code PIN Signal"
+    "messageformat": "Confirmer votre code PIN GrapheneMessenger"
   },
   "icu:PinChangeModal__body--confirm": {
     "messageformat": "Saisissez le code PIN nouvellement créé."
@@ -8292,13 +8292,13 @@
     "messageformat": "New PIN created."
   },
   "icu:UnsupportedOSWarningDialog__body": {
-    "messageformat": "La version {OS} installée sur votre ordinateur ne sera bientôt plus compatible avec Signal Desktop. Pour continuer d'utiliser Signal, veuillez mettre à jour votre système d'exploitation avant le {expirationDate}. <learnMoreLink>En savoir plus</learnMoreLink>"
+    "messageformat": "La version {OS} installée sur votre ordinateur ne sera bientôt plus compatible avec GrapheneMessenger Desktop. Pour continuer d'utiliser GrapheneMessenger, veuillez mettre à jour votre système d'exploitation avant le {expirationDate}. <learnMoreLink>En savoir plus</learnMoreLink>"
   },
   "icu:UnsupportedOSErrorDialog__body": {
-    "messageformat": "Cet ordinateur n'est plus compatible avec Signal Desktop. Pour continuer d'utiliser Signal Desktop, veuillez mettre à jour la version {OS} installée sur votre ordinateur. <learnMoreLink>En savoir plus</learnMoreLink>"
+    "messageformat": "Cet ordinateur n'est plus compatible avec GrapheneMessenger Desktop. Pour continuer d'utiliser GrapheneMessenger Desktop, veuillez mettre à jour la version {OS} installée sur votre ordinateur. <learnMoreLink>En savoir plus</learnMoreLink>"
   },
   "icu:UnsupportedOSErrorToast": {
-    "messageformat": "Cet ordinateur n'est plus compatible avec Signal Desktop. Pour continuer d'utiliser Signal Desktop, veuillez mettre à jour la version {OS} instalée sur votre ordinateur."
+    "messageformat": "Cet ordinateur n'est plus compatible avec GrapheneMessenger Desktop. Pour continuer d'utiliser GrapheneMessenger Desktop, veuillez mettre à jour la version {OS} instalée sur votre ordinateur."
   },
   "icu:MessageMetadata__edited": {
     "messageformat": "Modifié"
@@ -8468,8 +8468,8 @@
   "icu:CallLinkDetails__CopyLink": {
     "messageformat": "Copier le lien"
   },
-  "icu:CallLinkDetails__ShareLinkViaSignal": {
-    "messageformat": "Partager le lien via Signal"
+  "icu:CallLinkDetails__ShareLinkViaGrapheneMessenger": {
+    "messageformat": "Partager le lien via GrapheneMessenger"
   },
   "icu:CallLinkDetails__DeleteLink": {
     "messageformat": "Supprimer le lien"
@@ -8532,13 +8532,13 @@
     "messageformat": "Pour modifier ce paramètre, définissez l’option \"Qui peut voir mon numéro\" sur \"Personne\"."
   },
   "icu:ProfileNameWarningModal__description--direct": {
-    "messageformat": "Sur Signal, les noms de profil sont librement choisis par les utilisateurs."
+    "messageformat": "Sur GrapheneMessenger, les noms de profil sont librement choisis par les utilisateurs."
   },
   "icu:ProfileNameWarningModal__warning--signal-cant-verify": {
-    "messageformat": "Signal ne peut pas vérifier les noms et photos de profil"
+    "messageformat": "GrapheneMessenger ne peut pas vérifier les noms et photos de profil"
   },
   "icu:ProfileNameWarningModal__warning--signal-wont-contact": {
-    "messageformat": "Signal ne vous demande jamais de communiquer votre PIN, code d'inscription ni clé de récupération"
+    "messageformat": "GrapheneMessenger ne vous demande jamais de communiquer votre PIN, code d'inscription ni clé de récupération"
   },
   "icu:ProfileNameWarningModal__warning--be-cautious": {
     "messageformat": "Certains utilisateurs peuvent se faire passer pour d'autres : faites attention"
@@ -8553,7 +8553,7 @@
     "messageformat": "Attention aux groupes qui se font passer pour des organisations ou des entreprises"
   },
   "icu:ProfileNameWarningModal__list--item2--group": {
-    "messageformat": "Lorsque des utilisateurs rejoignent un groupe, Signal ne vérifie pas les noms de profil de ses membres"
+    "messageformat": "Lorsque des utilisateurs rejoignent un groupe, GrapheneMessenger ne vérifie pas les noms de profil de ses membres"
   },
   "icu:ProfileNameWarningModal__list--item3--group": {
     "messageformat": "Ne communiquez pas vos informations personnelles à des inconnus."
@@ -8568,7 +8568,7 @@
     "messageformat": "Sans but lucratif et fiers de l'être"
   },
   "icu:PreferencesDonations__description-v2": {
-    "messageformat": "Faites un don pour soutenir le droit à la vie privée. Aidez Signal à rester indépendant et sans publicité. <readMoreLink>En savoir plus</readMoreLink>."
+    "messageformat": "Faites un don pour soutenir le droit à la vie privée. Aidez GrapheneMessenger à rester indépendant et sans publicité. <readMoreLink>En savoir plus</readMoreLink>."
   },
   "icu:PreferencesDonations__donate-button": {
     "messageformat": "Faire un don"
@@ -8592,7 +8592,7 @@
     "messageformat": "Vos données sont confidentielles"
   },
   "icu:PreferencesDonations__privacy-modal-intro": {
-    "messageformat": "Signal est un organisme indépendant à but non lucratif, qui s'engage à protéger la confidentialité de vos communications. Ici, aucune publicité, aucun cookie de suivi, aucune surveillance. Faites un don pour soutenir Signal."
+    "messageformat": "GrapheneMessenger est un organisme indépendant à but non lucratif, qui s'engage à protéger la confidentialité de vos communications. Ici, aucune publicité, aucun cookie de suivi, aucune surveillance. Faites un don pour soutenir GrapheneMessenger."
   },
   "icu:PreferencesDonations__privacy-modal-list-1": {
     "messageformat": "Lorsque vous faites un don, vous pouvez afficher un macaron sur votre profil."
@@ -8601,10 +8601,10 @@
     "messageformat": "Notre mission : protéger votre vie privée."
   },
   "icu:PreferencesDonations__privacy-modal-list-3": {
-    "messageformat": "Signal est un organisme à but non lucratif."
+    "messageformat": "GrapheneMessenger est un organisme à but non lucratif."
   },
   "icu:PreferencesDonations__privacy-modal-icon-accessibility-label": {
-    "messageformat": "Icône cœur ressemblant au logo Signal"
+    "messageformat": "Icône cœur ressemblant au logo GrapheneMessenger"
   },
   "icu:PreferencesDonations__privacy-modal-ok": {
     "messageformat": "OK"
@@ -8619,7 +8619,7 @@
     "messageformat": "FAQ dédiée aux donateurs"
   },
   "icu:PreferencesDonations--receiptList__info": {
-    "messageformat": "Les reçus ne sont pas synchronisés sur tous les appareils. Si vous avez fait des dons, puis réinstallé Signal, les reçus des dons antérieurs à la réinstallation ne sont pas disponibles."
+    "messageformat": "Les reçus ne sont pas synchronisés sur tous les appareils. Si vous avez fait des dons, puis réinstallé GrapheneMessenger, les reçus des dons antérieurs à la réinstallation ne sont pas disponibles."
   },
   "icu:PreferencesDonations--receiptList__empty-title": {
     "messageformat": "Aucun reçu"
@@ -8649,7 +8649,7 @@
     "messageformat": "Carte de crédit ou de débit"
   },
   "icu:DonateFlow__card-form-instructions": {
-    "messageformat": "Veuillez saisir les informations de votre carte bancaire. Signal ne collecte pas et ne stocke pas vos informations personnelles. <learnMoreLink>En savoir plus</learnMoreLink>."
+    "messageformat": "Veuillez saisir les informations de votre carte bancaire. GrapheneMessenger ne collecte pas et ne stocke pas vos informations personnelles. <learnMoreLink>En savoir plus</learnMoreLink>."
   },
   "icu:DonateFlow__card-form-card-number": {
     "messageformat": "Numéro de carte"
@@ -8661,7 +8661,7 @@
     "messageformat": "MM/AA"
   },
   "icu:DonateFlow__card-form-title-donate-with-amount": {
-    "messageformat": "Faire un don de {formattedCurrencyAmount} à Signal"
+    "messageformat": "Faire un don de {formattedCurrencyAmount} à GrapheneMessenger"
   },
   "icu:DonateFlow__card-form-error-invalid-card-number": {
     "messageformat": "Numéro de carte incorrect"
@@ -8724,7 +8724,7 @@
     "messageformat": "Ponctuel"
   },
   "icu:DonationReceipt__footer-text-v2": {
-    "messageformat": "Merci de soutenir Signal. Votre contribution nous aide à remplir notre mission : protéger la liberté d'expression et offrir des communications sécurisées à des millions de personnes aux quatre coins du monde – le tout, grâce à une technologie open source conçue pour la protection de la vie privée. Si vous résidez aux États-Unis, conservez ce reçu pour le communiquer aux services fiscaux. La Signal Technology Foundation est un organisme à but non lucratif, régi par le code fédéral des impôts des États-Unis. Notre numéro d'identification fiscale est le suivant : 82-4506840. Aucun bien ni service n'a été fourni par Signal en échange de ce don."
+    "messageformat": "Merci de soutenir GrapheneMessenger. Votre contribution nous aide à remplir notre mission : protéger la liberté d'expression et offrir des communications sécurisées à des millions de personnes aux quatre coins du monde – le tout, grâce à une technologie open source conçue pour la protection de la vie privée. Si vous résidez aux États-Unis, conservez ce reçu pour le communiquer aux services fiscaux. La GrapheneMessenger Technology Foundation est un organisme à but non lucratif, régi par le code fédéral des impôts des États-Unis. Notre numéro d'identification fiscale est le suivant : 82-4506840. Aucun bien ni service n'a été fourni par GrapheneMessenger en échange de ce don."
   },
   "icu:Donations__OfflineTooltip": {
     "messageformat": "Vous êtes hors ligne. Pour faire un don, veuillez vous connecter à Internet."
@@ -8763,7 +8763,7 @@
     "messageformat": "Nous avons bien traité votre don, mais n'avons pas pu mettre à jour votre macaron"
   },
   "icu:Donations__BadgeApplicationFailed__Description": {
-    "messageformat": "Pour mettre à jour votre macaron depuis votre appareil mobile, accédez à Paramètres → Faire un don à Signal → Macarons."
+    "messageformat": "Pour mettre à jour votre macaron depuis votre appareil mobile, accédez à Paramètres → Faire un don à GrapheneMessenger → Macarons."
   },
   "icu:Donations__DonationInterrupted": {
     "messageformat": "Don suspendu"
@@ -8820,7 +8820,7 @@
     "messageformat": "Une erreur s'est produite lors du traitement de votre don"
   },
   "icu:Donations__GenericError__Description": {
-    "messageformat": "Votre don n'a peut-être pas été traité. Pour consulter vos reçus et en avoir le cœur net, cliquez sur \"Faire un don à Signal\", puis sur \"Reçus de dons\"."
+    "messageformat": "Votre don n'a peut-être pas été traité. Pour consulter vos reçus et en avoir le cœur net, cliquez sur \"Faire un don à GrapheneMessenger\", puis sur \"Reçus de dons\"."
   },
   "icu:DonationsErrorBoundary__DonationUnexpectedError": {
     "messageformat": "Veuillez réessayer. Vous pouvez aussi envoyer un journal de débogage à l'assistance afin d'obtenir de l'aide. Les journaux de débogage nous permettent de diagnostiquer et de résoudre les problèmes. Ils ne contiennent aucune donnée d'identification."
@@ -8862,19 +8862,19 @@
     "messageformat": "Merci pour votre soutien !"
   },
   "icu:Donations__badge-modal--description": {
-    "messageformat": "Vous avez gagné un macaron de donateur Signal ! Affichez-le sur votre profil pour montrer que vous nous soutenez."
+    "messageformat": "Vous avez gagné un macaron de donateur GrapheneMessenger ! Affichez-le sur votre profil pour montrer que vous nous soutenez."
   },
   "icu:Donations__badge-modal--display-on-profile": {
     "messageformat": "Afficher sur mon profil"
   },
   "icu:Donations__badge-modal--help-text": {
-    "messageformat": "Vous pouvez modifier ce réglage depuis votre appareil mobile sous Paramètres → Faire un don à Signal → Macarons."
+    "messageformat": "Vous pouvez modifier ce réglage depuis votre appareil mobile sous Paramètres → Faire un don à GrapheneMessenger → Macarons."
   },
   "icu:CallQualitySurvey__HowWasYourCall__PageTitle": {
     "messageformat": "Comment s'est passé votre appel ?"
   },
   "icu:CallQualitySurvey__HowWasYourCall__PageDescription": {
-    "messageformat": "Vos retours nous permettent d'améliorer les appels passés sur Signal. Nous ne stockons jamais aucune information qui permette de vous identifier."
+    "messageformat": "Vos retours nous permettent d'améliorer les appels passés sur GrapheneMessenger. Nous ne stockons jamais aucune information qui permette de vous identifier."
   },
   "icu:CallQualitySurvey__HowWasYourCall__Response__HadIssues": {
     "messageformat": "J'ai rencontré des problèmes"
@@ -8925,7 +8925,7 @@
     "messageformat": "Description des problèmes"
   },
   "icu:CallQualitySurvey__WhatIssuesDidYouHave__SomethingElse__TextArea__HelpText": {
-    "messageformat": "Veuillez décrire le problème de la façon la plus précise possible. Toutes ces informations resteront confidentielles. Nous ne les utiliserons que pour améliorer les appels passés sur Signal."
+    "messageformat": "Veuillez décrire le problème de la façon la plus précise possible. Toutes ces informations resteront confidentielles. Nous ne les utiliserons que pour améliorer les appels passés sur GrapheneMessenger."
   },
   "icu:CallQualitySurvey__WhatIssuesDidYouHave__SomethingElse__TextArea__ErrorText": {
     "messageformat": "Veuillez décrire le problème rencontré"
@@ -8937,7 +8937,7 @@
     "messageformat": "Sélectionnez au moins une option pour continuer"
   },
   "icu:CallQualitySurvey__ConfirmSubmission__PageTitle": {
-    "messageformat": "Aidez-nous à améliorer Signal"
+    "messageformat": "Aidez-nous à améliorer GrapheneMessenger"
   },
   "icu:CallQualitySurvey__ConfirmSubmission__PageDescriptionWithDiagnosticLink": {
     "messageformat": "Lorsque vous nous envoyez vos commentaires, ceux-ci sont accompagnés d'<diagnosticInfoLink>informations de diagnostic sur votre appel</diagnosticInfoLink>. Vous pouvez aussi partager votre journal de débogage pour nous aider à améliorer la qualité des appels."
@@ -8991,7 +8991,7 @@
     "messageformat": "Pour réassocier cet ordinateur, vous devrez scanner un code QR."
   },
   "icu:MaybeTransferModal__media": {
-    "messageformat": "Si vous disposez de la version payante des sauvegardes sécurisées Signal, tous vos médias seront transférés. Sinon, seuls les médias des 45 derniers jours seront compris dans le transfert."
+    "messageformat": "Si vous disposez de la version payante des sauvegardes sécurisées GrapheneMessenger, tous vos médias seront transférés. Sinon, seuls les médias des 45 derniers jours seront compris dans le transfert."
   },
   "icu:MaybeTransferModal__transfer": {
     "messageformat": "Transférer les données"
@@ -9003,14 +9003,14 @@
     "messageformat": "Supprimer toutes les données ?"
   },
   "icu:DeleteDataAndRelinkConfirmationDialog__body": {
-    "messageformat": "Toutes les données stockées dans Signal Desktop seront supprimées. Vous pourrez ensuite scanner un code QR pour transférer tous vos messages depuis votre téléphone."
+    "messageformat": "Toutes les données stockées dans GrapheneMessenger Desktop seront supprimées. Vous pourrez ensuite scanner un code QR pour transférer tous vos messages depuis votre téléphone."
   },
   "icu:WhatsNew__bugfixes": {
     "messageformat": "Dans cette version, nous avons apporté quelques ajustements et corrigé de petits bugs. Pour que votre messagerie préférée continue de fonctionner comme sur des roulettes.",
     "ignoreUnused": true
   },
   "icu:WhatsNew__bugfixes--1": {
-    "messageformat": "Et hop ! Quelques ajustements de plus, quelques petits bugs en moins et une amélioration des performances. Merci d'utiliser Signal !",
+    "messageformat": "Et hop ! Quelques ajustements de plus, quelques petits bugs en moins et une amélioration des performances. Merci d'utiliser GrapheneMessenger !",
     "ignoreUnused": true
   },
   "icu:WhatsNew__bugfixes--2": {
@@ -9030,7 +9030,7 @@
     "ignoreUnused": true
   },
   "icu:WhatsNew__bugfixes--6": {
-    "messageformat": "Au menu de cette version : quelques ajustements de plus, quelques petits bugs en moins et des gains de performance. Merci d'utiliser Signal !",
+    "messageformat": "Au menu de cette version : quelques ajustements de plus, quelques petits bugs en moins et des gains de performance. Merci d'utiliser GrapheneMessenger !",
     "ignoreUnused": true
   },
   "icu:WhatsNew__8.24--1": {
@@ -9040,9 +9040,9 @@
     "messageformat": "Deux autres niveaux de zoom débarquent dans les paramètres d'apparence : 90 % et 110 %. Avec la rentrée qui approche, on a envie de voir les choses en grand."
   },
   "icu:WhatsNew__8.26--0": {
-    "messageformat": "Il n'est pas toujours facile de se retrouver… Sauf sur Signal ! Surtout maintenant que vous apparaissez sous le nom \"Vous\" dans la liste des membres du groupe."
+    "messageformat": "Il n'est pas toujours facile de se retrouver… Sauf sur GrapheneMessenger ! Surtout maintenant que vous apparaissez sous le nom \"Vous\" dans la liste des membres du groupe."
   },
   "icu:WhatsNew__8.27--0": {
-    "messageformat": "Au programme de cette mise à jour : de nouveaux paramètres qui vous offrent plus de contrôle sur vos notifications Signal. Choisissez ce qu'affichent les pastilles, configurez les paramètres de notification des conversations en sourdine, et bien plus encore ! Vous avez trop joué avec les réglages et vous ne vous y retrouvez plus ? Pas de panique : un nouveau bouton permet de réinitialiser les paramètres de notification par défaut."
+    "messageformat": "Au programme de cette mise à jour : de nouveaux paramètres qui vous offrent plus de contrôle sur vos notifications GrapheneMessenger. Choisissez ce qu'affichent les pastilles, configurez les paramètres de notification des conversations en sourdine, et bien plus encore ! Vous avez trop joué avec les réglages et vous ne vous y retrouvez plus ? Pas de panique : un nouveau bouton permet de réinitialiser les paramètres de notification par défaut."
   }
 }

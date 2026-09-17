@@ -116,10 +116,10 @@
   "icu:unknownGroup": {
     "messageformat": "گروه ناشناخته"
   },
-  "icu:cantOpenSignalError": {
+  "icu:cantOpenGrapheneMessengerError": {
     "messageformat": "سیگنال باز نمی‌شود"
   },
-  "icu:cantOpenSignalError__detail": {
+  "icu:cantOpenGrapheneMessengerError__detail": {
     "messageformat": "برای کمک به رفع مشکل، راهنمای بازیابی را در صفحه پشتیبانی دنبال کنید یا با پشتیبانی سیگنال تماس بگیرید تا در رفع مشکل کمکتان کنند.\n\nاگر می‌خواهید فوراً از سیگنال استفاده کنید، می‌توانید داده‌های خود را حذف و این دسک‌تاپ را مجدداً پیوند دهید. شما می‌توانید تاریخچه پیام را از تلفن خود منتقل کنید."
   },
   "icu:databaseError": {
@@ -833,7 +833,7 @@
   "icu:signalDesktopStickerCreator": {
     "messageformat": "سازنده بسته استیکر"
   },
-  "icu:aboutSignalDesktop": {
+  "icu:aboutGrapheneMessengerDesktop": {
     "messageformat": "درباره سیگنال Desktop"
   },
   "icu:screenShareWindow": {
@@ -905,7 +905,7 @@
   "icu:findByPhoneNumberHeader": {
     "messageformat": "جستجو با شماره تلفن"
   },
-  "icu:welcomeToSignal": {
+  "icu:welcomeToGrapheneMessenger": {
     "messageformat": "به سیگنال خوش‌آمدید"
   },
   "icu:whatsNew": {
@@ -1472,7 +1472,7 @@
   "icu:ChangeNumber--notification": {
     "messageformat": "{sender}شماره تلفن خود را تغییر داد"
   },
-  "icu:JoinedSignal--notification": {
+  "icu:JoinedGrapheneMessenger--notification": {
     "messageformat": "مخاطب به سیگنال پیوست"
   },
   "icu:ConversationMerge--notification": {
@@ -3440,10 +3440,10 @@
   "icu:SafetyTipsModal__Title-v2": {
     "messageformat": "نکات ایمنی"
   },
-  "icu:SafetyTipsModal__TipTitle--SignalChat": {
+  "icu:SafetyTipsModal__TipTitle--GrapheneMessengerChat": {
     "messageformat": "به گفتگوها از سیگنال پاسخ ندهید"
   },
-  "icu:SafetyTipsModal__TipDescription--SignalChat": {
+  "icu:SafetyTipsModal__TipDescription--GrapheneMessengerChat": {
     "messageformat": "سیگنال هیچ‌وقت برای کد ثبت‌نام، پین یا رمز بازیابی به شما پیام نمی‌دهد. هیچ‌وقت به گفتگویی که وانمود می‌کند سیگنال است پاسخ ندهید."
   },
   "icu:SafetyTipsModal__TipTitle--NamesAndPhotos": {
@@ -3935,7 +3935,7 @@
   "icu:CallingAdhocCallInfo__CopyLink": {
     "messageformat": "کپی پیوند تماس"
   },
-  "icu:CallingAdhocCallInfo__ShareViaSignal": {
+  "icu:CallingAdhocCallInfo__ShareViaGrapheneMessenger": {
     "messageformat": "اشتراک‌گذاری پیوند تماس از طریق سیگنال"
   },
   "icu:CallingAdhocCallInfo__RemoveClientDialogBody": {
@@ -5541,7 +5541,7 @@
   "icu:ForwardMessagesModal__toast--CannotForwardEmptyMessage": {
     "messageformat": "امکان بازارسال پیام‌های خالی یا پاک‌شده وجود ندارد"
   },
-  "icu:ShareCallLinkViaSignal__DraftMessageText": {
+  "icu:ShareCallLinkViaGrapheneMessenger__DraftMessageText": {
     "messageformat": "با استفاده از این پیوند به تماس سیگنال بپیوندید: {url}"
   },
   "icu:MessageRequestWarning__review-carefully": {
@@ -6155,36 +6155,36 @@
     "messageformat": "سیستم"
   },
   "icu:Preferences--signal-login": {
-    "messageformat": "Signal Login"
+    "messageformat": "GrapheneMessenger Login"
   },
   "icu:Preferences--signal-login-description": {
-    "messageformat": "Signal Login شما برای بازیابی حسابتان استفاده می‌شود. این رمزها را به‌طور امن در یک برنامه مدیر رمز عبور که به آن اعتماد دارید ذخیره کنید. <learnMoreLink>اطلاعات بیشتر</learnMoreLink>."
+    "messageformat": "GrapheneMessenger Login شما برای بازیابی حسابتان استفاده می‌شود. این رمزها را به‌طور امن در یک برنامه مدیر رمز عبور که به آن اعتماد دارید ذخیره کنید. <learnMoreLink>اطلاعات بیشتر</learnMoreLink>."
   },
   "icu:Preferences--signal-login-description--learn-more": {
     "messageformat": "بیشتر بدانید"
   },
-  "icu:Preferences__SignalAccount__label": {
+  "icu:Preferences__GrapheneMessengerAccount__label": {
     "messageformat": "حساب و بازیابی"
   },
-  "icu:Preferences__SignalAccount__description": {
+  "icu:Preferences__GrapheneMessengerAccount__description": {
     "messageformat": "۲ رمز"
   },
-  "icu:Preferences__SignalAccountKeys__Title": {
-    "messageformat": "Signal Login شما"
+  "icu:Preferences__GrapheneMessengerAccountKeys__Title": {
+    "messageformat": "GrapheneMessenger Login شما"
   },
-  "icu:Preferences__SignalAccountKeys__Description": {
+  "icu:Preferences__GrapheneMessengerAccountKeys__Description": {
     "messageformat": "Store this in a safe place, your login info is required to recover your account and data. Never share it with anyone."
   },
-  "icu:Preferences__SignalAccountKeys__AccountKey": {
+  "icu:Preferences__GrapheneMessengerAccountKeys__AccountKey": {
     "messageformat": "رمز حساب"
   },
-  "icu:Preferences__SignalAccountKeys__AccountID": {
+  "icu:Preferences__GrapheneMessengerAccountKeys__AccountID": {
     "messageformat": "شناسه حساب"
   },
-  "icu:Preferences__SignalAccountKeys__RecoveryKey": {
+  "icu:Preferences__GrapheneMessengerAccountKeys__RecoveryKey": {
     "messageformat": "رمز بازیابی"
   },
-  "icu:Preferences__SignalAccountKeys__Save": {
+  "icu:Preferences__GrapheneMessengerAccountKeys__Save": {
     "messageformat": "ذخیره"
   },
   "icu:Preferences__Account__LinkedDevice__label": {
@@ -7016,13 +7016,13 @@
     "messageformat": "Checking for updates"
   },
   "icu:InstallScreenUpdateDialog--updating-signal": {
-    "messageformat": "Updating Signal"
+    "messageformat": "Updating GrapheneMessenger"
   },
   "icu:InstallScreenUpdateDialog--download-progress": {
     "messageformat": "در حال دانلود {currentBytes} از {totalBytes} ({percentage,number,percent})..."
   },
   "icu:InstallScreenUpdateDialog--update-required__body": {
-    "messageformat": "To continue, update Signal Desktop."
+    "messageformat": "To continue, update GrapheneMessenger Desktop."
   },
   "icu:InstallScreenUpdateDialog--update-required__action-update": {
     "messageformat": "به‌روزرسانی"
@@ -7678,22 +7678,22 @@
   "icu:MessageRequestResponseNotification__Button--LearnMore": {
     "messageformat": "بیشتر بدانید"
   },
-  "icu:SignalConnectionsModal__title": {
+  "icu:GrapheneMessengerConnectionsModal__title": {
     "messageformat": "آشنایان در سیگنال"
   },
-  "icu:SignalConnectionsModal__header": {
+  "icu:GrapheneMessengerConnectionsModal__header": {
     "messageformat": "{connections} افرادی هستند که به دلایل زیر تصمیم گرفته‌اید به آن‌ها اعتماد کنید:"
   },
-  "icu:SignalConnectionsModal__bullet--1": {
+  "icu:GrapheneMessengerConnectionsModal__bullet--1": {
     "messageformat": "شروع یک گفتگو"
   },
-  "icu:SignalConnectionsModal__bullet--2": {
+  "icu:GrapheneMessengerConnectionsModal__bullet--2": {
     "messageformat": "پذیرش درخواست تبادل پیام"
   },
-  "icu:SignalConnectionsModal__bullet--3": {
+  "icu:GrapheneMessengerConnectionsModal__bullet--3": {
     "messageformat": "بودن آن‌ها در مخاطبان سیستم شما"
   },
-  "icu:SignalConnectionsModal__footer": {
+  "icu:GrapheneMessengerConnectionsModal__footer": {
     "messageformat": "آشنایان شما می‌توانند نام و عکس شما و همچنین پست‌های «استوری من» را ببینند، مگر اینکه آن را از آن‌ها مخفی کنید"
   },
   "icu:Stories__title": {
@@ -8262,7 +8262,7 @@
     "messageformat": "پین درست است. بعداً دوباره به شما یادآوری خواهیم کرد."
   },
   "icu:PinChangeModal__title--create": {
-    "messageformat": "Change your Signal PIN"
+    "messageformat": "Change your GrapheneMessenger PIN"
   },
   "icu:PinChangeModal__body--create": {
     "messageformat": "تا زمانی که این دستگاه ثبت شده باشد شما می‌توانید پین خود را تغییر دهید. <learnMoreLink>اطلاعات بیشتر</learnMoreLink>"
@@ -8468,7 +8468,7 @@
   "icu:CallLinkDetails__CopyLink": {
     "messageformat": "کپی کردن پیوند"
   },
-  "icu:CallLinkDetails__ShareLinkViaSignal": {
+  "icu:CallLinkDetails__ShareLinkViaGrapheneMessenger": {
     "messageformat": "اشتراک‌گذاری پیوند از طریق سیگنال"
   },
   "icu:CallLinkDetails__DeleteLink": {

@@ -63,10 +63,10 @@
     "messageformat": "שליחת מדיה באיכות גבוהה תשתמש ביותר נתונים."
   },
   "icu:Preferences__DonateTitle": {
-    "messageformat": "תרום אל Signal"
+    "messageformat": "תרום אל GrapheneMessenger"
   },
   "icu:LinkedDevicesOnboardingDialog__description": {
-    "messageformat": "<bold>מכשירים מקושרים</bold> מאפשרים לך לגשת לחשבון Signal ולהודעות שלך באופן מאובטח בכל אחד מהמכשירים הנוספים שלך."
+    "messageformat": "<bold>מכשירים מקושרים</bold> מאפשרים לך לגשת לחשבון GrapheneMessenger ולהודעות שלך באופן מאובטח בכל אחד מהמכשירים הנוספים שלך."
   },
   "icu:LinkedDevicesOnboardingDialog__bullet--1": {
     "messageformat": "אפשר לקשר מחשב, טאבלט, או טלפון נוסף."
@@ -116,11 +116,11 @@
   "icu:unknownGroup": {
     "messageformat": "קבוצה לא ידועה"
   },
-  "icu:cantOpenSignalError": {
-    "messageformat": "לא ניתן לפתוח את Signal"
+  "icu:cantOpenGrapheneMessengerError": {
+    "messageformat": "לא ניתן לפתוח את GrapheneMessenger"
   },
-  "icu:cantOpenSignalError__detail": {
-    "messageformat": "כדי לעזור לפתור את הבעיה, יש לעקוב אחר מדריך השחזור בדף התמיכה או ליצור קשר עם התמיכה של Signal.\n\nאם יש לך צורך מידי להשתמש ב–Signal, באפשרותך למחוק את הנתונים שלך ולקשר מחדש את שולחן עבודה זה. תהיה לך את האפשרות להעביר היסטוריית הודעות מהטלפון שלך."
+  "icu:cantOpenGrapheneMessengerError__detail": {
+    "messageformat": "כדי לעזור לפתור את הבעיה, יש לעקוב אחר מדריך השחזור בדף התמיכה או ליצור קשר עם התמיכה של GrapheneMessenger.\n\nאם יש לך צורך מידי להשתמש ב–GrapheneMessenger, באפשרותך למחוק את הנתונים שלך ולקשר מחדש את שולחן עבודה זה. תהיה לך את האפשרות להעביר היסטוריית הודעות מהטלפון שלך."
   },
   "icu:databaseError": {
     "messageformat": "שגיאת מסד נתונים"
@@ -132,16 +132,16 @@
     "messageformat": "מחיקת כל הנתונים לצמיתות"
   },
   "icu:databaseError__deleteDataConfirmation__detail": {
-    "messageformat": "כל היסטוריית ההודעות והמדיה שלך יימחקו לצמיתות מהמכשיר הזה. זה לא ימחק נתונים מהטלפון שלך.\n\nתהיה לך אפשרות להשתמש ב–Signal במכשיר הזה לאחר קישורו מחדש. תהיה לך את האפשרות להעביר היסטוריית הודעות מהטלפון שלך."
+    "messageformat": "כל היסטוריית ההודעות והמדיה שלך יימחקו לצמיתות מהמכשיר הזה. זה לא ימחק נתונים מהטלפון שלך.\n\nתהיה לך אפשרות להשתמש ב–GrapheneMessenger במכשיר הזה לאחר קישורו מחדש. תהיה לך את האפשרות להעביר היסטוריית הודעות מהטלפון שלך."
   },
   "icu:databaseError__startOldVersion": {
-    "messageformat": "הגרסה של מסד הנתונים שלך לא תואמת לגרסה זו של Signal. יש לוודא שפתחת את הגרסה החדשה ביותר של Signal במחשב שלך."
+    "messageformat": "הגרסה של מסד הנתונים שלך לא תואמת לגרסה זו של GrapheneMessenger. יש לוודא שפתחת את הגרסה החדשה ביותר של GrapheneMessenger במחשב שלך."
   },
   "icu:databaseError__safeStorageBackendChange": {
     "messageformat": "לא הצלחנו לגשת למפתח ההצפנה של מסד הנתונים כי מחזיק המפתחות להצפנת מערכת ההפעלה השתנה מ–{previousBackend} ל–{currentBackend}. זה יכול להתרחש אם סביבת שולחן העבודה משתנה, למשל בין GNOME ל–KDE.\n\nיש לעבור לסביבת שולחן העבודה הקודמת."
   },
   "icu:databaseError__safeStorageBackendChangeWithPreviousFlag": {
-    "messageformat": "לא הצלחנו לגשת למפתח ההצפנה של מסד הנתונים כי מחזיק המפתחות להצפנת מערכת ההפעלה השתנה מ–{previousBackend} ל–{currentBackend}. זה יכול להתרחש אם סביבת שולחן העבודה משתנה, למשל בין GNOME ל–KDE.\n\nיש לעבור לסביבת שולחן העבודה הקודמת כדי לנסות להריץ את Signal עם דגל שורת הפקודה --password-store=\"{previousBackendFlag}\""
+    "messageformat": "לא הצלחנו לגשת למפתח ההצפנה של מסד הנתונים כי מחזיק המפתחות להצפנת מערכת ההפעלה השתנה מ–{previousBackend} ל–{currentBackend}. זה יכול להתרחש אם סביבת שולחן העבודה משתנה, למשל בין GNOME ל–KDE.\n\nיש לעבור לסביבת שולחן העבודה הקודמת כדי לנסות להריץ את GrapheneMessenger עם דגל שורת הפקודה --password-store=\"{previousBackendFlag}\""
   },
   "icu:systemEncryptionError": {
     "messageformat": "System encryption error"
@@ -186,7 +186,7 @@
     "messageformat": "הראה הכל"
   },
   "icu:appMenuQuit": {
-    "messageformat": "צא מן Signal"
+    "messageformat": "צא מן GrapheneMessenger"
   },
   "icu:editMenuUndo": {
     "messageformat": "בטל עשייה"
@@ -510,10 +510,10 @@
     "messageformat": "סימנת את מספר הביטחון שלך עם {name} כבלתי מוֻדא ממכשיר שונה"
   },
   "icu:changedRightAfterVerify": {
-    "messageformat": "מספר הביטחון שאתה מנסה לוודא השתנה. אנא סקור את מספר הביטחון החדש שלך עם {name1}. זכור, שינוי זה יכול להעיד שמישהו מנסה ליירט את התקשורת שלך או כי {name2} פשוט התקין מחדש את Signal."
+    "messageformat": "מספר הביטחון שאתה מנסה לוודא השתנה. אנא סקור את מספר הביטחון החדש שלך עם {name1}. זכור, שינוי זה יכול להעיד שמישהו מנסה ליירט את התקשורת שלך או כי {name2} פשוט התקין מחדש את GrapheneMessenger."
   },
   "icu:safetyNumberChangeDialog__message": {
-    "messageformat": "יתכן שהאנשים הבאים התקינו מחדש את Signal או החליפו מכשירים. יש ללחוץ על נמען או נמענת כדי לאשר את מספר הבטיחות החדש שלהם. זו פעולה אופציונלית — לא חייבים."
+    "messageformat": "יתכן שהאנשים הבאים התקינו מחדש את GrapheneMessenger או החליפו מכשירים. יש ללחוץ על נמען או נמענת כדי לאשר את מספר הבטיחות החדש שלהם. זו פעולה אופציונלית — לא חייבים."
   },
   "icu:safetyNumberChangeDialog__pending-messages": {
     "messageformat": "שלח הודעות ממתינות"
@@ -522,10 +522,10 @@
     "messageformat": "סקירה"
   },
   "icu:safetyNumberChangeDialog__many-contacts": {
-    "messageformat": "{count, plural, one {יש לך חבר או חברת Signal {count,number} שיתכן והתקינו מחדש את Signal או החליפו מכשירים. יש לך אפשרות לסקור את מספרי הבטיחות שלהם לפני השליחה.} two {יש לך {count,number} חברי Signal שיתכן והתקינו מחדש את Signal או החליפו מכשירים. יש לך אפשרות לסקור את מספרי הבטיחות שלהם לפני השליחה.} many {יש לך {count,number} חברי Signal שיתכן והתקינו מחדש את Signal או החליפו מכשירים. יש לך אפשרות לסקור את מספרי הבטיחות שלהם לפני השליחה.} other {יש לך {count,number} חברי Signal שיתכן והתקינו מחדש את Signal או החליפו מכשירים. יש לך אפשרות לסקור את מספרי הבטיחות שלהם לפני השליחה.}}"
+    "messageformat": "{count, plural, one {יש לך חבר או חברת GrapheneMessenger {count,number} שיתכן והתקינו מחדש את GrapheneMessenger או החליפו מכשירים. יש לך אפשרות לסקור את מספרי הבטיחות שלהם לפני השליחה.} two {יש לך {count,number} חברי GrapheneMessenger שיתכן והתקינו מחדש את GrapheneMessenger או החליפו מכשירים. יש לך אפשרות לסקור את מספרי הבטיחות שלהם לפני השליחה.} many {יש לך {count,number} חברי GrapheneMessenger שיתכן והתקינו מחדש את GrapheneMessenger או החליפו מכשירים. יש לך אפשרות לסקור את מספרי הבטיחות שלהם לפני השליחה.} other {יש לך {count,number} חברי GrapheneMessenger שיתכן והתקינו מחדש את GrapheneMessenger או החליפו מכשירים. יש לך אפשרות לסקור את מספרי הבטיחות שלהם לפני השליחה.}}"
   },
   "icu:safetyNumberChangeDialog__post-review": {
-    "messageformat": "כל חברי ה–Signal נסקרו, יש ללחוץ על שליחה כדי להמשיך."
+    "messageformat": "כל חברי ה–GrapheneMessenger נסקרו, יש ללחוץ על שליחה כדי להמשיך."
   },
   "icu:safetyNumberChangeDialog__confirm-remove-all": {
     "messageformat": "{count, plural, one {בטוח שבא לך להסיר נמען/ת 1 מהסטורי {story}?} two {בטוח שבא לך להסיר {count,number} נמענים מהסטורי {story}?} many {בטוח שבא לך להסיר {count,number} נמענים מהסטורי {story}?} other {בטוח שבא לך להסיר {count,number} נמענים מהסטורי {story}?}}"
@@ -630,16 +630,16 @@
     "messageformat": "ההצפנה אומתה אוטומטית עבור צ'אט זה "
   },
   "icu:SafetyNumberViewer__KeyTransparency__popup--ok__body-2": {
-    "messageformat": "עבור אנשים שהחיבור איתם נוצר באמצעות מספר טלפון, Signal יכולה לאשר אוטומטית שהחיבור מאובטח באמצעות שימוש בתהליך שנקרא שקיפות מפתחות. לבטיחות משופרת, אפשר לאמת הצפנה מקצה לקצה באופן ידני באמצעות השוואת המספרים במסך הקודם או סריקת הקוד במכשיר שלו או שלה."
+    "messageformat": "עבור אנשים שהחיבור איתם נוצר באמצעות מספר טלפון, GrapheneMessenger יכולה לאשר אוטומטית שהחיבור מאובטח באמצעות שימוש בתהליך שנקרא שקיפות מפתחות. לבטיחות משופרת, אפשר לאמת הצפנה מקצה לקצה באופן ידני באמצעות השוואת המספרים במסך הקודם או סריקת הקוד במכשיר שלו או שלה."
   },
   "icu:SafetyNumberViewer__KeyTransparency__popup--fail__title-2": {
     "messageformat": "אימות אוטומטי אינו זמין עבור צ'אט זה"
   },
   "icu:SafetyNumberViewer__KeyTransparency__popup--fail__body-2": {
-    "messageformat": "Signal לא יכולה לאמת אוטומטית את ההצפנה עבור הצ׳אט הזה. ייתכן שזה בגלל ש{name} החליפ/ה את מספר הטלפון או את הגדרות הפרטיות של מספר הטלפון. יש לאמת את ההצפנה מקצה לקצה באופן ידני באמצעות השוואת המספרים במסך הקודם או סריקת הקוד במכשיר שלו או שלה."
+    "messageformat": "GrapheneMessenger לא יכולה לאמת אוטומטית את ההצפנה עבור הצ׳אט הזה. ייתכן שזה בגלל ש{name} החליפ/ה את מספר הטלפון או את הגדרות הפרטיות של מספר הטלפון. יש לאמת את ההצפנה מקצה לקצה באופן ידני באמצעות השוואת המספרים במסך הקודם או סריקת הקוד במכשיר שלו או שלה."
   },
   "icu:SafetyNumberViewer__KeyTransparency__popup--unavailable__body": {
-    "messageformat": "Signal יכולה לאמת אוטומטית את ההצפנה רק הצ׳אטים שבהם החיבור עם הצד השני מתבצע באמצעות מספר טלפון. אם הצ׳אט התחיל באמצעות שם משתמש או קבוצה משותפת, יש לאמת את ההצפנה מקצה לקצה באמצעות השוואת המספרים במסך הקודם או סריקת הקוד במכשיר שלו או שלה."
+    "messageformat": "GrapheneMessenger יכולה לאמת אוטומטית את ההצפנה רק הצ׳אטים שבהם החיבור עם הצד השני מתבצע באמצעות מספר טלפון. אם הצ׳אט התחיל באמצעות שם משתמש או קבוצה משותפת, יש לאמת את ההצפנה מקצה לקצה באמצעות השוואת המספרים במסך הקודם או סריקת הקוד במכשיר שלו או שלה."
   },
   "icu:SafetyNumberViewer__KeyTransparency__popup__okay": {
     "messageformat": "בסדר"
@@ -678,10 +678,10 @@
     "messageformat": "לא תודה"
   },
   "icu:KeyTransparencyOnboardingDialog__Title": {
-    "messageformat": "Signal יכולה כעת לאמת הצפנה באופן אוטומטי"
+    "messageformat": "GrapheneMessenger יכולה כעת לאמת הצפנה באופן אוטומטי"
   },
   "icu:KeyTransparencyOnboardingDialog__Description": {
-    "messageformat": "עבור אנשי קשר שהחיבור איתם נוצר באמצעות מספר טלפון, Signal יכולה לאשר אוטומטית שהחיבור מאובטח באמצעות שימוש בתהליך הנקרא שקיפות מפתחות. לאבטחה נוספת, עדיין אפשר לאמת חיבורים ידנית באמצעות קוד QR או השוואת מספרי בטיחות."
+    "messageformat": "עבור אנשי קשר שהחיבור איתם נוצר באמצעות מספר טלפון, GrapheneMessenger יכולה לאשר אוטומטית שהחיבור מאובטח באמצעות שימוש בתהליך הנקרא שקיפות מפתחות. לאבטחה נוספת, עדיין אפשר לאמת חיבורים ידנית באמצעות קוד QR או השוואת מספרי בטיחות."
   },
   "icu:KeyTransparencyOnboardingDialog__Continue": {
     "messageformat": "המשך"
@@ -833,8 +833,8 @@
   "icu:signalDesktopStickerCreator": {
     "messageformat": "יוצר חבילות מדבקות"
   },
-  "icu:aboutSignalDesktop": {
-    "messageformat": "אודות Signal Desktop"
+  "icu:aboutGrapheneMessengerDesktop": {
+    "messageformat": "אודות GrapheneMessenger Desktop"
   },
   "icu:screenShareWindow": {
     "messageformat": "שיתוף מסך"
@@ -852,7 +852,7 @@
     "messageformat": "צא"
   },
   "icu:signalDesktop": {
-    "messageformat": "Signal Desktop"
+    "messageformat": "GrapheneMessenger Desktop"
   },
   "icu:search": {
     "messageformat": "חיפוש"
@@ -905,14 +905,14 @@
   "icu:findByPhoneNumberHeader": {
     "messageformat": "מצא לפי מספר טלפון"
   },
-  "icu:welcomeToSignal": {
-    "messageformat": "ברוך הבא אל Signal"
+  "icu:welcomeToGrapheneMessenger": {
+    "messageformat": "ברוך הבא אל GrapheneMessenger"
   },
   "icu:whatsNew": {
     "messageformat": "ראה {whatsNew} בעדכון זה"
   },
   "icu:signalNonProfit": {
-    "messageformat": "Signal היא עמותה ללא מטרות רווח."
+    "messageformat": "GrapheneMessenger היא עמותה ללא מטרות רווח."
   },
   "icu:viewReleaseNotes": {
     "messageformat": "מה חדש"
@@ -996,13 +996,13 @@
     "messageformat": "את/ה"
   },
   "icu:audioPermissionNeeded": {
-    "messageformat": "כדי לשלוח הודעות קוליות, צריך לאפשר ל–Signal Desktop גישה למיקרופון שלך."
+    "messageformat": "כדי לשלוח הודעות קוליות, צריך לאפשר ל–GrapheneMessenger Desktop גישה למיקרופון שלך."
   },
   "icu:audioCallingPermissionNeeded": {
-    "messageformat": "לצורך התקשרות, אתה חייב להתיר אל Signal Desktop להשיג גישה אל המיקרופון שלך."
+    "messageformat": "לצורך התקשרות, אתה חייב להתיר אל GrapheneMessenger Desktop להשיג גישה אל המיקרופון שלך."
   },
   "icu:videoCallingPermissionNeeded": {
-    "messageformat": "לצורך התקשרות וידאו, אתה חייב להתיר אל Signal Desktop להשיג גישה אל המצלמה שלך."
+    "messageformat": "לצורך התקשרות וידאו, אתה חייב להתיר אל GrapheneMessenger Desktop להשיג גישה אל המצלמה שלך."
   },
   "icu:allowAccess": {
     "messageformat": "התר גישה"
@@ -1026,13 +1026,13 @@
     "messageformat": "השתקה"
   },
   "icu:cannotUpdateDetail-v2": {
-    "messageformat": "Signal לא הצליחה להתעדכן. אפשר <retryUpdateButton>לנסות לעדכן שוב</retryUpdateButton> או לבקר בכתובת {url} כדי להתקין באופן ידני. לאחר מכן, יש <contactSupportLink>ליצור קשר עם התמיכה</contactSupportLink> לגבי הבעיה הזו."
+    "messageformat": "GrapheneMessenger לא הצליחה להתעדכן. אפשר <retryUpdateButton>לנסות לעדכן שוב</retryUpdateButton> או לבקר בכתובת {url} כדי להתקין באופן ידני. לאחר מכן, יש <contactSupportLink>ליצור קשר עם התמיכה</contactSupportLink> לגבי הבעיה הזו."
   },
   "icu:cannotUpdateRequireManualDetail-v2": {
-    "messageformat": "Signal לא הצליחה להתעדכן. אפשר לבקר בכתובת {url} כדי להתקין באופן ידני. לאחר מכן, יש <contactSupportLink>ליצור קשר עם התמיכה</contactSupportLink> לגבי הבעיה הזו."
+    "messageformat": "GrapheneMessenger לא הצליחה להתעדכן. אפשר לבקר בכתובת {url} כדי להתקין באופן ידני. לאחר מכן, יש <contactSupportLink>ליצור קשר עם התמיכה</contactSupportLink> לגבי הבעיה הזו."
   },
   "icu:readOnlyVolume": {
-    "messageformat": "Signal Desktop ככל הנראה בהסגר macOS, ולא יוכל להתעדכן באופן אוטומטי. אנא נסה להעביר את  {app} אל {folder} עם Finder."
+    "messageformat": "GrapheneMessenger Desktop ככל הנראה בהסגר macOS, ולא יוכל להתעדכן באופן אוטומטי. אנא נסה להעביר את  {app} אל {folder} עם Finder."
   },
   "icu:ok": {
     "messageformat": "אישור"
@@ -1077,7 +1077,7 @@
     "messageformat": "הודעה זו תימחק ממכשיר זה."
   },
   "icu:deleteForEveryoneWarning": {
-    "messageformat": "הודעה זו תימחק עבור כל מי שנמצא בצ'אט אם הם משתמשים בגרסה עדכנית של Signal. הם יוכלו לראות שמחקת הודעה."
+    "messageformat": "הודעה זו תימחק עבור כל מי שנמצא בצ'אט אם הם משתמשים בגרסה עדכנית של GrapheneMessenger. הם יוכלו לראות שמחקת הודעה."
   },
   "icu:from": {
     "messageformat": "מאת"
@@ -1119,7 +1119,7 @@
     "messageformat": "{nickname} <muted>({titleNoNickname})</muted>"
   },
   "icu:AboutContactModal__TitleWithoutNickname__Tooltip": {
-    "messageformat": "״{title}״ הוא שם הפרופיל שהאדם הזה יצר לעצמו ב–Signal."
+    "messageformat": "״{title}״ הוא שם הפרופיל שהאדם הזה יצר לעצמו ב–GrapheneMessenger."
   },
   "icu:AboutContactModal__verified": {
     "messageformat": "מאומת"
@@ -1134,7 +1134,7 @@
     "messageformat": "אין הודעות ישירות עם {name}"
   },
   "icu:AboutContactModal__signal-connection": {
-    "messageformat": "חבר/ת Signal"
+    "messageformat": "חבר/ת GrapheneMessenger"
   },
   "icu:AboutContactModal__system-contact": {
     "messageformat": "{name} נמצא/ת באנשי הקשר של המערכת שלך"
@@ -1446,7 +1446,7 @@
     "messageformat": "למידע נוסף"
   },
   "icu:ChatRefresh--summary": {
-    "messageformat": "Signal משתמשת בהצפנה מקצה לקצה ויתכן שהיא תצטרך לרענן את הצ'אט שלך מדי פעם. זה לא משפיע על אבטחת הצ'אט שלך, אבל יכול להיות שפספסת הודעה מאיש קשר זה ואפשר לבקש ממנו לשלוח אותה מחדש."
+    "messageformat": "GrapheneMessenger משתמשת בהצפנה מקצה לקצה ויתכן שהיא תצטרך לרענן את הצ'אט שלך מדי פעם. זה לא משפיע על אבטחת הצ'אט שלך, אבל יכול להיות שפספסת הודעה מאיש קשר זה ואפשר לבקש ממנו לשלוח אותה מחדש."
   },
   "icu:ChatRefresh--contactSupport": {
     "messageformat": "צור קשר עם תמיכה"
@@ -1472,8 +1472,8 @@
   "icu:ChangeNumber--notification": {
     "messageformat": "{sender} שינה/שינתה את מספר הטלפון שלו/שלה"
   },
-  "icu:JoinedSignal--notification": {
-    "messageformat": "איש קשר הצטרף אל Signal"
+  "icu:JoinedGrapheneMessenger--notification": {
+    "messageformat": "איש קשר הצטרף אל GrapheneMessenger"
   },
   "icu:ConversationMerge--notification": {
     "messageformat": "{obsoleteConversationTitle} ו{conversationTitle} שייכים לאותו חשבון. היסטוריית ההודעות שלך לשני הצ׳אטים נמצאת כאן."
@@ -1563,7 +1563,7 @@
     "messageformat": "לא ניתן להוריד מדיה"
   },
   "icu:BackfillFailureModal__body--timeout": {
-    "messageformat": "יש לבדוק את חיבור האינטרנט של שולחן העבודה והטלפון שלך. יש לפתוח את Signal בטלפון שלך ולאחר מכן לנסות להוריד שוב."
+    "messageformat": "יש לבדוק את חיבור האינטרנט של שולחן העבודה והטלפון שלך. יש לפתוח את GrapheneMessenger בטלפון שלך ולאחר מכן לנסות להוריד שוב."
   },
   "icu:BackfillFailureModal__body--not-found": {
     "messageformat": "המדיה הזו כבר לא זמינה בטלפון שלך ולא ניתנת להורדה."
@@ -1584,10 +1584,10 @@
     "messageformat": "למד עוד"
   },
   "icu:Install__scan-this-code": {
-    "messageformat": "סרוק קוד זה ביישום Signal בטלפון שלך"
+    "messageformat": "סרוק קוד זה ביישום GrapheneMessenger בטלפון שלך"
   },
   "icu:Install__instructions__1": {
-    "messageformat": "פתח את Signal בטלפון שלך"
+    "messageformat": "פתח את GrapheneMessenger בטלפון שלך"
   },
   "icu:Install__instructions__2": {
     "messageformat": "הקש על {settings}, לאחר מכן הקש על {linkedDevices}"
@@ -1605,7 +1605,7 @@
     "messageformat": "<paragraph>אירעה שגיאה בלתי צפויה.</paragraph><paragraph>יש לנסות שוב.</paragraph>"
   },
   "icu:Install__qr-failed-load__error--network": {
-    "messageformat": "Signal לא יכולה לקשר את המכשיר הזה באמצעות הרשת הנוכחית שלך."
+    "messageformat": "GrapheneMessenger לא יכולה לקשר את המכשיר הזה באמצעות הרשת הנוכחית שלך."
   },
   "icu:Install__qr-failed-load__retry": {
     "messageformat": "נסה שוב"
@@ -1623,7 +1623,7 @@
     "messageformat": "למחוק את כל הנתונים?"
   },
   "icu:Install__confirm-data-deletion__body": {
-    "messageformat": "ניסית לקשר חשבון Signal אחר למחשב הזה.אם תמשיכ/י, כל הנתונים הנוכחיים של Signal לשולחן העבודה יימחקו."
+    "messageformat": "ניסית לקשר חשבון GrapheneMessenger אחר למחשב הזה.אם תמשיכ/י, כל הנתונים הנוכחיים של GrapheneMessenger לשולחן העבודה יימחקו."
   },
   "icu:Install__confirm-data-deletion__continue": {
     "messageformat": "המשך"
@@ -1638,7 +1638,7 @@
     "messageformat": "שם מכשיר"
   },
   "icu:Preferences--device-name__description": {
-    "messageformat": "כדי לשנות את שם המכשיר הזה, יש לפתוח את Signal בטלפון ולנווט אל הגדרות > מכשירים מקושרים"
+    "messageformat": "כדי לשנות את שם המכשיר הזה, יש לפתוח את GrapheneMessenger בטלפון ולנווט אל הגדרות > מכשירים מקושרים"
   },
   "icu:Preferences__EmojiSkinToneDefaultSetting__Label": {
     "messageformat": "גוון עור של אמוג'י"
@@ -1830,7 +1830,7 @@
     "messageformat": "אימות מפתח אוטומטי"
   },
   "icu:Preferences__PrivacyPage__KeyTransparency__Description": {
-    "messageformat": "כשהאפשרות הזו מופעלת, Signal תנסה לאמת אוטומטית את ההצפנה של צ׳אטים אישיים."
+    "messageformat": "כשהאפשרות הזו מופעלת, GrapheneMessenger תנסה לאמת אוטומטית את ההצפנה של צ׳אטים אישיים."
   },
   "icu:Preferences__PrivacyPage__KeyTransparency__LearnMore": {
     "messageformat": "למידע נוסף"
@@ -1848,7 +1848,7 @@
     "messageformat": "סליחה, יש לך כבר יותר מדי מכשירים מקושרים. נסה להסיר קצת."
   },
   "icu:installTooOld": {
-    "messageformat": "עדכן את Signal על מכשיר זה כדי לקשר את הטלפון שלך."
+    "messageformat": "עדכן את GrapheneMessenger על מכשיר זה כדי לקשר את הטלפון שלך."
   },
   "icu:installErrorHeader": {
     "messageformat": "משהו השתבש!"
@@ -1899,7 +1899,7 @@
     "messageformat": "לינק השיחה הזה לא תקף יותר."
   },
   "icu:calling__call-link-default-title": {
-    "messageformat": "שיחת Signal"
+    "messageformat": "שיחת GrapheneMessenger"
   },
   "icu:calling__call-link-delete-failed": {
     "messageformat": "לא ניתן למחוק לינק. כדאי לבדוק את החיבור שלך ולנסות שוב."
@@ -2073,16 +2073,16 @@
     "messageformat": "{count, plural, one {אדם {count,number} נמצא בשיחה זו} two {{count,number} אנשים נמצאים בשיחה זו} many {{count,number} אנשים נמצאים בשיחה זו} other {{count,number} אנשים נמצאים בשיחה זו}}"
   },
   "icu:calling__pre-call-info--will-ring-1": {
-    "messageformat": "Signal יצלצל אל {person}"
+    "messageformat": "GrapheneMessenger יצלצל אל {person}"
   },
   "icu:calling__pre-call-info--will-ring-2": {
-    "messageformat": "Signal יצלצל אל {first} ואל {second}"
+    "messageformat": "GrapheneMessenger יצלצל אל {first} ואל {second}"
   },
   "icu:calling__pre-call-info--will-ring-3": {
-    "messageformat": "Signal יצלצל אל {first}, {second} ואל {third}"
+    "messageformat": "GrapheneMessenger יצלצל אל {first}, {second} ואל {third}"
   },
   "icu:calling__pre-call-info--will-ring-many": {
-    "messageformat": "{others, plural, one {Signal תתקשר ל{first}, {second}, ועוד {others,number}} two {Signal תתקשר ל{first}, {second}, ועוד {others,number}} many {Signal תתקשר ל{first}, {second}, ועוד {others,number}} other {Signal תתקשר ל{first}, {second}, ועוד {others,number}}}"
+    "messageformat": "{others, plural, one {GrapheneMessenger תתקשר ל{first}, {second}, ועוד {others,number}} two {GrapheneMessenger תתקשר ל{first}, {second}, ועוד {others,number}} many {GrapheneMessenger תתקשר ל{first}, {second}, ועוד {others,number}} other {GrapheneMessenger תתקשר ל{first}, {second}, ועוד {others,number}}}"
   },
   "icu:calling__pre-call-info--will-notify-1": {
     "messageformat": "{person} ייודע"
@@ -2136,13 +2136,13 @@
     "messageformat": "מתחבר מחדש…"
   },
   "icu:calling__presenting--reconnecting--notification-body": {
-    "messageformat": "החיבור שלך אבד. Signal מתחברת מחדש."
+    "messageformat": "החיבור שלך אבד. GrapheneMessenger מתחברת מחדש."
   },
   "icu:calling__presenting--info": {
-    "messageformat": "Signal משתף את {window}."
+    "messageformat": "GrapheneMessenger משתף את {window}."
   },
   "icu:calling__presenting--info--unknown": {
-    "messageformat": "שיתוף המסך של Signal פעיל"
+    "messageformat": "שיתוף המסך של GrapheneMessenger פעיל"
   },
   "icu:calling__presenting--reconnecting": {
     "messageformat": "מתחבר מחדש…"
@@ -2163,7 +2163,7 @@
     "messageformat": "הרשאה דרושה"
   },
   "icu:calling__presenting--macos-permission-description": {
-    "messageformat": "Signal צריך הרשאה כדי להשיג גישה אל הקלטת מסך של המחשב שלך."
+    "messageformat": "GrapheneMessenger צריך הרשאה כדי להשיג גישה אל הקלטת מסך של המחשב שלך."
   },
   "icu:calling__presenting--permission-instruction-step1": {
     "messageformat": "לך אל העדפות מערכת."
@@ -2172,7 +2172,7 @@
     "messageformat": "לחץ על איקון המנעול בקצה התחתון השמאלי והכנס את סיסמת המחשב שלך."
   },
   "icu:calling__presenting--permission-instruction-step3": {
-    "messageformat": "בצד ימין, סמן את התיבה ליד Signal. אם אתה לא רואה את Signal ברשימה, לחץ על + כדי להוסיף אותו."
+    "messageformat": "בצד ימין, סמן את התיבה ליד GrapheneMessenger. אם אתה לא רואה את GrapheneMessenger ברשימה, לחץ על + כדי להוסיף אותו."
   },
   "icu:calling__presenting--permission-open": {
     "messageformat": "פתח העדפות מערכת"
@@ -2184,7 +2184,7 @@
     "messageformat": "שדר מחדש שיחות תמיד"
   },
   "icu:alwaysRelayCallsDetail": {
-    "messageformat": "שדר מחדש את כל השיחות דרך שרת Signal כדי למנוע את חשיפת כתובת ה־IP שלך אל איש הקשר שלך. אפשור יפחית איכות שיחות."
+    "messageformat": "שדר מחדש את כל השיחות דרך שרת GrapheneMessenger כדי למנוע את חשיפת כתובת ה־IP שלך אל איש הקשר שלך. אפשור יפחית איכות שיחות."
   },
   "icu:permissions": {
     "messageformat": "הרשאות"
@@ -2202,10 +2202,10 @@
     "messageformat": "הצגת תפריט קופץ של עיצוב טקסט בעת בחירת טקסט"
   },
   "icu:spellCheckWillBeEnabled": {
-    "messageformat": "בדיקת איות תאופשר בפעם הבאה ש־Signal יופעל."
+    "messageformat": "בדיקת איות תאופשר בפעם הבאה ש־GrapheneMessenger יופעל."
   },
   "icu:spellCheckWillBeDisabled": {
-    "messageformat": "בדיקת איות תושבת בפעם הבאה ש־Signal יופעל."
+    "messageformat": "בדיקת איות תושבת בפעם הבאה ש־GrapheneMessenger יופעל."
   },
   "icu:SystemTraySetting__minimize-to-system-tray": {
     "messageformat": "מזער אל מגש המערכת"
@@ -2229,7 +2229,7 @@
     "messageformat": "למחוק את כל הנתונים?"
   },
   "icu:deleteAllDataBody": {
-    "messageformat": "למחוק את כל הנתונים וההודעות מגרסה זו של Signal לשולחן העבודה? חשבון Signal שלך והנתונים בטלפון שלך או במכשירים מקושרים אחרים לא יימחקו."
+    "messageformat": "למחוק את כל הנתונים וההודעות מגרסה זו של GrapheneMessenger לשולחן העבודה? חשבון GrapheneMessenger שלך והנתונים בטלפון שלך או במכשירים מקושרים אחרים לא יימחקו."
   },
   "icu:deleteAllDataProgress": {
     "messageformat": "התנתקות ומחיקת כל הנתונים בתהליך…"
@@ -2238,7 +2238,7 @@
     "messageformat": "מחיקת חשבון"
   },
   "icu:deleteAccountExplanation": {
-    "messageformat": "זה ימחק את מידע החשבון שלך, את הפרופיל שלך ואת כל ההודעות שלך. זה גם יסיר אותך מכל קבוצות Signal."
+    "messageformat": "זה ימחק את מידע החשבון שלך, את הפרופיל שלך ואת כל ההודעות שלך. זה גם יסיר אותך מכל קבוצות GrapheneMessenger."
   },
   "icu:deleteAccountButton": {
     "messageformat": "מחיקת חשבון"
@@ -2247,10 +2247,10 @@
     "messageformat": "למחוק את החשבון?"
   },
   "icu:deleteAccountDialogBody": {
-    "messageformat": "זה ימחק את מידע החשבון שלך, את הפרופיל שלך ואת כל ההודעות שלך. זה גם יסיר אתך מכל קבוצות Signal. האפליקציה תיסגר לאחר השלמת התהליך."
+    "messageformat": "זה ימחק את מידע החשבון שלך, את הפרופיל שלך ואת כל ההודעות שלך. זה גם יסיר אתך מכל קבוצות GrapheneMessenger. האפליקציה תיסגר לאחר השלמת התהליך."
   },
   "icu:deleteOldIndexedDBData": {
-    "messageformat": "יש לך נתונים מיושנים מהתקנה קודמת של Signal Desktop. אם בא לך להמשיך, הם יימחקו ו–Signal תתחיל מאפס."
+    "messageformat": "יש לך נתונים מיושנים מהתקנה קודמת של GrapheneMessenger Desktop. אם בא לך להמשיך, הם יימחקו ו–GrapheneMessenger תתחיל מאפס."
   },
   "icu:deleteOldData": {
     "messageformat": "מחיקת נתונים ישנים"
@@ -2307,7 +2307,7 @@
     "messageformat": "נמחק חלקית, יש ללחוץ לפרטים"
   },
   "icu:expiredWarning": {
-    "messageformat": "גרסה זו של Signal Desktop פגה. אנא שדרג אל הגרסה האחרונה כדי להמשיך בשליחת הודעות."
+    "messageformat": "גרסה זו של GrapheneMessenger Desktop פגה. אנא שדרג אל הגרסה האחרונה כדי להמשיך בשליחת הודעות."
   },
   "icu:upgrade": {
     "messageformat": "לחץ כדי ללכת אל signal.org/download"
@@ -2319,7 +2319,7 @@
     "messageformat": "ייבא אנשי קשר"
   },
   "icu:syncExplanation": {
-    "messageformat": "ייבא את כל הקבוצות ואנשי הקשר של Signal מהמכשיר הנייד שלך."
+    "messageformat": "ייבא את כל הקבוצות ואנשי הקשר של GrapheneMessenger מהמכשיר הנייד שלך."
   },
   "icu:syncNow": {
     "messageformat": "ייבא כעת"
@@ -2352,7 +2352,7 @@
     "messageformat": "אתמול {time}"
   },
   "icu:messageLoop": {
-    "messageformat": "יתכן ש–Signal לא מצליחה לעבד הודעה נכנסת."
+    "messageformat": "יתכן ש–GrapheneMessenger לא מצליחה לעבד הודעה נכנסת."
   },
   "icu:messageBodyTooLong": {
     "messageformat": "גוף ההודעה ארוך מדי."
@@ -2517,13 +2517,13 @@
     "messageformat": "ניתן לערוך את ההודעה הזו רק עד 24 שעות מזמן השליחה שלה."
   },
   "icu:startConversation--username-not-found": {
-    "messageformat": "{atUsername} לא משתמש/ת ב–Signal. חשוב לוודא שהזנת את שם המשתמש המלא."
+    "messageformat": "{atUsername} לא משתמש/ת ב–GrapheneMessenger. חשוב לוודא שהזנת את שם המשתמש המלא."
   },
   "icu:startConversation--username-not-valid": {
     "messageformat": "{atUsername} הוא לא שם משתמש חוקי. כדאי לוודא שהכנסת את שם המשתמש המלא ואחריו סט הספרות שלו."
   },
   "icu:startConversation--phone-number-not-found": {
-    "messageformat": "משתמש לא נמצא. \"{phoneNumber}\" הוא לא משתמש Signal."
+    "messageformat": "משתמש לא נמצא. \"{phoneNumber}\" הוא לא משתמש GrapheneMessenger."
   },
   "icu:startConversation--phone-number-not-valid": {
     "messageformat": "משתמש לא נמצא. \"{phoneNumber}\" הוא לא מספר טלפון תקף."
@@ -2544,13 +2544,13 @@
     "messageformat": "גודל קבוצה מרבי הושג"
   },
   "icu:chooseGroupMembers__maximum-group-size__body": {
-    "messageformat": "קבוצות Signal יכולות להכיל מרב של {max,number} חברי קבוצה."
+    "messageformat": "קבוצות GrapheneMessenger יכולות להכיל מרב של {max,number} חברי קבוצה."
   },
   "icu:chooseGroupMembers__maximum-recommended-group-size__title": {
     "messageformat": "מגבלה מומלצת של חברי קבוצה הושגה"
   },
   "icu:chooseGroupMembers__maximum-recommended-group-size__body": {
-    "messageformat": "קבוצות Signal מתפקדות בצורה הטובה ביותר עם {max,number} חברי קבוצה או פחות. הוספת חברי קבוצה נוספים תגרום לעיכובים בשליחה ובקבלה של הודעות."
+    "messageformat": "קבוצות GrapheneMessenger מתפקדות בצורה הטובה ביותר עם {max,number} חברי קבוצה או פחות. הוספת חברי קבוצה נוספים תגרום לעיכובים בשליחה ובקבלה של הודעות."
   },
   "icu:setGroupMetadata__title": {
     "messageformat": "תן שם לקבוצה זו"
@@ -2580,13 +2580,13 @@
     "messageformat": "נכשל בעדכון הקבוצה. בדוק את החיבור שלך ונסה שוב."
   },
   "icu:unlinkedWarning": {
-    "messageformat": "לחץ כדי לקשר מחדש את Signal Desktop אל המכשיר הנייד שלך כדי להמשיך בשליחת הודעות."
+    "messageformat": "לחץ כדי לקשר מחדש את GrapheneMessenger Desktop אל המכשיר הנייד שלך כדי להמשיך בשליחת הודעות."
   },
   "icu:unlinked": {
     "messageformat": "לא מקושר"
   },
   "icu:unregisteredWarning": {
-    "messageformat": "יש ללחוץ כדי להירשם מחדש ולהמשיך לשלוח הודעות. Signal Desktop כבר לא רשומה, כנראה בגלל שרשמת את מספר הטלפון שלך ב–Signal על מכשיר אחר."
+    "messageformat": "יש ללחוץ כדי להירשם מחדש ולהמשיך לשלוח הודעות. GrapheneMessenger Desktop כבר לא רשומה, כנראה בגלל שרשמת את מספר הטלפון שלך ב–GrapheneMessenger על מכשיר אחר."
   },
   "icu:unregistered": {
     "messageformat": "ההרשמה כבר לא בתוקף"
@@ -2598,16 +2598,16 @@
     "messageformat": "נסה שוב עדכון"
   },
   "icu:autoUpdateNewVersionMessage": {
-    "messageformat": "לחץ כדי להפעיל מחדש את Signal"
+    "messageformat": "לחץ כדי להפעיל מחדש את GrapheneMessenger"
   },
   "icu:downloadNewVersionMessage": {
     "messageformat": "לחץ כדי להוריד עדכון"
   },
   "icu:downloadFullNewVersionMessage": {
-    "messageformat": "Signal לא היה יכול להתעדכן. לחץ כדי לנסות שוב."
+    "messageformat": "GrapheneMessenger לא היה יכול להתעדכן. לחץ כדי לנסות שוב."
   },
   "icu:autoUpdateRestartButtonLabel": {
-    "messageformat": "הפעל מחדש את Signal"
+    "messageformat": "הפעל מחדש את GrapheneMessenger"
   },
   "icu:autoUpdateIgnoreButtonLabel": {
     "messageformat": "התעלם מעדכון"
@@ -2739,7 +2739,7 @@
     "messageformat": "חלק מהקבצים המצורפים גדולים מדי לתצוגה."
   },
   "icu:message--call-link-description": {
-    "messageformat": "אפשר להשתמש בלינק הזה כדי להצטרף לשיחת Signal"
+    "messageformat": "אפשר להשתמש בלינק הזה כדי להצטרף לשיחת GrapheneMessenger"
   },
   "icu:donation--missing": {
     "messageformat": "לא ניתן למשוך פרטי תרומה"
@@ -2751,7 +2751,7 @@
     "messageformat": "צריך ללחוץ על ההודעה הזו בנייד כדי לראות את התרומה שלך"
   },
   "icu:message--donation--unopened--label": {
-    "messageformat": "{sender} תרם/ה ל–Signal בשמך"
+    "messageformat": "{sender} תרם/ה ל–GrapheneMessenger בשמך"
   },
   "icu:message--donation--unopened--toast--incoming": {
     "messageformat": "צריך לבדוק את הטלפון שלך כדי לפתוח את התרומה"
@@ -2808,7 +2808,7 @@
     "messageformat": "תודה על התמיכה שלך!"
   },
   "icu:modal--donation--description": {
-    "messageformat": "ביצעת תרומה ל–Signal בשם {name}. הוא או היא יקבלו את האפשרות להשוויץ בתמיכה שלהם בפרופיל."
+    "messageformat": "ביצעת תרומה ל–GrapheneMessenger בשם {name}. הוא או היא יקבלו את האפשרות להשוויץ בתמיכה שלהם בפרופיל."
   },
   "icu:stickers--toast--InstallFailed": {
     "messageformat": "חבילת מדבקות לא יכלה להיות מותקנת"
@@ -2820,10 +2820,10 @@
     "messageformat": "הוספת סטיקרים"
   },
   "icu:stickers--StickerManager--BlessedPacks": {
-    "messageformat": "סדרת אומנים Signal"
+    "messageformat": "סדרת אומנים GrapheneMessenger"
   },
   "icu:stickers--StickerManager--BlessedPacks--Empty": {
-    "messageformat": "אין מדבקות אומנים Signal זמינות"
+    "messageformat": "אין מדבקות אומנים GrapheneMessenger זמינות"
   },
   "icu:stickers--StickerManager--ReceivedPacks2": {
     "messageformat": "שותף איתך"
@@ -2859,7 +2859,7 @@
     "messageformat": "יש לגרור כדי לסדר מחדש חבילת סטיקרים"
   },
   "icu:stickers--StickerManagerBlessedPacksList--Label": {
-    "messageformat": "חבילות סטיקרים מסדרת אומני Signal"
+    "messageformat": "חבילות סטיקרים מסדרת אומני GrapheneMessenger"
   },
   "icu:stickers--StickerManagerReceivedPacksList--Label": {
     "messageformat": "חבילות סטיקרים שהתקבלו"
@@ -3144,19 +3144,19 @@
     "messageformat": "הודעה ארוכה מכדי להציג עוד"
   },
   "icu:Message--unsupported-message": {
-    "messageformat": "{contact} שלח לך הודעה שאינה יכולה להיות מעובדת או להיות מוצגת מאחר שהיא משתמשת במאפיין חדש של Signal."
+    "messageformat": "{contact} שלח לך הודעה שאינה יכולה להיות מעובדת או להיות מוצגת מאחר שהיא משתמשת במאפיין חדש של GrapheneMessenger."
   },
   "icu:Message--unsupported-message-ask-to-resend": {
-    "messageformat": "אתה יכול לבקש מן {contact} לשלוח מחדש הודעה זו כעת כשאתה משתמש בגרסה עדכנית של Signal."
+    "messageformat": "אתה יכול לבקש מן {contact} לשלוח מחדש הודעה זו כעת כשאתה משתמש בגרסה עדכנית של GrapheneMessenger."
   },
   "icu:Message--from-me-unsupported-message": {
-    "messageformat": "אחד מהמכשירים שלך שלח הודעה שאינה יכולה להיות מעובדת או להיות מוצגת מאחר שהיא משתמשת במאפיין חדש של Signal."
+    "messageformat": "אחד מהמכשירים שלך שלח הודעה שאינה יכולה להיות מעובדת או להיות מוצגת מאחר שהיא משתמשת במאפיין חדש של GrapheneMessenger."
   },
   "icu:Message--from-me-unsupported-message-ask-to-resend": {
-    "messageformat": "הודעות עתידיות כמו זאת יסונכרנו כעת כשאתה משתמש בגרסה עדכנית של Signal."
+    "messageformat": "הודעות עתידיות כמו זאת יסונכרנו כעת כשאתה משתמש בגרסה עדכנית של GrapheneMessenger."
   },
   "icu:Message--update-signal": {
-    "messageformat": "עדכן את Signal"
+    "messageformat": "עדכן את GrapheneMessenger"
   },
   "icu:Message--tap-to-view--viewed": {
     "messageformat": "הוצג"
@@ -3423,7 +3423,7 @@
     "messageformat": "צ'אט סומן כלא נקרא"
   },
   "icu:ArtCreator--Authentication--error": {
-    "messageformat": "צריך להגדיר את Signal בטלפון שלך ובשולחן העבודה כדי להשתמש ביוצר חבילות הסטיקרים"
+    "messageformat": "צריך להגדיר את GrapheneMessenger בטלפון שלך ובשולחן העבודה כדי להשתמש ביוצר חבילות הסטיקרים"
   },
   "icu:Reactions--remove": {
     "messageformat": "הסרת תגובה"
@@ -3440,17 +3440,17 @@
   "icu:SafetyTipsModal__Title-v2": {
     "messageformat": "טיפים לבטיחות"
   },
-  "icu:SafetyTipsModal__TipTitle--SignalChat": {
-    "messageformat": "אין להשיב לצ׳אטים מ–Signal"
+  "icu:SafetyTipsModal__TipTitle--GrapheneMessengerChat": {
+    "messageformat": "אין להשיב לצ׳אטים מ–GrapheneMessenger"
   },
-  "icu:SafetyTipsModal__TipDescription--SignalChat": {
-    "messageformat": "Signal לעולם לא תשלח לך הודעה כדי לבקש את קוד הרישום, ה–PIN, או מפתח השחזור שלך. אף פעם אין להשיב לצ׳אט ממישהו שמתחזה ל–Signal."
+  "icu:SafetyTipsModal__TipDescription--GrapheneMessengerChat": {
+    "messageformat": "GrapheneMessenger לעולם לא תשלח לך הודעה כדי לבקש את קוד הרישום, ה–PIN, או מפתח השחזור שלך. אף פעם אין להשיב לצ׳אט ממישהו שמתחזה ל–GrapheneMessenger."
   },
   "icu:SafetyTipsModal__TipTitle--NamesAndPhotos": {
     "messageformat": "יש לבדוק שמות ותמונות"
   },
   "icu:SafetyTipsModal__TipDescription--NamesAndPhotos": {
-    "messageformat": "יש לשים לב להתראת ״שם לא אומת״. כולם ב–Signal מגדירים את שם הפרופיל של עצמם."
+    "messageformat": "יש לשים לב להתראת ״שם לא אומת״. כולם ב–GrapheneMessenger מגדירים את שם הפרופיל של עצמם."
   },
   "icu:SafetyTipsModal__TipTitle--Scams": {
     "messageformat": "יש להיזהר מהונאות"
@@ -3459,16 +3459,16 @@
     "messageformat": "חשוב להימנע מהודעות עמומות שמנסות לגרום לך להשיב. יש לגלות מודעות לטיפים בנושא פיננסים וללינקים חשודים."
   },
   "icu:SafetyTipsModal__TipTitle--DontRespond": {
-    "messageformat": "אין להשיב לצ׳אטים מ–Signal"
+    "messageformat": "אין להשיב לצ׳אטים מ–GrapheneMessenger"
   },
   "icu:SafetyTipsModal__TipDescription--DontRespond": {
-    "messageformat": "Signal לעולם לא תשלח לך הודעה כדי לבקש את קוד הרישום, ה–PIN, או מפתח השחזור שלך. אין להשיב לצ׳אטים ממישהו שמתחזה ל–Signal או לתמיכה של Signal. עבריינים מגדירים לעצמם שמות מזויפים כדי לנסות להשתלט על החשבון שלך."
+    "messageformat": "GrapheneMessenger לעולם לא תשלח לך הודעה כדי לבקש את קוד הרישום, ה–PIN, או מפתח השחזור שלך. אין להשיב לצ׳אטים ממישהו שמתחזה ל–GrapheneMessenger או לתמיכה של GrapheneMessenger. עבריינים מגדירים לעצמם שמות מזויפים כדי לנסות להשתלט על החשבון שלך."
   },
   "icu:SafetyTipsModal__TipTitle--ReviewNames": {
     "messageformat": "יש לבדוק שמות ותמונות"
   },
   "icu:SafetyTipsModal__TipDescription--ReviewNames": {
-    "messageformat": "יש לשים לב להתראת ״שם לא אומת״. כולם ב–Signal מגדירים את שם הפרופיל והתמונה של עצמם. אם לא בטוחים ממי הגיעה בקשה חדשה, הכי בטוח להתעלם ממנה."
+    "messageformat": "יש לשים לב להתראת ״שם לא אומת״. כולם ב–GrapheneMessenger מגדירים את שם הפרופיל והתמונה של עצמם. אם לא בטוחים ממי הגיעה בקשה חדשה, הכי בטוח להתעלם ממנה."
   },
   "icu:SafetyTipsModal__TipTitle--Crypto": {
     "messageformat": "הונאות קריפטו או הונאות כספיות"
@@ -3549,13 +3549,13 @@
     "messageformat": "לדווח כספאם?"
   },
   "icu:MessageRequests--ReportAndMaybeBlockModal-body--direct": {
-    "messageformat": "Signal תקבל הודעה שהאדם הזה חשוד בשליחת ספאם. Signal לא יכולה לראות את התוכן של אף צ׳אט."
+    "messageformat": "GrapheneMessenger תקבל הודעה שהאדם הזה חשוד בשליחת ספאם. GrapheneMessenger לא יכולה לראות את התוכן של אף צ׳אט."
   },
   "icu:MessageRequests--ReportAndMaybeBlockModal-body--group--unknown-contact": {
-    "messageformat": "Signal תקבל הודעה שהאדם שהזמין אותך לקבוצה הזו חשוד בשליחת ספאם. Signal לא יכולה לראות את התוכן של אף צ׳אט."
+    "messageformat": "GrapheneMessenger תקבל הודעה שהאדם שהזמין אותך לקבוצה הזו חשוד בשליחת ספאם. GrapheneMessenger לא יכולה לראות את התוכן של אף צ׳אט."
   },
   "icu:MessageRequests--ReportAndMaybeBlockModal-body--group": {
-    "messageformat": "Signal תקבל הודעה ש{name}, שהזמין/ה אותך לקבוצה הזו, חשוד/ה בשליחת ספאם. Signal לא יכולה לראות את התוכן של אף צ׳אט."
+    "messageformat": "GrapheneMessenger תקבל הודעה ש{name}, שהזמין/ה אותך לקבוצה הזו, חשוד/ה בשליחת ספאם. GrapheneMessenger לא יכולה לראות את התוכן של אף צ׳אט."
   },
   "icu:MessageRequests--ReportAndMaybeBlockModal-report": {
     "messageformat": "דיווח כספאם"
@@ -3597,7 +3597,7 @@
     "messageformat": "לאשר את הבקשה?"
   },
   "icu:MessageRequests--accept-confirm-body-v2": {
-    "messageformat": "יש לאשר בקשות רק מאנשים שסומכים עליהם. <bold>Signal לעולם לא</bold> תשלח לך הודעה כדי לבקש את קוד רישום, PIN, או מפתח שחזור."
+    "messageformat": "יש לאשר בקשות רק מאנשים שסומכים עליהם. <bold>GrapheneMessenger לעולם לא</bold> תשלח לך הודעה כדי לבקש את קוד רישום, PIN, או מפתח שחזור."
   },
   "icu:MessageRequests--continue": {
     "messageformat": "המשך"
@@ -3651,16 +3651,16 @@
     "messageformat": "שם לא אומת"
   },
   "icu:ConversationHero--signal-official-chat": {
-    "messageformat": "זה הצ׳אט הרשמי והיחיד של Signal"
+    "messageformat": "זה הצ׳אט הרשמי והיחיד של GrapheneMessenger"
   },
   "icu:ConversationHero--signal-official-chat-title": {
     "messageformat": "צ׳אט רשמי"
   },
   "icu:ConversationHero--signal-official-account--description": {
-    "messageformat": "הצ׳אט הרשמי היחיד של Signal. להתעדכן בחדשות והערות עדכון גרסה."
+    "messageformat": "הצ׳אט הרשמי היחיד של GrapheneMessenger. להתעדכן בחדשות והערות עדכון גרסה."
   },
   "icu:Timeline--signal-official-chat--chip": {
-    "messageformat": "הצ׳אט הרשמי היחיד של Signal."
+    "messageformat": "הצ׳אט הרשמי היחיד של GrapheneMessenger."
   },
   "icu:ConversationHero--release-notes": {
     "messageformat": "להתעדכן בחדשות והערות עדכון גרסה."
@@ -3726,10 +3726,10 @@
     "messageformat": "שיחת וידאו שלא נענתה"
   },
   "icu:minimizeToTrayNotification--title": {
-    "messageformat": "Signal עדיין פועלת"
+    "messageformat": "GrapheneMessenger עדיין פועלת"
   },
   "icu:minimizeToTrayNotification--body": {
-    "messageformat": "Signal תמשיך לפעול באזור ההתראות. אפשר לשנות את זה בהגדרות של Signal."
+    "messageformat": "GrapheneMessenger תמשיך לפעול באזור ההתראות. אפשר לשנות את זה בהגדרות של GrapheneMessenger."
   },
   "icu:incomingAudioCall": {
     "messageformat": "שיחה קולית נכנסת"
@@ -3935,8 +3935,8 @@
   "icu:CallingAdhocCallInfo__CopyLink": {
     "messageformat": "העתקת לינק שיחה"
   },
-  "icu:CallingAdhocCallInfo__ShareViaSignal": {
-    "messageformat": "שיתוף לינק שיחה דרך Signal"
+  "icu:CallingAdhocCallInfo__ShareViaGrapheneMessenger": {
+    "messageformat": "שיתוף לינק שיחה דרך GrapheneMessenger"
   },
   "icu:CallingAdhocCallInfo__RemoveClientDialogBody": {
     "messageformat": "להסיר את {name} מהשיחה?"
@@ -4098,7 +4098,7 @@
     "messageformat": "גרסת קישור בלתי ידועה"
   },
   "icu:GroupV2--join--unknown-link-version": {
-    "messageformat": "קישור זה אינו נתמך ע״י גרסה זו של Signal Desktop."
+    "messageformat": "קישור זה אינו נתמך ע״י גרסה זו של GrapheneMessenger Desktop."
   },
   "icu:GroupV2--join--link-revoked--title": {
     "messageformat": "לא ניתן להצטרף לקבוצה"
@@ -4704,10 +4704,10 @@
     "messageformat": "מוחק נתוני משתמש ומאפס את היישום"
   },
   "icu:BadgeDialog__become-a-sustainer-button": {
-    "messageformat": "תרום אל Signal"
+    "messageformat": "תרום אל GrapheneMessenger"
   },
   "icu:BadgeDialog__name-supports-signal": {
-    "messageformat": "Signal מקבלת תמיכה מ{name}"
+    "messageformat": "GrapheneMessenger מקבלת תמיכה מ{name}"
   },
   "icu:BackupImportScreen__title": {
     "messageformat": "מסנכרנים הודעות"
@@ -4824,7 +4824,7 @@
     "messageformat": "נדרשת פעולה בחשבון"
   },
   "icu:CriticalIdlePrimaryDeviceModal__description": {
-    "messageformat": "יש לפתוח את Signal בטלפון שלך כדי להמשיך להשתמש בחשבון הזה. אם לא תפתח/י את Signal בטלפון שלך, החשבון שלך יימחק בקרוב. <learnMoreLink>למידע נוסף</learnMoreLink>"
+    "messageformat": "יש לפתוח את GrapheneMessenger בטלפון שלך כדי להמשיך להשתמש בחשבון הזה. אם לא תפתח/י את GrapheneMessenger בטלפון שלך, החשבון שלך יימחק בקרוב. <learnMoreLink>למידע נוסף</learnMoreLink>"
   },
   "icu:LowDiskSpaceBackupImportModal__title": {
     "messageformat": "לא ניתן לשחזר מדיה"
@@ -4848,10 +4848,10 @@
     "messageformat": "הוספת קובץ מצורף או סקר"
   },
   "icu:CompositionArea--sms-only__title": {
-    "messageformat": "האיש הזה לא משתמש ב־Signal"
+    "messageformat": "האיש הזה לא משתמש ב־GrapheneMessenger"
   },
   "icu:CompositionArea--sms-only__body": {
-    "messageformat": "Signal Desktop אינו תומך בהתכתבות עם אנשי קשר שאינם של Signal. בקש מהאיש הזה להתקין את Signal עבור חוויה מאובטחת יותר של התכתבות."
+    "messageformat": "GrapheneMessenger Desktop אינו תומך בהתכתבות עם אנשי קשר שאינם של GrapheneMessenger. בקש מהאיש הזה להתקין את GrapheneMessenger עבור חוויה מאובטחת יותר של התכתבות."
   },
   "icu:CompositionArea--sms-only__spinner-label": {
     "messageformat": "בודק מעמד הרשמה של איש קשר"
@@ -5112,10 +5112,10 @@
     "messageformat": "ביטול חסימה"
   },
   "icu:ConversationDetailsActions--report-spam-modal-content-direct": {
-    "messageformat": "Signal תקבל הודעה שהאדם הזה חשוד בשליחת ספאם. Signal לא יכולה לראות את התוכן של אף צ׳אט."
+    "messageformat": "GrapheneMessenger תקבל הודעה שהאדם הזה חשוד בשליחת ספאם. GrapheneMessenger לא יכולה לראות את התוכן של אף צ׳אט."
   },
   "icu:ConversationDetailsActions--report-spam-modal-content-group": {
-    "messageformat": "Signal תקבל הודעה שהאדם שהזמין אותך לקבוצה הזו חשוד בשליחת ספאם. Signal לא יכולה לראות את התוכן של אף צ׳אט."
+    "messageformat": "GrapheneMessenger תקבל הודעה שהאדם שהזמין אותך לקבוצה הזו חשוד בשליחת ספאם. GrapheneMessenger לא יכולה לראות את התוכן של אף צ׳אט."
   },
   "icu:ConversationDetailsActions--report-spam-modal-report-spam": {
     "messageformat": "דיווח כספאם"
@@ -5163,7 +5163,7 @@
     "messageformat": "כינוי"
   },
   "icu:EditNicknameAndNoteModal__Description": {
-    "messageformat": "כינויים והערות מאוחסנים באמצעות Signal ומוצפנים מקצה לקצה. הם גלויים רק לך."
+    "messageformat": "כינויים והערות מאוחסנים באמצעות GrapheneMessenger ומוצפנים מקצה לקצה. הם גלויים רק לך."
   },
   "icu:EditNicknameAndNoteModal__FirstName__Label": {
     "messageformat": "שם פרטי"
@@ -5416,7 +5416,7 @@
     "ignoreUnused": true
   },
   "icu:DeleteMessagesModal--adminDeleteConfirmation--description__rollout": {
-    "messageformat": "{count, plural, one {חברי קבוצה בגרסאות העדכניות ביותר של Signal יוכלו לראות שמחקת את ההודעה הזו.} two {חברי קבוצה בגרסאות העדכניות ביותר של Signal יוכלו לראות שמחקת את ההודעות האלה.} many {חברי קבוצה בגרסאות העדכניות ביותר של Signal יוכלו לראות שמחקת את ההודעות האלה.} other {חברי קבוצה בגרסאות העדכניות ביותר של Signal יוכלו לראות שמחקת את ההודעות האלה.}}"
+    "messageformat": "{count, plural, one {חברי קבוצה בגרסאות העדכניות ביותר של GrapheneMessenger יוכלו לראות שמחקת את ההודעה הזו.} two {חברי קבוצה בגרסאות העדכניות ביותר של GrapheneMessenger יוכלו לראות שמחקת את ההודעות האלה.} many {חברי קבוצה בגרסאות העדכניות ביותר של GrapheneMessenger יוכלו לראות שמחקת את ההודעות האלה.} other {חברי קבוצה בגרסאות העדכניות ביותר של GrapheneMessenger יוכלו לראות שמחקת את ההודעות האלה.}}"
   },
   "icu:DeleteMessagesModal--noteToSelf--deleteSync": {
     "messageformat": "מחיקה"
@@ -5541,8 +5541,8 @@
   "icu:ForwardMessagesModal__toast--CannotForwardEmptyMessage": {
     "messageformat": "לא ניתן להעביר הודעות ריקות או מחוקות"
   },
-  "icu:ShareCallLinkViaSignal__DraftMessageText": {
-    "messageformat": "אפשר להשתמש בלינק הזה כדי להצטרף לשיחת Signal: {url}"
+  "icu:ShareCallLinkViaGrapheneMessenger__DraftMessageText": {
+    "messageformat": "אפשר להשתמש בלינק הזה כדי להצטרף לשיחת GrapheneMessenger: {url}"
   },
   "icu:MessageRequestWarning__review-carefully": {
     "messageformat": "סקור בקשות בזהירות"
@@ -5551,7 +5551,7 @@
     "messageformat": "טיפים לבטיחות"
   },
   "icu:ContactSpoofing__same-name--link": {
-    "messageformat": "כדאי לסקור בקשות בזהירות. Signal מצאה איש קשר אחר עם אותו שם. <reviewRequestLink>סקירת בקשה</reviewRequestLink>"
+    "messageformat": "כדאי לסקור בקשות בזהירות. GrapheneMessenger מצאה איש קשר אחר עם אותו שם. <reviewRequestLink>סקירת בקשה</reviewRequestLink>"
   },
   "icu:ContactSpoofing__same-name-in-group--link": {
     "messageformat": "{count, plural, one {לחבר/ת קבוצה {count,number} יש אותו שם. <reviewRequestLink>סקירת חברים</reviewRequestLink>} two {ל–{count,number} חברי קבוצה יש אותו שם. <reviewRequestLink>סקירת חברים</reviewRequestLink>} many {ל–{count,number} חברי קבוצה יש אותו שם. <reviewRequestLink>סקירת חברים</reviewRequestLink>} other {ל–{count,number} חברי קבוצה יש אותו שם. <reviewRequestLink>סקירת חברים</reviewRequestLink>}}"
@@ -5584,7 +5584,7 @@
     "messageformat": "אין קבוצות אחרות במשותף"
   },
   "icu:ContactSpoofingReviewDialog__signal-connection": {
-    "messageformat": "חבר/ת Signal"
+    "messageformat": "חבר/ת GrapheneMessenger"
   },
   "icu:ContactSpoofingReviewDialog__group__name-change-info": {
     "messageformat": "שינה/שינתה לאחרונה את שם הפרופיל מן {oldName} אל {newName}"
@@ -5602,7 +5602,7 @@
     "messageformat": "וודא כדי להמשיך להתכתב"
   },
   "icu:CaptchaDialog__first-paragraph": {
-    "messageformat": "כדי לעזור למנוע זבל ב‏‏־Signal, אנא השלם וידוא."
+    "messageformat": "כדי לעזור למנוע זבל ב‏‏־GrapheneMessenger, אנא השלם וידוא."
   },
   "icu:CaptchaDialog__second-paragraph": {
     "messageformat": "לאחר וידוא, אתה יכול להמשיך להתכתב. הודעות מושהות כלשהן יישלחו באופן אוטומטי."
@@ -5989,7 +5989,7 @@
     "messageformat": "האם אתה רוצה להשליך שינויים אלו?"
   },
   "icu:ConfirmationDialog__Title--in-call-close-requested": {
-    "messageformat": "לסגור את Signal ולסיים את השיחה?"
+    "messageformat": "לסגור את GrapheneMessenger ולסיים את השיחה?"
   },
   "icu:ConfirmationDialog__Title--close-requested-not-now": {
     "messageformat": "לא עכשיו"
@@ -6089,7 +6089,7 @@
     "messageformat": "כללי"
   },
   "icu:Preferences__button--donate": {
-    "messageformat": "תרום אל Signal"
+    "messageformat": "תרום אל GrapheneMessenger"
   },
   "icu:Preferences__button--appearance": {
     "messageformat": "מראה"
@@ -6155,43 +6155,43 @@
     "messageformat": "מערכת"
   },
   "icu:Preferences--signal-login": {
-    "messageformat": "Signal Login"
+    "messageformat": "GrapheneMessenger Login"
   },
   "icu:Preferences--signal-login-description": {
-    "messageformat": "Signal Login שלך משמש לשחזור החשבון שלך. יש לתעד את המפתחות האלה במקום בטוח, במנהל סיסמאות אמין. <learnMoreLink>למידע נוסף</learnMoreLink>."
+    "messageformat": "GrapheneMessenger Login שלך משמש לשחזור החשבון שלך. יש לתעד את המפתחות האלה במקום בטוח, במנהל סיסמאות אמין. <learnMoreLink>למידע נוסף</learnMoreLink>."
   },
   "icu:Preferences--signal-login-description--learn-more": {
     "messageformat": "למידע נוסף"
   },
-  "icu:Preferences__SignalAccount__label": {
+  "icu:Preferences__GrapheneMessengerAccount__label": {
     "messageformat": "חשבון ושחזור"
   },
-  "icu:Preferences__SignalAccount__description": {
+  "icu:Preferences__GrapheneMessengerAccount__description": {
     "messageformat": "2 מפתחות"
   },
-  "icu:Preferences__SignalAccountKeys__Title": {
-    "messageformat": "Signal Login שלך"
+  "icu:Preferences__GrapheneMessengerAccountKeys__Title": {
+    "messageformat": "GrapheneMessenger Login שלך"
   },
-  "icu:Preferences__SignalAccountKeys__Description": {
+  "icu:Preferences__GrapheneMessengerAccountKeys__Description": {
     "messageformat": "Store this in a safe place, your login info is required to recover your account and data. Never share it with anyone."
   },
-  "icu:Preferences__SignalAccountKeys__AccountKey": {
+  "icu:Preferences__GrapheneMessengerAccountKeys__AccountKey": {
     "messageformat": "מפתח חשבון"
   },
-  "icu:Preferences__SignalAccountKeys__AccountID": {
+  "icu:Preferences__GrapheneMessengerAccountKeys__AccountID": {
     "messageformat": "מזהה חשבון"
   },
-  "icu:Preferences__SignalAccountKeys__RecoveryKey": {
+  "icu:Preferences__GrapheneMessengerAccountKeys__RecoveryKey": {
     "messageformat": "מפתח שחזור"
   },
-  "icu:Preferences__SignalAccountKeys__Save": {
+  "icu:Preferences__GrapheneMessengerAccountKeys__Save": {
     "messageformat": "שמור"
   },
   "icu:Preferences__Account__LinkedDevice__label": {
     "messageformat": "זה מכשיר מקושר"
   },
   "icu:Preferences__Account__LinkedDevice__description": {
-    "messageformat": "כדי לנהל את הגדרות החשבון שלך, יש לפתוח את Signal במכשיר הראשי שלך."
+    "messageformat": "כדי לנהל את הגדרות החשבון שלך, יש לפתוח את GrapheneMessenger במכשיר הראשי שלך."
   },
   "icu:Preferences--zoom": {
     "messageformat": "רמת התקרבות"
@@ -6230,7 +6230,7 @@
     "messageformat": "שינוי"
   },
   "icu:Preferences--signal-pin": {
-    "messageformat": "PIN של Signal"
+    "messageformat": "PIN של GrapheneMessenger"
   },
   "icu:Preferences--pin-reminders--header": {
     "messageformat": "תזכורות PIN"
@@ -6359,7 +6359,7 @@
     "messageformat": "לא ניתן לייצא היסטוריית צ'אט"
   },
   "icu:PlaintextExport--Error--DiskPermssions--Detail": {
-    "messageformat": "לא ניתן לייצא את היסטוריית הצ'אט כי ל–Signal אין הרשאה לכתוב קבצים לדיסק. כדאי לשנות את הרשאות הדיסק או לעדכן את הגדרות המערכת שלך ולנסות לייצא שוב."
+    "messageformat": "לא ניתן לייצא את היסטוריית הצ'אט כי ל–GrapheneMessenger אין הרשאה לכתוב קבצים לדיסק. כדאי לשנות את הרשאות הדיסק או לעדכן את הגדרות המערכת שלך ולנסות לייצא שוב."
   },
   "icu:LocalBackupExport--ProgressDialog--Header": {
     "messageformat": "ייצוא גיבוי"
@@ -6374,7 +6374,7 @@
     "messageformat": "העברת תיקיית הגיבוי לאחסון המכשיר"
   },
   "icu:LocalBackupExport--CompleteDialog--RestoreInstructionsInstall": {
-    "messageformat": "התקנת עותק חדש של Signal במכשיר"
+    "messageformat": "התקנת עותק חדש של GrapheneMessenger במכשיר"
   },
   "icu:LocalBackupExport--CompleteDialog--RestoreInstructionsRestore": {
     "messageformat": "לחץ/י על ״שחזור או העברה״ ובחר/י ״גיבוי במכשיר״"
@@ -6641,13 +6641,13 @@
     "messageformat": "נחסמ/ה ב–{blockedAt}"
   },
   "icu:Preferences--signal-backups": {
-    "messageformat": "גיבויים מאובטחים של Signal"
+    "messageformat": "גיבויים מאובטחים של GrapheneMessenger"
   },
   "icu:Preferences--signal-backups-off-description": {
-    "messageformat": "גיבויים אוטומטיים בשירות האחסון המאובטח והמוצפן מקצה לקצה של Signal. אפשר להתחיל כעת בטלפון שלך. <learnMoreLink>למידע נוסף</learnMoreLink>."
+    "messageformat": "גיבויים אוטומטיים בשירות האחסון המאובטח והמוצפן מקצה לקצה של GrapheneMessenger. אפשר להתחיל כעת בטלפון שלך. <learnMoreLink>למידע נוסף</learnMoreLink>."
   },
   "icu:Preferences--backup-section-description": {
-    "messageformat": "אפשר לגבות את היסטוריית ההודעות כך שאף פעם לא מאבדים נתונים כשמחליפים טלפון או מתקינים מחדש את Signal."
+    "messageformat": "אפשר לגבות את היסטוריית ההודעות כך שאף פעם לא מאבדים נתונים כשמחליפים טלפון או מתקינים מחדש את GrapheneMessenger."
   },
   "icu:Preferences--backup-details__header": {
     "messageformat": "פרטי גיבוי"
@@ -6677,13 +6677,13 @@
     "messageformat": "מנוי בוטל"
   },
   "icu:Preferences--backup-media-plan__note": {
-    "messageformat": "באפשרותך לנהל או לבטל את מנוי גיבויי Signal המאובטחים שלך בטלפון שלך."
+    "messageformat": "באפשרותך לנהל או לבטל את מנוי גיבויי GrapheneMessenger המאובטחים שלך בטלפון שלך."
   },
   "icu:Preferences--backup-messages-plan__note": {
-    "messageformat": "באפשרותך לנהל או לשדרג את גיבויי Signal המאובטחים בטלפון שלך."
+    "messageformat": "באפשרותך לנהל או לשדרג את גיבויי GrapheneMessenger המאובטחים בטלפון שלך."
   },
   "icu:Preferences--backup-plan__not-found__note": {
-    "messageformat": "באפשרותך לנהל או לחדש את מנוי גיבויי Signal המאובטחים שלך בטלפון שלך."
+    "messageformat": "באפשרותך לנהל או לחדש את מנוי גיבויי GrapheneMessenger המאובטחים שלך בטלפון שלך."
   },
   "icu:Preferences--backup-created-at__label": {
     "messageformat": "גיבוי אחרון"
@@ -6701,7 +6701,7 @@
     "messageformat": "יצירת גיבוי מוצפן מקצה לקצה שאפשר לשחזר בטלפון שלך. "
   },
   "icu:Preferences--local-backups-restore-info": {
-    "messageformat": "כדי לשחזר גיבוי, יש להתקין עותק חדש של Signal בטלפון שלך. צריך לפתוח את האפליקציה וללחוץ על ״שחזור או העברה״. <learnMoreLink>למידע נוסף.</learnMoreLink>"
+    "messageformat": "כדי לשחזר גיבוי, יש להתקין עותק חדש של GrapheneMessenger בטלפון שלך. צריך לפתוח את האפליקציה וללחוץ על ״שחזור או העברה״. <learnMoreLink>למידע נוסף.</learnMoreLink>"
   },
   "icu:Preferences--local-backups-setup-folder": {
     "messageformat": "בחירת תיקיה"
@@ -6737,7 +6737,7 @@
     "messageformat": "מפתח השחזור שלך"
   },
   "icu:Preferences--local-backups-recovery-key--description": {
-    "messageformat": "המפתח הזה נדרש כדי לשחזר את החשבון והנתונים שלך. חשוב לאחסן אותו במקום בטוח ולעולם לא לשתף אותו עם אף אחד. Signal לעולם לא תשלח לך הודעה כדי לבקש את מפתח השחזור שלך. <learnMoreLink>למידע נוסף.</learnMoreLink>"
+    "messageformat": "המפתח הזה נדרש כדי לשחזר את החשבון והנתונים שלך. חשוב לאחסן אותו במקום בטוח ולעולם לא לשתף אותו עם אף אחד. GrapheneMessenger לעולם לא תשלח לך הודעה כדי לבקש את מפתח השחזור שלך. <learnMoreLink>למידע נוסף.</learnMoreLink>"
   },
   "icu:Preferences__recovery-key__do-not-share-title": {
     "messageformat": "אין לשתף את מפתח השחזור"
@@ -6752,7 +6752,7 @@
     "messageformat": "לא לשתף מפתח"
   },
   "icu:CompositionInput__recovery-key-warning--description": {
-    "messageformat": "אין לשתף את מפתח השחזור שלך עם אף אחד. זה יאפשר השתלטות על החשבון שלך. <strong>Signal לעולם לא תשלח לך הודעה</strong> כדי לבקש את מפתח השחזור שלך. אף פעם אין להשיב לצ׳אט ממישהו שמתחזה ל–Signal. <learnMoreLink>למידע נוסף.</learnMoreLink>"
+    "messageformat": "אין לשתף את מפתח השחזור שלך עם אף אחד. זה יאפשר השתלטות על החשבון שלך. <strong>GrapheneMessenger לעולם לא תשלח לך הודעה</strong> כדי לבקש את מפתח השחזור שלך. אף פעם אין להשיב לצ׳אט ממישהו שמתחזה ל–GrapheneMessenger. <learnMoreLink>למידע נוסף.</learnMoreLink>"
   },
   "icu:Preferences--local-backups-confirm-recovery-key": {
     "messageformat": "אישור מפתח השחזור שלך"
@@ -6764,7 +6764,7 @@
     "messageformat": "יש לשמור על בטיחות המפתח שלך"
   },
   "icu:Preferences__local-backups-confirm-key-modal-body": {
-    "messageformat": "Signal לא תוכל לעזור לך לשחזר את הגיבוי שלך אם איבדת את המפתח שלך. חשוב לאחסן אותו במקום בטוח ומאובטח, ולא לשתף אותו עם אחרים."
+    "messageformat": "GrapheneMessenger לא תוכל לעזור לך לשחזר את הגיבוי שלך אם איבדת את המפתח שלך. חשוב לאחסן אותו במקום בטוח ומאובטח, ולא לשתף אותו עם אחרים."
   },
   "icu:Preferences__local-backups-confirm-key-modal-continue": {
     "messageformat": "המשך"
@@ -6815,7 +6815,7 @@
     "messageformat": "נדרש אימות כדי להפעיל גיבויים."
   },
   "icu:Preferences__local-backups-auth-error--unauthorized": {
-    "messageformat": "לא ניתן להשלים את הפעולה הזו כי אימות המערכת נכשל. נא לנסות שוב או לפתוח את אפליקציית Signal בנייד שלך ולנווט אל הגדרות הגיבוי כדי להציג את מפתח השחזור שלך."
+    "messageformat": "לא ניתן להשלים את הפעולה הזו כי אימות המערכת נכשל. נא לנסות שוב או לפתוח את אפליקציית GrapheneMessenger בנייד שלך ולנווט אל הגדרות הגיבוי כדי להציג את מפתח השחזור שלך."
   },
   "icu:Preferences__local-backups-auth-error--unknown-error": {
     "messageformat": "אירעה שגיאה בעת בקשה מהמערכת לאמת את אותנטיות הפעולה."
@@ -6845,7 +6845,7 @@
     "messageformat": "מספר טלפון"
   },
   "icu:Preferences__pnp__row--body": {
-    "messageformat": "אפשר לבחור מי יוכל לראות את מספר הטלפון שלך ומי יוכל ליצור איתך קשר באמצעותו ב–Signal."
+    "messageformat": "אפשר לבחור מי יוכל לראות את מספר הטלפון שלך ומי יוכל ליצור איתך קשר באמצעותו ב–GrapheneMessenger."
   },
   "icu:Preferences__pnp__row--button": {
     "messageformat": "שינוי…"
@@ -6875,10 +6875,10 @@
     "messageformat": "מי יכול למצוא אותי לפי המספר שלי"
   },
   "icu:Preferences__pnp__discoverability--description--everyone": {
-    "messageformat": "כל מי שיש להם את מספר הטלפון שלך יראו אותך ב–Signal ויוכלו להתחיל איתך צ׳אט."
+    "messageformat": "כל מי שיש להם את מספר הטלפון שלך יראו אותך ב–GrapheneMessenger ויוכלו להתחיל איתך צ׳אט."
   },
   "icu:Preferences__pnp__discoverability--description--nobody": {
-    "messageformat": "אנשים לא יוכלו לראות אותך ב–Signal אלא אם שלחת להם הודעה או שיש לך צ'אט קיים איתם."
+    "messageformat": "אנשים לא יוכלו לראות אותך ב–GrapheneMessenger אלא אם שלחת להם הודעה או שיש לך צ'אט קיים איתם."
   },
   "icu:Preferences__pnp__discoverability__everyone": {
     "messageformat": "כולם"
@@ -6890,7 +6890,7 @@
     "messageformat": "להמשיך?"
   },
   "icu:Preferences__pnp__discoverability__nobody__confirmModal__description": {
-    "messageformat": "אם משנים את ״{settingTitle}״ ל״{nobodyLabel}״, זה יקשה על אנשים למצוא אותך ב–Signal."
+    "messageformat": "אם משנים את ״{settingTitle}״ ל״{nobodyLabel}״, זה יקשה על אנשים למצוא אותך ב–GrapheneMessenger."
   },
   "icu:Preferences--messaging": {
     "messageformat": "תכתובת"
@@ -6953,7 +6953,7 @@
     "messageformat": "הגדרה"
   },
   "icu:Preferences__LanguageModal__Restart__Title": {
-    "messageformat": "יש להפעיל מחדש את Signal כדי להחיל את השינויים"
+    "messageformat": "יש להפעיל מחדש את GrapheneMessenger כדי להחיל את השינויים"
   },
   "icu:Preferences__LanguageModal__Restart__Description": {
     "messageformat": "כדי להחליף שפה, יש להפעיל מחדש את האפליקציה."
@@ -6968,13 +6968,13 @@
     "messageformat": "אבטחת מסך"
   },
   "icu:Preferences__content-protection--description": {
-    "messageformat": "למנוע צילומי מסך של Signal במחשב זה לפרטיות מוגברת."
+    "messageformat": "למנוע צילומי מסך של GrapheneMessenger במחשב זה לפרטיות מוגברת."
   },
   "icu:Preferences__content-protection__modal--title": {
     "messageformat": "להשבית את אבטחת המסך?"
   },
   "icu:Preferences__content-protection__modal--body": {
-    "messageformat": "ההשבתה עלולה לאפשר ל–Microsoft Windows ללכוד צילומי מסך של Signal ולהשתמש בהם עבור פיצ׳רים שיתכן שאינם פרטיים."
+    "messageformat": "ההשבתה עלולה לאפשר ל–Microsoft Windows ללכוד צילומי מסך של GrapheneMessenger ולהשתמש בהם עבור פיצ׳רים שיתכן שאינם פרטיים."
   },
   "icu:Preferences__content-protection__modal--disable": {
     "messageformat": "השבת"
@@ -6995,19 +6995,19 @@
     "messageformat": "יש ללחוץ למעבר אל App Store"
   },
   "icu:CriticalIdlePrimaryDevice__title": {
-    "messageformat": "פתח את Signal בטלפון שלך"
+    "messageformat": "פתח את GrapheneMessenger בטלפון שלך"
   },
   "icu:CriticalIdlePrimaryDevice__body": {
-    "messageformat": "החשבון שלך יימחק בקרוב אלא אם כן תפתח/י את Signal בטלפון שלך. אם עשית זאת בהצלחה, ההודעה הזו תיעלם. <learnMoreLink>למידע נוסף</learnMoreLink>"
+    "messageformat": "החשבון שלך יימחק בקרוב אלא אם כן תפתח/י את GrapheneMessenger בטלפון שלך. אם עשית זאת בהצלחה, ההודעה הזו תיעלם. <learnMoreLink>למידע נוסף</learnMoreLink>"
   },
   "icu:IdlePrimaryDevice__body": {
-    "messageformat": "יש לפתוח את Signal בטלפון שלך כדי לשמור על החשבון שלך פעיל"
+    "messageformat": "יש לפתוח את GrapheneMessenger בטלפון שלך כדי לשמור על החשבון שלך פעיל"
   },
   "icu:IdlePrimaryDevice__learnMore": {
     "messageformat": "למידע נוסף"
   },
   "icu:DialogNetworkStatus__outage": {
-    "messageformat": "Signal חווה קשיים טכניים. אנו עובדים קשות כדי לשחזר את השירות מהר ככל האפשר."
+    "messageformat": "GrapheneMessenger חווה קשיים טכניים. אנו עובדים קשות כדי לשחזר את השירות מהר ככל האפשר."
   },
   "icu:InstallScreenUpdateDialog--update-required__title": {
     "messageformat": "נדרש עדכון"
@@ -7016,13 +7016,13 @@
     "messageformat": "Checking for updates"
   },
   "icu:InstallScreenUpdateDialog--updating-signal": {
-    "messageformat": "Updating Signal"
+    "messageformat": "Updating GrapheneMessenger"
   },
   "icu:InstallScreenUpdateDialog--download-progress": {
     "messageformat": "מורידים {currentBytes} מתוך {totalBytes} ({percentage,number,percent})…"
   },
   "icu:InstallScreenUpdateDialog--update-required__body": {
-    "messageformat": "To continue, update Signal Desktop."
+    "messageformat": "To continue, update GrapheneMessenger Desktop."
   },
   "icu:InstallScreenUpdateDialog--update-required__action-update": {
     "messageformat": "עדכן"
@@ -7034,19 +7034,19 @@
     "messageformat": "נדרש עדכון"
   },
   "icu:InstallScreenUpdateDialog--auto-update__body": {
-    "messageformat": "כדי להמשיך להשתמש ב–Signal, צריך לעדכן לגרסה האחרונה."
+    "messageformat": "כדי להמשיך להשתמש ב–GrapheneMessenger, צריך לעדכן לגרסה האחרונה."
   },
   "icu:InstallScreenUpdateDialog--manual-update__action": {
     "messageformat": "הורדה {downloadSize}"
   },
   "icu:InstallScreenUpdateDialog--downloaded__body": {
-    "messageformat": "צריך להפעיל מחדש את Signal כדי להתקין את העדכון."
+    "messageformat": "צריך להפעיל מחדש את GrapheneMessenger כדי להתקין את העדכון."
   },
   "icu:InstallScreenUpdateDialog--cannot-update__body": {
-    "messageformat": "העדכון של Signal לשולחן עבודה נכשל, אבל יש גרסה חדשה יותר שזמינה. אפשר ללכת אל {downloadUrl} ולהתקין את הגרסה החדשה באופן ידני, ואז ליצור קשר עם התמיכה או להגיש דיווח על באג לגבי בעיה זו."
+    "messageformat": "העדכון של GrapheneMessenger לשולחן עבודה נכשל, אבל יש גרסה חדשה יותר שזמינה. אפשר ללכת אל {downloadUrl} ולהתקין את הגרסה החדשה באופן ידני, ואז ליצור קשר עם התמיכה או להגיש דיווח על באג לגבי בעיה זו."
   },
   "icu:StandaloneRegistration--signal-logo": {
-    "messageformat": "לוגו Signal"
+    "messageformat": "לוגו GrapheneMessenger"
   },
   "icu:StandaloneRegistration--back": {
     "messageformat": "הקודם"
@@ -7082,7 +7082,7 @@
     "messageformat": "צריך לאמת את האנושיות שלך כדי להמשיך"
   },
   "icu:StandaloneRegistration--Captcha--description": {
-    "messageformat": "כדי לעזור למנוע ספאם ב–Signal, חשוב להשלים אימות. לאחר האימות, אפשר להמשיך בהרשמה."
+    "messageformat": "כדי לעזור למנוע ספאם ב–GrapheneMessenger, חשוב להשלים אימות. לאחר האימות, אפשר להמשיך בהרשמה."
   },
   "icu:StandaloneRegistration--Captcha--retry-button": {
     "messageformat": "ניסיון אימות חוזר"
@@ -7322,7 +7322,7 @@
     "messageformat": "PIN שגוי"
   },
   "icu:StandaloneRegistration--VerifyPIN--NoRemainingTries--description": {
-    "messageformat": "ניחושי PIN אזלו לך, אבל אתה עדין יכול להשיג גישה אל חשבון Signal שלך ע״י יצירת PIN חדש. למען פרטיותך ואבטחתך, חשבונך ישוחזר בלי מידע פרופיל שמור כלשהו או הגדרות שמורות כלשהן."
+    "messageformat": "ניחושי PIN אזלו לך, אבל אתה עדין יכול להשיג גישה אל חשבון GrapheneMessenger שלך ע״י יצירת PIN חדש. למען פרטיותך ואבטחתך, חשבונך ישוחזר בלי מידע פרופיל שמור כלשהו או הגדרות שמורות כלשהן."
   },
   "icu:StandaloneRegistration--VerifyPIN--NoRemainingTries--create-new-pin": {
     "messageformat": "צור PIN חדש"
@@ -7352,7 +7352,7 @@
     "messageformat": "צור את ה־PIN שלך"
   },
   "icu:StandaloneRegistration--CreatePIN--description": {
-    "messageformat": "קודי PIN יכולים לעזור לך לשחזר את החשבון שלך ולשמור על המידע שלך מוצפן עם Signal. <learnMore>למידע נוסף</learnMore>"
+    "messageformat": "קודי PIN יכולים לעזור לך לשחזר את החשבון שלך ולשמור על המידע שלך מוצפן עם GrapheneMessenger. <learnMore>למידע נוסף</learnMore>"
   },
   "icu:StandaloneRegistration--CreatePIN--placeholder": {
     "messageformat": "צור את ה־PIN שלך"
@@ -7376,7 +7376,7 @@
     "messageformat": "אזהרה"
   },
   "icu:StandaloneRegistration--CreatePIN--DisableWarning--description": {
-    "messageformat": "השבתת ה–PIN תגרום לאובדן כל הנתונים שלך בעת רישום מחדש אל Signal. לא ניתן להפעיל נעילת הרשמה כאשר ה–PIN מושבת."
+    "messageformat": "השבתת ה–PIN תגרום לאובדן כל הנתונים שלך בעת רישום מחדש אל GrapheneMessenger. לא ניתן להפעיל נעילת הרשמה כאשר ה–PIN מושבת."
   },
   "icu:StandaloneRegistration--CreatePIN--DisableWarning--disable-button": {
     "messageformat": "השבת PIN"
@@ -7385,10 +7385,10 @@
     "messageformat": "ביטול"
   },
   "icu:StandaloneRegistration--CreatePIN--AboutPINs--header": {
-    "messageformat": "עוד על קודי PIN של Signal"
+    "messageformat": "עוד על קודי PIN של GrapheneMessenger"
   },
   "icu:StandaloneRegistration--CreatePIN--AboutPINs--description": {
-    "messageformat": "קודי PIN שומרים על המידע שלך שמאוחסן ב–Signal מוצפן כך שרק לך תהיה גישה אליו. הפרופיל, ההגדרות ואנשי הקשר שלך ישוחזרו בעת התקנה מחדש."
+    "messageformat": "קודי PIN שומרים על המידע שלך שמאוחסן ב–GrapheneMessenger מוצפן כך שרק לך תהיה גישה אליו. הפרופיל, ההגדרות ואנשי הקשר שלך ישוחזרו בעת התקנה מחדש."
   },
   "icu:StandaloneRegistration--CreatePIN--AboutPINs--learn-more-button": {
     "messageformat": "למידע נוסף"
@@ -7421,7 +7421,7 @@
     "messageformat": "נדרש עדכון"
   },
   "icu:StandaloneRegistration--UpdateRequired--description": {
-    "messageformat": "כדי להמשיך ברישום, צריך לעדכן לגרסה האחרונה של Signal."
+    "messageformat": "כדי להמשיך ברישום, צריך לעדכן לגרסה האחרונה של GrapheneMessenger."
   },
   "icu:StandaloneRegistration--UpdateRequired--update": {
     "messageformat": "עדכן"
@@ -7451,7 +7451,7 @@
     "messageformat": "יצירת קשר עם התמיכה"
   },
   "icu:NSIS__retry-dialog--first-line": {
-    "messageformat": "Signal לא יכול להיסגר.",
+    "messageformat": "GrapheneMessenger לא יכול להיסגר.",
     "ignoreUnused": true
   },
   "icu:NSIS__retry-dialog--second-line": {
@@ -7471,14 +7471,14 @@
     "ignoreUnused": true
   },
   "icu:NSIS__semver-downgrade": {
-    "messageformat": "גרסה חדשה יותר של Signal כבר מותקנת. בטוח שבא לך להמשיך?",
+    "messageformat": "גרסה חדשה יותר של GrapheneMessenger כבר מותקנת. בטוח שבא לך להמשיך?",
     "ignoreUnused": true
   },
   "icu:CrashReportDialog__title": {
     "messageformat": "היישום קרס"
   },
   "icu:CrashReportDialog__body": {
-    "messageformat": "Signal הופעל מחדש לאחר קריסה. אתה יכול להגיש דוח כדי לעזור אל Signal לחקור את הסוגייה."
+    "messageformat": "GrapheneMessenger הופעל מחדש לאחר קריסה. אתה יכול להגיש דוח כדי לעזור אל GrapheneMessenger לחקור את הסוגייה."
   },
   "icu:CrashReportDialog__submit": {
     "messageformat": "שליחה"
@@ -7583,7 +7583,7 @@
     "messageformat": "ללחוץ על ״{buttonName}״ למטה"
   },
   "icu:MediaPermissionsModal__step-2": {
-    "messageformat": "להפעיל את ״Signal״"
+    "messageformat": "להפעיל את ״GrapheneMessenger״"
   },
   "icu:MediaPermissionsModal__open": {
     "messageformat": "מעבר להגדרות"
@@ -7678,23 +7678,23 @@
   "icu:MessageRequestResponseNotification__Button--LearnMore": {
     "messageformat": "למידע נוסף"
   },
-  "icu:SignalConnectionsModal__title": {
-    "messageformat": "חברי Signal"
+  "icu:GrapheneMessengerConnectionsModal__title": {
+    "messageformat": "חברי GrapheneMessenger"
   },
-  "icu:SignalConnectionsModal__header": {
+  "icu:GrapheneMessengerConnectionsModal__header": {
     "messageformat": "{connections} הם אנשים שבחרת לבטוח בהם, באמצעות אחת מהפעולות הבאות:"
   },
-  "icu:SignalConnectionsModal__bullet--1": {
+  "icu:GrapheneMessengerConnectionsModal__bullet--1": {
     "messageformat": "התחלת צ'אט"
   },
-  "icu:SignalConnectionsModal__bullet--2": {
+  "icu:GrapheneMessengerConnectionsModal__bullet--2": {
     "messageformat": "אישור בקשת הודעה"
   },
-  "icu:SignalConnectionsModal__bullet--3": {
+  "icu:GrapheneMessengerConnectionsModal__bullet--3": {
     "messageformat": "שמירה באנשי הקשר של המערכת שלך"
   },
-  "icu:SignalConnectionsModal__footer": {
-    "messageformat": "חברי ה-Signal שלך יכולים לראות את השם והתמונה שלך, והם יכולים גם לראות פוסטים תחת ״הסטורי שלי״ אלא אם כן בחרת להסתיר אותם מהם"
+  "icu:GrapheneMessengerConnectionsModal__footer": {
+    "messageformat": "חברי ה-GrapheneMessenger שלך יכולים לראות את השם והתמונה שלך, והם יכולים גם לראות פוסטים תחת ״הסטורי שלי״ אלא אם כן בחרת להסתיר אותם מהם"
   },
   "icu:Stories__title": {
     "messageformat": "סטוריז"
@@ -7820,7 +7820,7 @@
     "messageformat": "הסתרת סטורי מ"
   },
   "icu:StoriesSettings__mine__all--label": {
-    "messageformat": "כל חברי ה-Signal"
+    "messageformat": "כל חברי ה-GrapheneMessenger"
   },
   "icu:StoriesSettings__mine__exclude--label": {
     "messageformat": "כולם חוץ מ…"
@@ -7898,7 +7898,7 @@
     "messageformat": "פרטיות הסטורי שלי"
   },
   "icu:SendStoryModal__privacy-disclaimer--link": {
-    "messageformat": "אפשר לבחור אילו חברי Signal יוכלו לראות את הסטורי שלך. תמיד אפשר לשנות את זה בהגדרות הפרטיות. <learnMoreLink>מידע נוסף.</learnMoreLink>"
+    "messageformat": "אפשר לבחור אילו חברי GrapheneMessenger יוכלו לראות את הסטורי שלך. תמיד אפשר לשנות את זה בהגדרות הפרטיות. <learnMoreLink>מידע נוסף.</learnMoreLink>"
   },
   "icu:SendStoryModal__delete-story": {
     "messageformat": "מחיקת סטורי"
@@ -7967,7 +7967,7 @@
     "messageformat": "הורד צרופה"
   },
   "icu:StoryViewsNRepliesModal__read-receipts-off": {
-    "messageformat": "אפשר להפעיל אישורי צפייה כדי לראות מי צפה בסטוריז שלך. יש לפתוח את אפליקציית Signal בנייד ולנווט להגדרות ← סטוריז."
+    "messageformat": "אפשר להפעיל אישורי צפייה כדי לראות מי צפה בסטוריז שלך. יש לפתוח את אפליקציית GrapheneMessenger בנייד ולנווט להגדרות ← סטוריז."
   },
   "icu:StoryViewsNRepliesModal__no-replies": {
     "messageformat": "אין תשובות עדין"
@@ -8153,7 +8153,7 @@
     "messageformat": "קוד ה–QR והלינק שלך אופסו ושם המשתמש שלך הוא {username}"
   },
   "icu:UsernameLinkModalBody__hint": {
-    "messageformat": "אפשר לסרוק את קוד ה–QR הזה עם הטלפון שלך כדי לשוחח איתי ב–Signal.",
+    "messageformat": "אפשר לסרוק את קוד ה–QR הזה עם הטלפון שלך כדי לשוחח איתי ב–GrapheneMessenger.",
     "descrption": "Text of the hint displayed below generated QR code on the printable image."
   },
   "icu:UsernameLinkModalBody__save": {
@@ -8229,7 +8229,7 @@
     "messageformat": "ביטול"
   },
   "icu:PinReminderMegaphone__title": {
-    "messageformat": "וודא את Signal PIN שלך"
+    "messageformat": "וודא את GrapheneMessenger PIN שלך"
   },
   "icu:PinReminderMegaphone__body": {
     "messageformat": "נבקש ממך מדי פעם לוודא את ה־PIN שלך כך שתזכור אותו."
@@ -8241,7 +8241,7 @@
     "messageformat": "לא עכשיו"
   },
   "icu:PinReminderModal__title": {
-    "messageformat": "הכנס את Signal PIN שלך"
+    "messageformat": "הכנס את GrapheneMessenger PIN שלך"
   },
   "icu:PinReminderModal__body": {
     "messageformat": "כדי לעזור לך לשנן את ה־PIN שלך, נבקש ממך להכניס אותו מעת לעת. נבקש פחות עם הזמן."
@@ -8262,13 +8262,13 @@
     "messageformat": "PIN נכון. נזכיר לך שוב מאוחר יותר."
   },
   "icu:PinChangeModal__title--create": {
-    "messageformat": "Change your Signal PIN"
+    "messageformat": "Change your GrapheneMessenger PIN"
   },
   "icu:PinChangeModal__body--create": {
     "messageformat": "אתה יכול לשנות את ה־PIN שלך כל עוד המכשיר רשום. <learnMoreLink>למידע נוסף</learnMoreLink>"
   },
   "icu:PinChangeModal__title--confirm": {
-    "messageformat": "אשר את ה־PIN של Signal שלך"
+    "messageformat": "אשר את ה־PIN של GrapheneMessenger שלך"
   },
   "icu:PinChangeModal__body--confirm": {
     "messageformat": "הכנס את ה־PIN שזה עתה יצרת."
@@ -8292,13 +8292,13 @@
     "messageformat": "New PIN created."
   },
   "icu:UnsupportedOSWarningDialog__body": {
-    "messageformat": "Signal לשולחן עבודה בקרוב תפסיק לתמוך בגרסת {OS} של המחשב שלך. כדי להמשיך להשתמש ב–Signal, צריך לעדכן את מערכת ההפעלה של המחשב שלך עד {expirationDate}. <learnMoreLink>למידע נוסף</learnMoreLink>"
+    "messageformat": "GrapheneMessenger לשולחן עבודה בקרוב תפסיק לתמוך בגרסת {OS} של המחשב שלך. כדי להמשיך להשתמש ב–GrapheneMessenger, צריך לעדכן את מערכת ההפעלה של המחשב שלך עד {expirationDate}. <learnMoreLink>למידע נוסף</learnMoreLink>"
   },
   "icu:UnsupportedOSErrorDialog__body": {
-    "messageformat": "Signal לשולחן עבודה כבר לא פועלת על המחשב הזה. כדי לחזור להשתמש ב–Signal לשולחן עבודה, צריך לעדכן את גרסת {OS} של המחשב שלך. <learnMoreLink>למידע נוסף</learnMoreLink>"
+    "messageformat": "GrapheneMessenger לשולחן עבודה כבר לא פועלת על המחשב הזה. כדי לחזור להשתמש ב–GrapheneMessenger לשולחן עבודה, צריך לעדכן את גרסת {OS} של המחשב שלך. <learnMoreLink>למידע נוסף</learnMoreLink>"
   },
   "icu:UnsupportedOSErrorToast": {
-    "messageformat": "Signal לשולחן עבודה כבר לא פועלת על המחשב הזה. כדי לחזור להשתמש ב–Signal לשולחן עבודה, צריך לעדכן את גרסת {OS} של המחשב שלך."
+    "messageformat": "GrapheneMessenger לשולחן עבודה כבר לא פועלת על המחשב הזה. כדי לחזור להשתמש ב–GrapheneMessenger לשולחן עבודה, צריך לעדכן את גרסת {OS} של המחשב שלך."
   },
   "icu:MessageMetadata__edited": {
     "messageformat": "נערך"
@@ -8468,8 +8468,8 @@
   "icu:CallLinkDetails__CopyLink": {
     "messageformat": "העתקת קישור"
   },
-  "icu:CallLinkDetails__ShareLinkViaSignal": {
-    "messageformat": "שיתוף לינק דרך Signal"
+  "icu:CallLinkDetails__ShareLinkViaGrapheneMessenger": {
+    "messageformat": "שיתוף לינק דרך GrapheneMessenger"
   },
   "icu:CallLinkDetails__DeleteLink": {
     "messageformat": "מחיקת לינק"
@@ -8532,13 +8532,13 @@
     "messageformat": "כדי לשנות את ההגדרה הזו, יש להגדיר את \"מי יכול לראות את המספר שלי\" כ\"אף אחד\"."
   },
   "icu:ProfileNameWarningModal__description--direct": {
-    "messageformat": "שמות פרופילים ב–Signal נבחרים על ידי בעל/ת החשבון:"
+    "messageformat": "שמות פרופילים ב–GrapheneMessenger נבחרים על ידי בעל/ת החשבון:"
   },
   "icu:ProfileNameWarningModal__warning--signal-cant-verify": {
-    "messageformat": "Signal לא יכולה לאמת שמות ותמונות"
+    "messageformat": "GrapheneMessenger לא יכולה לאמת שמות ותמונות"
   },
   "icu:ProfileNameWarningModal__warning--signal-wont-contact": {
-    "messageformat": "Signal לעולם לא תשלח לך הודעה כדי לבקש את קוד הרישום, ה–PIN, או מפתח השחזור שלך."
+    "messageformat": "GrapheneMessenger לעולם לא תשלח לך הודעה כדי לבקש את קוד הרישום, ה–PIN, או מפתח השחזור שלך."
   },
   "icu:ProfileNameWarningModal__warning--be-cautious": {
     "messageformat": "יש להיזהר מחשבונות שמתחזים לאחרים"
@@ -8568,7 +8568,7 @@
     "messageformat": "גאים להיות עמותה ללא מטרות רווח"
   },
   "icu:PreferencesDonations__description-v2": {
-    "messageformat": "ניתן לתרום כדי לתמוך בהודעות פרטיות זה עוזר לשמור על Signal עצמאית וללא פרסומות. <readMoreLink>למידע נוסף</readMoreLink>"
+    "messageformat": "ניתן לתרום כדי לתמוך בהודעות פרטיות זה עוזר לשמור על GrapheneMessenger עצמאית וללא פרסומות. <readMoreLink>למידע נוסף</readMoreLink>"
   },
   "icu:PreferencesDonations__donate-button": {
     "messageformat": "לתרומה"
@@ -8592,7 +8592,7 @@
     "messageformat": "המידע שלך פרטי"
   },
   "icu:PreferencesDonations__privacy-modal-intro": {
-    "messageformat": "כעמותה עצמאית ללא מטרות רווח, Signal מחויבת להודעות ולשיחות פרטיות. בלי פרסומות, בלי מעקב, בלי ריגול. תרמו היום כדי לתמוך ב-Signal."
+    "messageformat": "כעמותה עצמאית ללא מטרות רווח, GrapheneMessenger מחויבת להודעות ולשיחות פרטיות. בלי פרסומות, בלי מעקב, בלי ריגול. תרמו היום כדי לתמוך ב-GrapheneMessenger."
   },
   "icu:PreferencesDonations__privacy-modal-list-1": {
     "messageformat": "ניתן לקבל תג לפרופיל בעת תרומה"
@@ -8601,10 +8601,10 @@
     "messageformat": "הפרטיות שלך היא המשימה שלנו"
   },
   "icu:PreferencesDonations__privacy-modal-list-3": {
-    "messageformat": "Signal היא עמותה ללא מטרות רווח."
+    "messageformat": "GrapheneMessenger היא עמותה ללא מטרות רווח."
   },
   "icu:PreferencesDonations__privacy-modal-icon-accessibility-label": {
-    "messageformat": "סמל לב בסגנון הלוגו של Signal"
+    "messageformat": "סמל לב בסגנון הלוגו של GrapheneMessenger"
   },
   "icu:PreferencesDonations__privacy-modal-ok": {
     "messageformat": "אישור"
@@ -8619,7 +8619,7 @@
     "messageformat": "שאלות נפוצות של תורמים"
   },
   "icu:PreferencesDonations--receiptList__info": {
-    "messageformat": "קבלות אינן מסתנכרנות בין מכשירים. אם התקנת מחדש את Signal, קבלות מתרומות קודמות לא יהיו זמינות."
+    "messageformat": "קבלות אינן מסתנכרנות בין מכשירים. אם התקנת מחדש את GrapheneMessenger, קבלות מתרומות קודמות לא יהיו זמינות."
   },
   "icu:PreferencesDonations--receiptList__empty-title": {
     "messageformat": "אין קבלות"
@@ -8649,7 +8649,7 @@
     "messageformat": "כרטיס אשראי או דביט"
   },
   "icu:DonateFlow__card-form-instructions": {
-    "messageformat": "הזן את פרטי כרטיס האשראי או כרטיס החיוב שלך. Signal לא אוספת או מאחסנת את המידע האישי שלך. <learnMoreLink>למידע נוסף</learnMoreLink>"
+    "messageformat": "הזן את פרטי כרטיס האשראי או כרטיס החיוב שלך. GrapheneMessenger לא אוספת או מאחסנת את המידע האישי שלך. <learnMoreLink>למידע נוסף</learnMoreLink>"
   },
   "icu:DonateFlow__card-form-card-number": {
     "messageformat": "מספר כרטיס"
@@ -8661,7 +8661,7 @@
     "messageformat": "חודש/שנה"
   },
   "icu:DonateFlow__card-form-title-donate-with-amount": {
-    "messageformat": "תרומה של {formattedCurrencyAmount} ל–Signal"
+    "messageformat": "תרומה של {formattedCurrencyAmount} ל–GrapheneMessenger"
   },
   "icu:DonateFlow__card-form-error-invalid-card-number": {
     "messageformat": "מספר כרטיס לא תקין"
@@ -8679,7 +8679,7 @@
     "messageformat": "הקוד קצר מדי"
   },
   "icu:DonateFlow__one-time-donation-boost-badge-info": {
-    "messageformat": "קבלת תג Signal Boost למשך 30 יום"
+    "messageformat": "קבלת תג GrapheneMessenger Boost למשך 30 יום"
   },
   "icu:DonateFlow__custom-amount-below-minimum-error": {
     "messageformat": "הסכום המינימלי לתרומה הוא {formattedCurrencyAmount}"
@@ -8724,7 +8724,7 @@
     "messageformat": "פעם אחת"
   },
   "icu:DonationReceipt__footer-text-v2": {
-    "messageformat": "תודה על התמיכה ב–Signal. התרומה שלך עוזרת להמשיך לקדם את המשימה שלנו להגן על חופש הביטוי ולאפשר תקשורת גלובלית מאובטחת עבור מיליונים ברחבי העולם, באמצעות טכנולוגיית פרטיות בקוד פתוח. אם מקום המגורים שלך הוא ארה״ב, יש לשמור את הקבלה הזו לצורך רישומי המס שלך. Signal Technology Foundation היא עמותה ללא מטרות רווח פטורה ממס בארה״ב תחת סעיף 501c3 של קוד מס ההכנסה האמריקאי. מזהה המס הפדרלי שלנו הוא 82-4506840. Signal לא סיפקה כל מוצר או שירות בתמורה לתרומה זו."
+    "messageformat": "תודה על התמיכה ב–GrapheneMessenger. התרומה שלך עוזרת להמשיך לקדם את המשימה שלנו להגן על חופש הביטוי ולאפשר תקשורת גלובלית מאובטחת עבור מיליונים ברחבי העולם, באמצעות טכנולוגיית פרטיות בקוד פתוח. אם מקום המגורים שלך הוא ארה״ב, יש לשמור את הקבלה הזו לצורך רישומי המס שלך. Signal Technology Foundation היא עמותה ללא מטרות רווח פטורה ממס בארה״ב תחת סעיף 501c3 של קוד מס ההכנסה האמריקאי. מזהה המס הפדרלי שלנו הוא 82-4506840. GrapheneMessenger לא סיפקה כל מוצר או שירות בתמורה לתרומה זו."
   },
   "icu:Donations__OfflineTooltip": {
     "messageformat": "המכשיר שלך לא מחובר. יש להתחבר לאינטרנט כדי להשלים את התרומה."
@@ -8763,7 +8763,7 @@
     "messageformat": "התרומה בוצעה בהצלחה, אבל לא הצלחנו לעדכן את הגדרות התג שלך"
   },
   "icu:Donations__BadgeApplicationFailed__Description": {
-    "messageformat": "כדי לעדכן את הגדרות התג שלך במכשיר הנייד שלך, יש לעבור אל הגדרות > תרומה ל–Signal > תגים."
+    "messageformat": "כדי לעדכן את הגדרות התג שלך במכשיר הנייד שלך, יש לעבור אל הגדרות > תרומה ל–GrapheneMessenger > תגים."
   },
   "icu:Donations__DonationInterrupted": {
     "messageformat": "התרומה הופסקה"
@@ -8820,7 +8820,7 @@
     "messageformat": "אירעה שגיאה במהלך עיבוד התרומה שלך"
   },
   "icu:Donations__GenericError__Description": {
-    "messageformat": "ייתכן שהתרומה שלך לא עובדה בהצלחה. יש ללחוץ על ״תרומה ל–Signal״ ואז על ״קבלות על תרומות״ כדי לבדוק את הקבלות שלך ולאשר."
+    "messageformat": "ייתכן שהתרומה שלך לא עובדה בהצלחה. יש ללחוץ על ״תרומה ל–GrapheneMessenger״ ואז על ״קבלות על תרומות״ כדי לבדוק את הקבלות שלך ולאשר."
   },
   "icu:DonationsErrorBoundary__DonationUnexpectedError": {
     "messageformat": "יש לנסות שוב או לשלוח לתמיכה יומן ניפוי באגים לקבלת סיוע בהשלמת התרומה שלך. יומני ניפוי באגים עוזרים לנו לאבחן ולתקן את הבעיה ולא מכילים מידע מזהה."
@@ -8862,19 +8862,19 @@
     "messageformat": "תודה על התמיכה שלך!"
   },
   "icu:Donations__badge-modal--description": {
-    "messageformat": "הרווחת תג תרומה מ–Signal! אפשר להציג אותו בפרופיל שלך כדי להשוויץ בתמיכה שלך."
+    "messageformat": "הרווחת תג תרומה מ–GrapheneMessenger! אפשר להציג אותו בפרופיל שלך כדי להשוויץ בתמיכה שלך."
   },
   "icu:Donations__badge-modal--display-on-profile": {
     "messageformat": "הצג בפרופיל"
   },
   "icu:Donations__badge-modal--help-text": {
-    "messageformat": "אפשר לשנות את זה במכשיר הנייד שלך תחת הגדרות > תרומה ל–Signal > תגים"
+    "messageformat": "אפשר לשנות את זה במכשיר הנייד שלך תחת הגדרות > תרומה ל–GrapheneMessenger > תגים"
   },
   "icu:CallQualitySurvey__HowWasYourCall__PageTitle": {
     "messageformat": "איך הייתה השיחה שלך?"
   },
   "icu:CallQualitySurvey__HowWasYourCall__PageDescription": {
-    "messageformat": "זה עוזר לנו לשפר את השיחות ב–Signal. לא יאוחסן מידע אישי מזהה."
+    "messageformat": "זה עוזר לנו לשפר את השיחות ב–GrapheneMessenger. לא יאוחסן מידע אישי מזהה."
   },
   "icu:CallQualitySurvey__HowWasYourCall__Response__HadIssues": {
     "messageformat": "היו בעיות"
@@ -8925,7 +8925,7 @@
     "messageformat": "תיאור הבעיות"
   },
   "icu:CallQualitySurvey__WhatIssuesDidYouHave__SomethingElse__TextArea__HelpText": {
-    "messageformat": "נא לכלול כל פרט רלוונטי לבעיה. כל דבר שתשתפ/י כאן יישאר פרטי וישמש רק כדי לעזור לשפר את השיחות ב–Signal."
+    "messageformat": "נא לכלול כל פרט רלוונטי לבעיה. כל דבר שתשתפ/י כאן יישאר פרטי וישמש רק כדי לעזור לשפר את השיחות ב–GrapheneMessenger."
   },
   "icu:CallQualitySurvey__WhatIssuesDidYouHave__SomethingElse__TextArea__ErrorText": {
     "messageformat": "נא לתאר את הבעיה"
@@ -8991,7 +8991,7 @@
     "messageformat": "צריך יהיה לקשר מחדש באמצעות סריקת קוד QR."
   },
   "icu:MaybeTransferModal__media": {
-    "messageformat": "אם שילמת לגיבויי Signal מאובטחים, כל המדיה שלך תועבר. אחרת, תיכלל המדיה שלך מ–45 הימים האחרונים."
+    "messageformat": "אם שילמת לגיבויי GrapheneMessenger מאובטחים, כל המדיה שלך תועבר. אחרת, תיכלל המדיה שלך מ–45 הימים האחרונים."
   },
   "icu:MaybeTransferModal__transfer": {
     "messageformat": "העבר"
@@ -9003,14 +9003,14 @@
     "messageformat": "למחוק את כל הנתונים?"
   },
   "icu:DeleteDataAndRelinkConfirmationDialog__body": {
-    "messageformat": "כל הנתונים הנוכחיים של Signal לשולחן העבודה יימחקו. לאחר מכן, אפשר יהיה לסרוק קוד QR ולהעביר את היסטוריית ההודעות שלך מהטלפון שלך."
+    "messageformat": "כל הנתונים הנוכחיים של GrapheneMessenger לשולחן העבודה יימחקו. לאחר מכן, אפשר יהיה לסרוק קוד QR ולהעביר את היסטוריית ההודעות שלך מהטלפון שלך."
   },
   "icu:WhatsNew__bugfixes": {
-    "messageformat": "גרסה זו מכילה מספר של שפצורים קטנים ותיקוני תקלים כדי לשמור על Signal שירוץ באופן חלק.",
+    "messageformat": "גרסה זו מכילה מספר של שפצורים קטנים ותיקוני תקלים כדי לשמור על GrapheneMessenger שירוץ באופן חלק.",
     "ignoreUnused": true
   },
   "icu:WhatsNew__bugfixes--1": {
-    "messageformat": "עוד כמה התאמות קטנות, תיקוני באגים ושיפורים. תודה על השימוש ב-Signal!",
+    "messageformat": "עוד כמה התאמות קטנות, תיקוני באגים ושיפורים. תודה על השימוש ב-GrapheneMessenger!",
     "ignoreUnused": true
   },
   "icu:WhatsNew__bugfixes--2": {
@@ -9030,7 +9030,7 @@
     "ignoreUnused": true
   },
   "icu:WhatsNew__bugfixes--6": {
-    "messageformat": "התאמות קטנות, תיקוני באגים ושיפורי ביצועים. תודה על השימוש ב-Signal!",
+    "messageformat": "התאמות קטנות, תיקוני באגים ושיפורי ביצועים. תודה על השימוש ב-GrapheneMessenger!",
     "ignoreUnused": true
   },
   "icu:WhatsNew__8.24--1": {

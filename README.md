@@ -1,32 +1,40 @@
 <!-- Copyright 2014 Signal Messenger, LLC -->
 <!-- SPDX-License-Identifier: AGPL-3.0-only -->
 
-# Signal Desktop
+# GrapheneMessenger Desktop
 
-Signal Desktop links with Signal on [Android](https://github.com/signalapp/Signal-Android) or [iOS](https://github.com/signalapp/Signal-iOS) and lets you message from your Windows, macOS, and Linux computers.
+GrapheneMessenger Desktop lets you message from your Windows, macOS, and Linux
+computers. It links with the GrapheneMessenger mobile app on your phone.
 
-[Install the production version](https://signal.org/download/) or help us out by [installing the beta version](https://support.signal.org/hc/articles/360007318471-Signal-Beta).
+This is an independent, open-source fork of
+[Signal Desktop](https://github.com/signalapp/Signal-Desktop), rebranded for the
+GrapheneMessenger project. It keeps the original AGPL-3.0 license and the
+upstream copyright notices.
+
+- Mobile app: [GrapheneMessenger](https://github.com/Graphene-Lab/GrapheneMessenger)
+- Desktop app: [GrapheneMessenger-Desktop](https://github.com/Graphene-Lab/GrapheneMessenger-Desktop)
+
+## Download
+
+Installers for Windows, Linux, and macOS are published on the
+[Releases page](https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases).
+Each release is built automatically for all three operating systems.
+
+> Note: installers are currently **unsigned** (no code-signing certificate).
+> Your OS may show a security warning on first launch.
 
 ## Got a question?
 
-You can find answers to a number of frequently asked questions on our [support site](https://support.signal.org/).
-The [community forum](https://community.signalusers.org/) is another good place for questions.
+Open an [issue](https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues).
 
-## Found a Bug?
+## Found a bug?
 
-Please search for any [existing issues](https://github.com/signalapp/Signal-Desktop/issues) that describe your bug in order to avoid duplicate submissions.
+Please search the [existing issues](https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues)
+first to avoid duplicates.
 
-## Have a feature request, question, comment?
+## Contributing
 
-Please use our community forum: https://community.signalusers.org/
-
-## Contributing to the project
-
-Please see [CONTRIBUTING.md](https://github.com/signalapp/Signal-Desktop/blob/main/CONTRIBUTING.md). There are lots of ways to contribute - many that don't involve code!
-
-## Donate to Signal
-
-You can donate to Signal from inside Signal apps (Desktop, Android, or iOS), or via the web here: [Signal Technology Foundation](https://signal.org/donate). Signal is an independent 501c3 nonprofit.
+Please see [CONTRIBUTING.md](./CONTRIBUTING.md). There are lots of ways to contribute.
 
 ## Cryptography Notice
 
@@ -42,3 +50,9 @@ The form and manner of this distribution makes it eligible for export under the 
 Copyright 2013-2024 Signal Messenger, LLC
 
 Licensed under the GNU AGPLv3: https://www.gnu.org/licenses/agpl-3.0.html
+
+## Credits
+
+GrapheneMessenger Desktop is based on Signal Desktop by Signal Messenger, LLC.
+"Signal" and the Signal logo are trademarks of Signal Messenger, LLC. This fork is
+not affiliated with, endorsed by, or sponsored by Signal Messenger, LLC.

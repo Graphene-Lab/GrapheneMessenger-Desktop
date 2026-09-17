@@ -3,7 +3,7 @@
 
 # Acknowledgments
 
-Signal Desktop makes use of the following open source projects.
+GrapheneMessenger Desktop makes use of the following open source projects.
 
 ## @babel/core
 
