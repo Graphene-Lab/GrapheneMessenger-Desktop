@@ -6,6 +6,20 @@ call, and share files. All messages are end-to-end encrypted.
 It works on Windows, macOS, and Linux. It links with the GrapheneMessenger app on
 your phone.
 
+## Download
+
+[![Download the latest release](https://img.shields.io/badge/Download%20the%20latest%20release-238636?style=for-the-badge&logo=download&logoColor=white)](https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/Graphene-Lab/GrapheneMessenger-Desktop?style=for-the-badge&color=1f6feb&label=version)](https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases/latest)
+
+Pick your operating system to download it directly:
+
+[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases/latest/download/graphene-messenger-desktop-win-x64.exe)
+[![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases/latest/download/graphene-messenger-desktop-mac-universal.dmg)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases/latest/download/graphene-messenger-desktop_amd64.deb)
+
+> The installers are not signed yet. Your computer may show a security warning the
+> first time you open them. This is normal. See [First launch](#first-launch).
+
 - Mobile app: [GrapheneMessenger](https://github.com/Graphene-Lab/GrapheneMessenger)
 - Desktop app: [GrapheneMessenger-Desktop](https://github.com/Graphene-Lab/GrapheneMessenger-Desktop)
 
@@ -13,9 +27,9 @@ your phone.
 
 1. Go to the [Releases page](https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases).
 2. Download the file for your system:
-   - **Windows**: `GrapheneMessenger-Setup-x.x.x.exe`
-   - **macOS**: `GrapheneMessenger-x.x.x.dmg`
-   - **Linux**: `graphene-messenger-desktop_x.x.x_amd64.deb`
+   - **Windows**: `graphene-messenger-desktop-win-x64.exe`
+   - **macOS**: `graphene-messenger-desktop-mac-universal.dmg`
+   - **Linux**: `graphene-messenger-desktop_amd64.deb`
 3. Open the file and follow the steps.
 
 > The installers are not signed yet. Your computer may show a security warning the
