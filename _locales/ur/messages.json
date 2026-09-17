@@ -116,10 +116,10 @@
   "icu:unknownGroup": {
     "messageformat": "نامعلوم گروپ"
   },
-  "icu:cantOpenGrapheneMessengerError": {
+  "icu:cantOpenSignalError": {
     "messageformat": "GrapheneMessenger کو کھولنے سے قاصر"
   },
-  "icu:cantOpenGrapheneMessengerError__detail": {
+  "icu:cantOpenSignalError__detail": {
     "messageformat": "مسئلے کو حل کرنے کے لیے، سپورٹ پیج پر دیے گئے ریکوری گائیڈ پر عمل کریں یا مسئلے کو حل کرنے کے لیے GrapheneMessenger سپورٹ سے رابطہ کریں۔\n\nاگر آپ کو فوری طور پر GrapheneMessenger استعمال کرنا ہو، تو آپ اپنے ڈیٹا کو حذف کر سکتے ہیں اور اس ڈیسک ٹاپ کو دوبارہ لنک کر سکتے ہیں۔ آپ کے پاس اپنے فون سے میسج ہسٹری ٹرانسفر کرنے کا اختیار ہو گا۔"
   },
   "icu:databaseError": {
@@ -833,7 +833,7 @@
   "icu:signalDesktopStickerCreator": {
     "messageformat": "اسٹیکر پیک بنانے والا"
   },
-  "icu:aboutGrapheneMessengerDesktop": {
+  "icu:aboutSignalDesktop": {
     "messageformat": "GrapheneMessenger Desktop کے بارے میں"
   },
   "icu:screenShareWindow": {
@@ -905,7 +905,7 @@
   "icu:findByPhoneNumberHeader": {
     "messageformat": "فون نمبر سے تلاش کریں"
   },
-  "icu:welcomeToGrapheneMessenger": {
+  "icu:welcomeToSignal": {
     "messageformat": "GrapheneMessenger میں خوش آمدید"
   },
   "icu:whatsNew": {
@@ -1472,7 +1472,7 @@
   "icu:ChangeNumber--notification": {
     "messageformat": "{sender} نے اپنا فون نمبر تبدیل کر دیا ہے"
   },
-  "icu:JoinedGrapheneMessenger--notification": {
+  "icu:JoinedSignal--notification": {
     "messageformat": "رابطہ GrapheneMessenger میں شامل ہو گیا"
   },
   "icu:ConversationMerge--notification": {
@@ -3440,10 +3440,10 @@
   "icu:SafetyTipsModal__Title-v2": {
     "messageformat": "حفاظتی تجاویز"
   },
-  "icu:SafetyTipsModal__TipTitle--GrapheneMessengerChat": {
+  "icu:SafetyTipsModal__TipTitle--SignalChat": {
     "messageformat": "GrapheneMessenger کی چیٹس کا جواب مت دیں"
   },
-  "icu:SafetyTipsModal__TipDescription--GrapheneMessengerChat": {
+  "icu:SafetyTipsModal__TipDescription--SignalChat": {
     "messageformat": "GrapheneMessenger کبھی بھی آپ کو آپ کے رجسٹریشن کوڈ، پن، یا بحالی کی کیی کے لیے میسج نہیں کرے گا۔ ایسی چیٹ کا جواب نہ دیں جو GrapheneMessenger بننے کا ڈرامہ کر رہی ہو۔"
   },
   "icu:SafetyTipsModal__TipTitle--NamesAndPhotos": {
@@ -3935,7 +3935,7 @@
   "icu:CallingAdhocCallInfo__CopyLink": {
     "messageformat": "کال لنک کاپی کریں"
   },
-  "icu:CallingAdhocCallInfo__ShareViaGrapheneMessenger": {
+  "icu:CallingAdhocCallInfo__ShareViaSignal": {
     "messageformat": "کال لنک کا بذریعہ GrapheneMessenger اشتراک کریں"
   },
   "icu:CallingAdhocCallInfo__RemoveClientDialogBody": {
@@ -5541,7 +5541,7 @@
   "icu:ForwardMessagesModal__toast--CannotForwardEmptyMessage": {
     "messageformat": "خالی یا حذف کردہ میسجز فارورڈ نہیں کیے جا سکتے"
   },
-  "icu:ShareCallLinkViaGrapheneMessenger__DraftMessageText": {
+  "icu:ShareCallLinkViaSignal__DraftMessageText": {
     "messageformat": "GrapheneMessenger کال میں شامل ہونے کے لیے اس لنک کا استعمال کریں: {url}"
   },
   "icu:MessageRequestWarning__review-carefully": {
@@ -6163,28 +6163,28 @@
   "icu:Preferences--signal-login-description--learn-more": {
     "messageformat": "مزید جانیں"
   },
-  "icu:Preferences__GrapheneMessengerAccount__label": {
+  "icu:Preferences__SignalAccount__label": {
     "messageformat": "اکاؤنٹ اور بحالی"
   },
-  "icu:Preferences__GrapheneMessengerAccount__description": {
+  "icu:Preferences__SignalAccount__description": {
     "messageformat": "2 کییز"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Title": {
+  "icu:Preferences__SignalAccountKeys__Title": {
     "messageformat": "آپ کا GrapheneMessenger Login"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Description": {
+  "icu:Preferences__SignalAccountKeys__Description": {
     "messageformat": "Store this in a safe place, your login info is required to recover your account and data. Never share it with anyone."
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__AccountKey": {
+  "icu:Preferences__SignalAccountKeys__AccountKey": {
     "messageformat": "اکاؤنٹ کیی"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__AccountID": {
+  "icu:Preferences__SignalAccountKeys__AccountID": {
     "messageformat": "اکاؤنٹ ID"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__RecoveryKey": {
+  "icu:Preferences__SignalAccountKeys__RecoveryKey": {
     "messageformat": "ریکوری کیی"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Save": {
+  "icu:Preferences__SignalAccountKeys__Save": {
     "messageformat": "محفوظ کریں"
   },
   "icu:Preferences__Account__LinkedDevice__label": {
@@ -7678,22 +7678,22 @@
   "icu:MessageRequestResponseNotification__Button--LearnMore": {
     "messageformat": "مزید سیکھیں"
   },
-  "icu:GrapheneMessengerConnectionsModal__title": {
+  "icu:SignalConnectionsModal__title": {
     "messageformat": "GrapheneMessenger کنیکشنز"
   },
-  "icu:GrapheneMessengerConnectionsModal__header": {
+  "icu:SignalConnectionsModal__header": {
     "messageformat": "{connections} وہ افراد ہیں جن پر اعتماد کرنے کا آپ نے انتخاب کیا ہے، یا تو بذریعہ:"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--1": {
+  "icu:SignalConnectionsModal__bullet--1": {
     "messageformat": "چیٹ شروع کر رہا ہے"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--2": {
+  "icu:SignalConnectionsModal__bullet--2": {
     "messageformat": "پیغام کی درخواست قبول کرنے سے"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--3": {
+  "icu:SignalConnectionsModal__bullet--3": {
     "messageformat": "اپنے سسٹم کانٹیکٹس میں انہیں رکھنے سے"
   },
-  "icu:GrapheneMessengerConnectionsModal__footer": {
+  "icu:SignalConnectionsModal__footer": {
     "messageformat": "آپ کے کنکشنز آپ کا نام اور تصویر دیکھ سکتے ہیں، اور \"میری سٹوری\" پر موجود تصاویر دیکھ سکتے ہیں تاوقتیکہ آپ اسے ان سے چھپائیں"
   },
   "icu:Stories__title": {
@@ -8468,7 +8468,7 @@
   "icu:CallLinkDetails__CopyLink": {
     "messageformat": "لنک کاپی کریں"
   },
-  "icu:CallLinkDetails__ShareLinkViaGrapheneMessenger": {
+  "icu:CallLinkDetails__ShareLinkViaSignal": {
     "messageformat": "بذریعہ GrapheneMessenger لنک شیئر کریں"
   },
   "icu:CallLinkDetails__DeleteLink": {

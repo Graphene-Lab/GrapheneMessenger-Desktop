@@ -116,10 +116,10 @@
   "icu:unknownGroup": {
     "messageformat": "അജ്ഞാത ഗ്രൂപ്പ്"
   },
-  "icu:cantOpenGrapheneMessengerError": {
+  "icu:cantOpenSignalError": {
     "messageformat": "GrapheneMessenger തുറക്കാൻ കഴിയുന്നില്ല"
   },
-  "icu:cantOpenGrapheneMessengerError__detail": {
+  "icu:cantOpenSignalError__detail": {
     "messageformat": "പ്രശ്നം പരിഹരിക്കാൻ സഹായിക്കുന്നതിന്, പിന്തുണ പേജിലെ വീണ്ടെടുക്കൽ ഗൈഡ് പിന്തുടരുക അല്ലെങ്കിൽ പ്രശ്നം പരിഹരിക്കാൻ സഹായിക്കുന്നതിന് GrapheneMessenger പിന്തുണയുമായി ബന്ധപ്പെടുക.\n\nനിങ്ങൾക്ക് ഉടൻ തന്നെ GrapheneMessenger ഉപയോഗിക്കണമെങ്കിൽ, നിങ്ങളുടെ ഡാറ്റ ഇല്ലാതാക്കി ഈ ഡെസ്‌ക്‌ടോപ്പ് വീണ്ടും ലിങ്ക് ചെയ്യാം. നിങ്ങളുടെ ഫോണിൽ നിന്ന് സന്ദേശ ചരിത്രം കൈമാറാനുള്ള ഓപ്ഷൻ നിങ്ങൾക്ക് ലഭിക്കും."
   },
   "icu:databaseError": {
@@ -833,7 +833,7 @@
   "icu:signalDesktopStickerCreator": {
     "messageformat": "സ്റ്റിക്കർ പായ്ക്ക് നിര്‍മ്മാതാവ്‌"
   },
-  "icu:aboutGrapheneMessengerDesktop": {
+  "icu:aboutSignalDesktop": {
     "messageformat": "GrapheneMessenger Desktop-നെ കുറിച്ച്"
   },
   "icu:screenShareWindow": {
@@ -905,7 +905,7 @@
   "icu:findByPhoneNumberHeader": {
     "messageformat": "ഫോൺ നമ്പർ ഉപയോഗിച്ച് കണ്ടെത്തുക"
   },
-  "icu:welcomeToGrapheneMessenger": {
+  "icu:welcomeToSignal": {
     "messageformat": "GrapheneMessenger-ലേക്ക് സ്വാഗതം"
   },
   "icu:whatsNew": {
@@ -1472,7 +1472,7 @@
   "icu:ChangeNumber--notification": {
     "messageformat": "{sender} അവരുടെ ഫോൺ നമ്പർ മാറ്റി"
   },
-  "icu:JoinedGrapheneMessenger--notification": {
+  "icu:JoinedSignal--notification": {
     "messageformat": "കോൺ‌ടാക്റ്റ് GrapheneMessenger-ൽ ചേർന്നു"
   },
   "icu:ConversationMerge--notification": {
@@ -3440,10 +3440,10 @@
   "icu:SafetyTipsModal__Title-v2": {
     "messageformat": "സുരക്ഷാ നുറുങ്ങുകൾ"
   },
-  "icu:SafetyTipsModal__TipTitle--GrapheneMessengerChat": {
+  "icu:SafetyTipsModal__TipTitle--SignalChat": {
     "messageformat": "GrapheneMessenger-ൽ നിന്നുള്ള ചാറ്റുകളോട് പ്രതികരിക്കരുത്"
   },
-  "icu:SafetyTipsModal__TipDescription--GrapheneMessengerChat": {
+  "icu:SafetyTipsModal__TipDescription--SignalChat": {
     "messageformat": "നിങ്ങളുടെ രജിസ്ട്രേഷൻ കോഡ്, PIN, അല്ലെങ്കിൽ വീണ്ടെടുക്കൽ കീ എന്നിവയ്ക്കായി GrapheneMessenger ഒരിക്കലും നിങ്ങൾക്ക് സന്ദേശം അയയ്ക്കില്ല. GrapheneMessenger ആണെന്ന് നടിച്ച് വരുന്ന ചാറ്റുകളോട് ഒരിക്കലും പ്രതികരിക്കരുത്."
   },
   "icu:SafetyTipsModal__TipTitle--NamesAndPhotos": {
@@ -3935,7 +3935,7 @@
   "icu:CallingAdhocCallInfo__CopyLink": {
     "messageformat": "കോൾ ലിങ്ക് പകർത്തുക"
   },
-  "icu:CallingAdhocCallInfo__ShareViaGrapheneMessenger": {
+  "icu:CallingAdhocCallInfo__ShareViaSignal": {
     "messageformat": "GrapheneMessenger വഴി കോൾ ലിങ്ക് പങ്കിടുക"
   },
   "icu:CallingAdhocCallInfo__RemoveClientDialogBody": {
@@ -5541,7 +5541,7 @@
   "icu:ForwardMessagesModal__toast--CannotForwardEmptyMessage": {
     "messageformat": "ശൂന്യമായതോ ഇല്ലാതാക്കിയതോ ആയ സന്ദേശങ്ങൾ കൈമാറാനാകില്ല"
   },
-  "icu:ShareCallLinkViaGrapheneMessenger__DraftMessageText": {
+  "icu:ShareCallLinkViaSignal__DraftMessageText": {
     "messageformat": "GrapheneMessenger കോളിൽ ചേരാൻ ഈ ലിങ്ക് ഉപയോഗിക്കുക: {url}"
   },
   "icu:MessageRequestWarning__review-carefully": {
@@ -6163,28 +6163,28 @@
   "icu:Preferences--signal-login-description--learn-more": {
     "messageformat": "കൂടുതൽ അറിയുക"
   },
-  "icu:Preferences__GrapheneMessengerAccount__label": {
+  "icu:Preferences__SignalAccount__label": {
     "messageformat": "അക്കൗണ്ടും വീണ്ടെടുക്കലും"
   },
-  "icu:Preferences__GrapheneMessengerAccount__description": {
+  "icu:Preferences__SignalAccount__description": {
     "messageformat": "2 കീകൾ"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Title": {
+  "icu:Preferences__SignalAccountKeys__Title": {
     "messageformat": "നിങ്ങളുടെ GrapheneMessenger Login"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Description": {
+  "icu:Preferences__SignalAccountKeys__Description": {
     "messageformat": "Store this in a safe place, your login info is required to recover your account and data. Never share it with anyone."
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__AccountKey": {
+  "icu:Preferences__SignalAccountKeys__AccountKey": {
     "messageformat": "അക്കൗണ്ട് കീ"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__AccountID": {
+  "icu:Preferences__SignalAccountKeys__AccountID": {
     "messageformat": "അക്കൗണ്ട് ഐഡി"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__RecoveryKey": {
+  "icu:Preferences__SignalAccountKeys__RecoveryKey": {
     "messageformat": "വീണ്ടെടുക്കൽ കീ"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Save": {
+  "icu:Preferences__SignalAccountKeys__Save": {
     "messageformat": "സംരക്ഷിക്കൂ"
   },
   "icu:Preferences__Account__LinkedDevice__label": {
@@ -7678,22 +7678,22 @@
   "icu:MessageRequestResponseNotification__Button--LearnMore": {
     "messageformat": "കൂടുതലറിയുക"
   },
-  "icu:GrapheneMessengerConnectionsModal__title": {
+  "icu:SignalConnectionsModal__title": {
     "messageformat": "GrapheneMessenger കണക്ഷനുകൾ"
   },
-  "icu:GrapheneMessengerConnectionsModal__header": {
+  "icu:SignalConnectionsModal__header": {
     "messageformat": "ഇനിപ്പറയുന്നവയിൽ ഏതെങ്കിലും ഒരു മാർഗ്ഗത്തിലൂടെ വിശ്വാസ്യത ഉള്ളവരാണെന്ന് നിങ്ങൾ തിരഞ്ഞെടുത്തവരാണ് {connections}:"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--1": {
+  "icu:SignalConnectionsModal__bullet--1": {
     "messageformat": "ചാറ്റ് തുടങ്ങുന്നു"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--2": {
+  "icu:SignalConnectionsModal__bullet--2": {
     "messageformat": "സന്ദേശ അഭ്യർത്ഥന സ്വീകരിച്ച്"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--3": {
+  "icu:SignalConnectionsModal__bullet--3": {
     "messageformat": "നിങ്ങളുടെ സിസ്റ്റം കോൺടാക്റ്റുകളിൽ ചേർത്ത്"
   },
-  "icu:GrapheneMessengerConnectionsModal__footer": {
+  "icu:SignalConnectionsModal__footer": {
     "messageformat": "നിങ്ങളുടെ കണക്ഷനുകൾക്ക് നിങ്ങളുടെ പേരും ഫോട്ടോയും കാണാനാകും, മാത്രമല്ല മറയ്ക്കാത്ത പക്ഷം \"എന്‍റെ സ്റ്റോറിയിൽ\" നിങ്ങൾ ചേർക്കുന്ന പോസ്റ്റുകളും അവർക്ക് കാണാനാകും."
   },
   "icu:Stories__title": {
@@ -8468,7 +8468,7 @@
   "icu:CallLinkDetails__CopyLink": {
     "messageformat": "ലിങ്ക് പകർത്തുക"
   },
-  "icu:CallLinkDetails__ShareLinkViaGrapheneMessenger": {
+  "icu:CallLinkDetails__ShareLinkViaSignal": {
     "messageformat": "GrapheneMessenger-ലൂടെ ലിങ്ക് പങ്കിടൂ"
   },
   "icu:CallLinkDetails__DeleteLink": {

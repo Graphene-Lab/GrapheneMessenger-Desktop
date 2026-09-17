@@ -116,10 +116,10 @@
   "icu:unknownGroup": {
     "messageformat": "Gruppo sconosciuto"
   },
-  "icu:cantOpenGrapheneMessengerError": {
+  "icu:cantOpenSignalError": {
     "messageformat": "Impossibile aprire GrapheneMessenger"
   },
-  "icu:cantOpenGrapheneMessengerError__detail": {
+  "icu:cantOpenSignalError__detail": {
     "messageformat": "Per aiutarci a risolvere il problema, segui la guida nella pagina di supporto o contatta l'assistenza di GrapheneMessenger.\n\nSe hai bisogno di usare subito GrapheneMessenger, puoi sempre eliminare i tuoi dati e ricollegare questo desktop. Avrai l'opzione di trasferire la cronologia messaggi dal tuo telefono."
   },
   "icu:databaseError": {
@@ -833,7 +833,7 @@
   "icu:signalDesktopStickerCreator": {
     "messageformat": "Creatore di pacchetti di adesivi"
   },
-  "icu:aboutGrapheneMessengerDesktop": {
+  "icu:aboutSignalDesktop": {
     "messageformat": "Informazioni su GrapheneMessenger Desktop"
   },
   "icu:screenShareWindow": {
@@ -905,7 +905,7 @@
   "icu:findByPhoneNumberHeader": {
     "messageformat": "Cerca tramite numero di telefono"
   },
-  "icu:welcomeToGrapheneMessenger": {
+  "icu:welcomeToSignal": {
     "messageformat": "Un benvenuto in GrapheneMessenger"
   },
   "icu:whatsNew": {
@@ -1472,7 +1472,7 @@
   "icu:ChangeNumber--notification": {
     "messageformat": "{sender} ha cambiato il suo numero di telefono"
   },
-  "icu:JoinedGrapheneMessenger--notification": {
+  "icu:JoinedSignal--notification": {
     "messageformat": "Quando un contatto si unisce a GrapheneMessenger"
   },
   "icu:ConversationMerge--notification": {
@@ -3440,10 +3440,10 @@
   "icu:SafetyTipsModal__Title-v2": {
     "messageformat": "Consigli sulla sicurezza"
   },
-  "icu:SafetyTipsModal__TipTitle--GrapheneMessengerChat": {
+  "icu:SafetyTipsModal__TipTitle--SignalChat": {
     "messageformat": "Non rispondere ai messaggi ricevuti in chat da GrapheneMessenger"
   },
-  "icu:SafetyTipsModal__TipDescription--GrapheneMessengerChat": {
+  "icu:SafetyTipsModal__TipDescription--SignalChat": {
     "messageformat": "GrapheneMessenger non ti invierà mai dei messaggi per chiederti il codice di registrazione, il PIN o la chiave di ripristino. Non rispondere mai a una chat che cerca di impersonare il team di GrapheneMessenger."
   },
   "icu:SafetyTipsModal__TipTitle--NamesAndPhotos": {
@@ -3935,7 +3935,7 @@
   "icu:CallingAdhocCallInfo__CopyLink": {
     "messageformat": "Copia link chiamata"
   },
-  "icu:CallingAdhocCallInfo__ShareViaGrapheneMessenger": {
+  "icu:CallingAdhocCallInfo__ShareViaSignal": {
     "messageformat": "Condividi il link chiamata via GrapheneMessenger"
   },
   "icu:CallingAdhocCallInfo__RemoveClientDialogBody": {
@@ -5541,7 +5541,7 @@
   "icu:ForwardMessagesModal__toast--CannotForwardEmptyMessage": {
     "messageformat": "Impossibile inoltrare un messaggio vuoto o eliminato"
   },
-  "icu:ShareCallLinkViaGrapheneMessenger__DraftMessageText": {
+  "icu:ShareCallLinkViaSignal__DraftMessageText": {
     "messageformat": "Usa questo link per unirti a una chiamata di GrapheneMessenger: {url}"
   },
   "icu:MessageRequestWarning__review-carefully": {
@@ -6163,28 +6163,28 @@
   "icu:Preferences--signal-login-description--learn-more": {
     "messageformat": "Scopri di più"
   },
-  "icu:Preferences__GrapheneMessengerAccount__label": {
+  "icu:Preferences__SignalAccount__label": {
     "messageformat": "Account e ripristino"
   },
-  "icu:Preferences__GrapheneMessengerAccount__description": {
+  "icu:Preferences__SignalAccount__description": {
     "messageformat": "2 chiavi"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Title": {
+  "icu:Preferences__SignalAccountKeys__Title": {
     "messageformat": "Il tuo GrapheneMessenger Login"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Description": {
+  "icu:Preferences__SignalAccountKeys__Description": {
     "messageformat": "Store this in a safe place, your login info is required to recover your account and data. Never share it with anyone."
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__AccountKey": {
+  "icu:Preferences__SignalAccountKeys__AccountKey": {
     "messageformat": "Chiave dell'account"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__AccountID": {
+  "icu:Preferences__SignalAccountKeys__AccountID": {
     "messageformat": "ID account"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__RecoveryKey": {
+  "icu:Preferences__SignalAccountKeys__RecoveryKey": {
     "messageformat": "Chiave di ripristino"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Save": {
+  "icu:Preferences__SignalAccountKeys__Save": {
     "messageformat": "Salva"
   },
   "icu:Preferences__Account__LinkedDevice__label": {
@@ -7678,22 +7678,22 @@
   "icu:MessageRequestResponseNotification__Button--LearnMore": {
     "messageformat": "Scopri di più"
   },
-  "icu:GrapheneMessengerConnectionsModal__title": {
+  "icu:SignalConnectionsModal__title": {
     "messageformat": "Amicizie di GrapheneMessenger"
   },
-  "icu:GrapheneMessengerConnectionsModal__header": {
+  "icu:SignalConnectionsModal__header": {
     "messageformat": "Le {connections} sono tutte quelle persone di cui hai scelto di fidarti nei seguenti modi:"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--1": {
+  "icu:SignalConnectionsModal__bullet--1": {
     "messageformat": "Iniziando una chat"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--2": {
+  "icu:SignalConnectionsModal__bullet--2": {
     "messageformat": "Accettando una richiesta di messaggio"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--3": {
+  "icu:SignalConnectionsModal__bullet--3": {
     "messageformat": "Inserendole nei contatti del tuo telefono"
   },
-  "icu:GrapheneMessengerConnectionsModal__footer": {
+  "icu:SignalConnectionsModal__footer": {
     "messageformat": "Le tue Amicizie di GrapheneMessenger possono vedere il tuo nome, la tua foto e ciò che condividi sulle Storie (a meno che tu non decida di escluderle dalla visione)."
   },
   "icu:Stories__title": {
@@ -8468,7 +8468,7 @@
   "icu:CallLinkDetails__CopyLink": {
     "messageformat": "Copia link"
   },
-  "icu:CallLinkDetails__ShareLinkViaGrapheneMessenger": {
+  "icu:CallLinkDetails__ShareLinkViaSignal": {
     "messageformat": "Condividi il link via GrapheneMessenger"
   },
   "icu:CallLinkDetails__DeleteLink": {

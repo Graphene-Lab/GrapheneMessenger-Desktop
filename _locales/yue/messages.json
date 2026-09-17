@@ -116,10 +116,10 @@
   "icu:unknownGroup": {
     "messageformat": "不明嘅群組"
   },
-  "icu:cantOpenGrapheneMessengerError": {
+  "icu:cantOpenSignalError": {
     "messageformat": "開唔到 GrapheneMessenger"
   },
-  "icu:cantOpenGrapheneMessengerError__detail": {
+  "icu:cantOpenSignalError__detail": {
     "messageformat": "要解決呢個問題，請依照支援頁面嘅復原指南操作，或者聯絡 GrapheneMessenger 支援幫手。\n\n如果你需要即刻用 GrapheneMessenger，可以選擇刪除資料，然後重新連結呢部桌面電腦。你可以選擇由手機轉移訊息紀錄。"
   },
   "icu:databaseError": {
@@ -833,7 +833,7 @@
   "icu:signalDesktopStickerCreator": {
     "messageformat": "貼圖包製作工具"
   },
-  "icu:aboutGrapheneMessengerDesktop": {
+  "icu:aboutSignalDesktop": {
     "messageformat": "關於 GrapheneMessenger 桌面版"
   },
   "icu:screenShareWindow": {
@@ -905,7 +905,7 @@
   "icu:findByPhoneNumberHeader": {
     "messageformat": "用電話冧把嚟搵"
   },
-  "icu:welcomeToGrapheneMessenger": {
+  "icu:welcomeToSignal": {
     "messageformat": "歡迎使用 GrapheneMessenger"
   },
   "icu:whatsNew": {
@@ -1472,7 +1472,7 @@
   "icu:ChangeNumber--notification": {
     "messageformat": "{sender} 已經轉咗電話冧把"
   },
-  "icu:JoinedGrapheneMessenger--notification": {
+  "icu:JoinedSignal--notification": {
     "messageformat": "聯絡人開咗 GrapheneMessenger"
   },
   "icu:ConversationMerge--notification": {
@@ -3440,10 +3440,10 @@
   "icu:SafetyTipsModal__Title-v2": {
     "messageformat": "安全貼士"
   },
-  "icu:SafetyTipsModal__TipTitle--GrapheneMessengerChat": {
+  "icu:SafetyTipsModal__TipTitle--SignalChat": {
     "messageformat": "千祈唔好回覆嚟自 GrapheneMessenger 嘅聊天訊息"
   },
-  "icu:SafetyTipsModal__TipDescription--GrapheneMessengerChat": {
+  "icu:SafetyTipsModal__TipDescription--SignalChat": {
     "messageformat": "GrapheneMessenger 從來都唔會傳訊息問你攞註冊碼、PIN 碼或者恢復金鑰。千祈唔好回覆任何假扮 GrapheneMessenger 嘅聊天訊息。"
   },
   "icu:SafetyTipsModal__TipTitle--NamesAndPhotos": {
@@ -3935,7 +3935,7 @@
   "icu:CallingAdhocCallInfo__CopyLink": {
     "messageformat": "複製通話連結"
   },
-  "icu:CallingAdhocCallInfo__ShareViaGrapheneMessenger": {
+  "icu:CallingAdhocCallInfo__ShareViaSignal": {
     "messageformat": "透過 GrapheneMessenger 分享通話連結"
   },
   "icu:CallingAdhocCallInfo__RemoveClientDialogBody": {
@@ -5541,7 +5541,7 @@
   "icu:ForwardMessagesModal__toast--CannotForwardEmptyMessage": {
     "messageformat": "空白或者刪除咗嘅訊息唔可以轉寄"
   },
-  "icu:ShareCallLinkViaGrapheneMessenger__DraftMessageText": {
+  "icu:ShareCallLinkViaSignal__DraftMessageText": {
     "messageformat": "用呢條連結加入 GrapheneMessenger 通話：{url}"
   },
   "icu:MessageRequestWarning__review-carefully": {
@@ -6163,28 +6163,28 @@
   "icu:Preferences--signal-login-description--learn-more": {
     "messageformat": "了解多啲"
   },
-  "icu:Preferences__GrapheneMessengerAccount__label": {
+  "icu:Preferences__SignalAccount__label": {
     "messageformat": "帳戶同恢復金鑰"
   },
-  "icu:Preferences__GrapheneMessengerAccount__description": {
+  "icu:Preferences__SignalAccount__description": {
     "messageformat": "2 個金鑰"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Title": {
+  "icu:Preferences__SignalAccountKeys__Title": {
     "messageformat": "你嘅 GrapheneMessenger Login"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Description": {
+  "icu:Preferences__SignalAccountKeys__Description": {
     "messageformat": "Store this in a safe place, your login info is required to recover your account and data. Never share it with anyone."
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__AccountKey": {
+  "icu:Preferences__SignalAccountKeys__AccountKey": {
     "messageformat": "帳戶金鑰"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__AccountID": {
+  "icu:Preferences__SignalAccountKeys__AccountID": {
     "messageformat": "帳戶 ID"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__RecoveryKey": {
+  "icu:Preferences__SignalAccountKeys__RecoveryKey": {
     "messageformat": "恢復金鑰"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Save": {
+  "icu:Preferences__SignalAccountKeys__Save": {
     "messageformat": "儲存"
   },
   "icu:Preferences__Account__LinkedDevice__label": {
@@ -7678,22 +7678,22 @@
   "icu:MessageRequestResponseNotification__Button--LearnMore": {
     "messageformat": "了解詳情"
   },
-  "icu:GrapheneMessengerConnectionsModal__title": {
+  "icu:SignalConnectionsModal__title": {
     "messageformat": "GrapheneMessenger 人脈"
   },
-  "icu:GrapheneMessengerConnectionsModal__header": {
+  "icu:SignalConnectionsModal__header": {
     "messageformat": "{connections}係你透過以下方式揀過而值得信任嘅人："
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--1": {
+  "icu:SignalConnectionsModal__bullet--1": {
     "messageformat": "開始聊天"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--2": {
+  "icu:SignalConnectionsModal__bullet--2": {
     "messageformat": "接受過佢嘅訊息請求"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--3": {
+  "icu:SignalConnectionsModal__bullet--3": {
     "messageformat": "系統通訊錄入面有佢喺度"
   },
-  "icu:GrapheneMessengerConnectionsModal__footer": {
+  "icu:SignalConnectionsModal__footer": {
     "messageformat": "你嘅人脈可以見到你嘅名同相。如果你冇隱藏嘅話，對方仲可以睇到你嘅限時動態添"
   },
   "icu:Stories__title": {
@@ -8468,7 +8468,7 @@
   "icu:CallLinkDetails__CopyLink": {
     "messageformat": "複製連結"
   },
-  "icu:CallLinkDetails__ShareLinkViaGrapheneMessenger": {
+  "icu:CallLinkDetails__ShareLinkViaSignal": {
     "messageformat": "透過 GrapheneMessenger 分享連結"
   },
   "icu:CallLinkDetails__DeleteLink": {

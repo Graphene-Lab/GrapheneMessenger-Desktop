@@ -116,10 +116,10 @@
   "icu:unknownGroup": {
     "messageformat": "ក្រុមមិនស្គាល់"
   },
-  "icu:cantOpenGrapheneMessengerError": {
+  "icu:cantOpenSignalError": {
     "messageformat": "បើក GrapheneMessenger មិនបានទេ"
   },
-  "icu:cantOpenGrapheneMessengerError__detail": {
+  "icu:cantOpenSignalError__detail": {
     "messageformat": "ដើម្បីជួយដោះស្រាយបញ្ហា សូមអនុវត្តតាមការណែនាំអំពីការស្តារឡើងវិញនៅលើទំព័រជំនួយ ឬទាក់ទងផ្នែកជំនួយរបស់ GrapheneMessenger។\n\nប្រសិនបើអ្នកត្រូវការប្រើ GrapheneMessenger ភ្លាមៗ អ្នកអាចលុបទិន្នន័យរបស់អ្នក ហើយភ្ជាប់កុំព្យូទ័រនេះឡើងវិញ។ អ្នកនឹងមានជម្រើសក្នុងការផ្ទេរប្រវត្តិសារពីទូរសព្ទរបស់អ្នក។"
   },
   "icu:databaseError": {
@@ -833,7 +833,7 @@
   "icu:signalDesktopStickerCreator": {
     "messageformat": "កម្មវិធីបង្កើតកញ្ចប់ស្ទីកគ័រ"
   },
-  "icu:aboutGrapheneMessengerDesktop": {
+  "icu:aboutSignalDesktop": {
     "messageformat": "អំពី GrapheneMessenger Desktop"
   },
   "icu:screenShareWindow": {
@@ -905,7 +905,7 @@
   "icu:findByPhoneNumberHeader": {
     "messageformat": "ស្វែងរកតាមលេខទូរសព្ទ"
   },
-  "icu:welcomeToGrapheneMessenger": {
+  "icu:welcomeToSignal": {
     "messageformat": "ស្វាគមន៍មកកាន់ GrapheneMessenger"
   },
   "icu:whatsNew": {
@@ -1472,7 +1472,7 @@
   "icu:ChangeNumber--notification": {
     "messageformat": "{sender} បានផ្លាស់ប្តូរលេខទូរសព្ទរបស់ពួកគេ"
   },
-  "icu:JoinedGrapheneMessenger--notification": {
+  "icu:JoinedSignal--notification": {
     "messageformat": "ចូលរួមទំនាក់ទំនងតាមGrapheneMessenger"
   },
   "icu:ConversationMerge--notification": {
@@ -3440,10 +3440,10 @@
   "icu:SafetyTipsModal__Title-v2": {
     "messageformat": "គន្លឹះសុវត្ថិភាព"
   },
-  "icu:SafetyTipsModal__TipTitle--GrapheneMessengerChat": {
+  "icu:SafetyTipsModal__TipTitle--SignalChat": {
     "messageformat": "កុំឆ្លើយតបទៅនឹងការជជែកពី GrapheneMessenger"
   },
-  "icu:SafetyTipsModal__TipDescription--GrapheneMessengerChat": {
+  "icu:SafetyTipsModal__TipDescription--SignalChat": {
     "messageformat": "GrapheneMessenger នឹងមិនផ្ញើសារមកអ្នកដើម្បីសុំលេខកូដចុះឈ្មោះ លេខកូដសម្ងាត់ ឬសោស្តាររបស់អ្នកឡើយ។ កុំឆ្លើយតបទៅនឹងការជជែកដែលតាំងខ្លួនជា GrapheneMessenger។"
   },
   "icu:SafetyTipsModal__TipTitle--NamesAndPhotos": {
@@ -3935,7 +3935,7 @@
   "icu:CallingAdhocCallInfo__CopyLink": {
     "messageformat": "ចម្លងតំណហៅទូរសព្ទ"
   },
-  "icu:CallingAdhocCallInfo__ShareViaGrapheneMessenger": {
+  "icu:CallingAdhocCallInfo__ShareViaSignal": {
     "messageformat": "ចែករំលែកតំណហៅទូរសព្ទតាមរយៈ GrapheneMessenger"
   },
   "icu:CallingAdhocCallInfo__RemoveClientDialogBody": {
@@ -5541,7 +5541,7 @@
   "icu:ForwardMessagesModal__toast--CannotForwardEmptyMessage": {
     "messageformat": "មិនអាចបញ្ជូនបន្តសារទទេ ឬសារដែលបានលុបទេ"
   },
-  "icu:ShareCallLinkViaGrapheneMessenger__DraftMessageText": {
+  "icu:ShareCallLinkViaSignal__DraftMessageText": {
     "messageformat": "ប្រើតំណនេះដើម្បីចូលរួមការហៅតាម GrapheneMessenger៖ {url}"
   },
   "icu:MessageRequestWarning__review-carefully": {
@@ -6163,28 +6163,28 @@
   "icu:Preferences--signal-login-description--learn-more": {
     "messageformat": "ស្វែងយល់បន្ថែម"
   },
-  "icu:Preferences__GrapheneMessengerAccount__label": {
+  "icu:Preferences__SignalAccount__label": {
     "messageformat": "គណនី និងការស្តារ"
   },
-  "icu:Preferences__GrapheneMessengerAccount__description": {
+  "icu:Preferences__SignalAccount__description": {
     "messageformat": "2 សោ"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Title": {
+  "icu:Preferences__SignalAccountKeys__Title": {
     "messageformat": "GrapheneMessenger Login របស់អ្នក"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Description": {
+  "icu:Preferences__SignalAccountKeys__Description": {
     "messageformat": "Store this in a safe place, your login info is required to recover your account and data. Never share it with anyone."
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__AccountKey": {
+  "icu:Preferences__SignalAccountKeys__AccountKey": {
     "messageformat": "លេខកូដគណនី"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__AccountID": {
+  "icu:Preferences__SignalAccountKeys__AccountID": {
     "messageformat": "លេខសម្គាល់គណនី"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__RecoveryKey": {
+  "icu:Preferences__SignalAccountKeys__RecoveryKey": {
     "messageformat": "សោស្តារ"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Save": {
+  "icu:Preferences__SignalAccountKeys__Save": {
     "messageformat": "រក្សាទុក"
   },
   "icu:Preferences__Account__LinkedDevice__label": {
@@ -7678,22 +7678,22 @@
   "icu:MessageRequestResponseNotification__Button--LearnMore": {
     "messageformat": "ស្វែងយល់បន្ថែម"
   },
-  "icu:GrapheneMessengerConnectionsModal__title": {
+  "icu:SignalConnectionsModal__title": {
     "messageformat": "អ្នកភ្ជាប់ទំនាក់ទំនងក្នុង GrapheneMessenger"
   },
-  "icu:GrapheneMessengerConnectionsModal__header": {
+  "icu:SignalConnectionsModal__header": {
     "messageformat": "{connections} គឺជាមនុស្សដែលអ្នកសម្រេចថាទុកចិត្តបាន ដោយសារ៖"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--1": {
+  "icu:SignalConnectionsModal__bullet--1": {
     "messageformat": "ចាប់ផ្តើមការជជែក"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--2": {
+  "icu:SignalConnectionsModal__bullet--2": {
     "messageformat": "ទទួលយកសំណើសារ"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--3": {
+  "icu:SignalConnectionsModal__bullet--3": {
     "messageformat": "មានពួកគេនៅក្នុងប្រព័ន្ធទំនាក់ទំនងរបស់អ្នក"
   },
-  "icu:GrapheneMessengerConnectionsModal__footer": {
+  "icu:SignalConnectionsModal__footer": {
     "messageformat": "អ្នកភ្ជាប់ទំនាក់ទំនងរបស់អ្នកអាចមើលឃើញឈ្មោះ និងរូបថតរបស់អ្នក ហើយអាចឃើញសារបង្ហោះទៅ \"រឿងរ៉ាវរបស់ខ្ញុំ\" លើកលែងតែអ្នកលាក់វាពីពួកគេ"
   },
   "icu:Stories__title": {
@@ -8468,7 +8468,7 @@
   "icu:CallLinkDetails__CopyLink": {
     "messageformat": "ចម្លងតំណ"
   },
-  "icu:CallLinkDetails__ShareLinkViaGrapheneMessenger": {
+  "icu:CallLinkDetails__ShareLinkViaSignal": {
     "messageformat": "ចែករំលែកតំណតាមរយៈ GrapheneMessenger"
   },
   "icu:CallLinkDetails__DeleteLink": {

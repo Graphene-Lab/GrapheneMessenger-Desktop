@@ -116,10 +116,10 @@
   "icu:unknownGroup": {
     "messageformat": "తెలియని సమూహం"
   },
-  "icu:cantOpenGrapheneMessengerError": {
+  "icu:cantOpenSignalError": {
     "messageformat": "GrapheneMessenger ను తెరవలేను"
   },
-  "icu:cantOpenGrapheneMessengerError__detail": {
+  "icu:cantOpenSignalError__detail": {
     "messageformat": "సమస్యను పరిష్కరించడంలో సహాయపడటానికి, మద్దతు పేజీలోని రికవరీ గైడ్‌ను అనుసరించండి లేదా సమస్యను పరిష్కరించడంలో సహాయపడటానికి GrapheneMessenger మద్దతును సంప్రదించండి.\n\nఒకవేళ మీరు వెంటనే GrapheneMessenger ను ఉపయోగించాల్సి వస్తే, మీరు మీ డేటాను తొలగించి, ఈ డెస్క్‌టాప్‌ను తిరిగి లింక్ చేయవచ్చు. మీ ఫోన్ నుండి సందేశ చరిత్రను బదిలీ చేసే ఆప్షన్ మీకు ఉంటుంది."
   },
   "icu:databaseError": {
@@ -833,7 +833,7 @@
   "icu:signalDesktopStickerCreator": {
     "messageformat": "స్టిక్కర్ ప్యాక్ సృష్టికర్త"
   },
-  "icu:aboutGrapheneMessengerDesktop": {
+  "icu:aboutSignalDesktop": {
     "messageformat": "GrapheneMessenger Desktop గురించి"
   },
   "icu:screenShareWindow": {
@@ -905,7 +905,7 @@
   "icu:findByPhoneNumberHeader": {
     "messageformat": "ఫోన్ నెంబర్ ద్వారా కనుగొనండి"
   },
-  "icu:welcomeToGrapheneMessenger": {
+  "icu:welcomeToSignal": {
     "messageformat": "GrapheneMessenger కి స్వాగతం!"
   },
   "icu:whatsNew": {
@@ -1472,7 +1472,7 @@
   "icu:ChangeNumber--notification": {
     "messageformat": "{sender}వారి ఫోన్ నెంబర్‌ని మార్చారు"
   },
-  "icu:JoinedGrapheneMessenger--notification": {
+  "icu:JoinedSignal--notification": {
     "messageformat": "పరిచయం GrapheneMessenger లొ చేరారు"
   },
   "icu:ConversationMerge--notification": {
@@ -3440,10 +3440,10 @@
   "icu:SafetyTipsModal__Title-v2": {
     "messageformat": "భద్రతా చిట్కాలు"
   },
-  "icu:SafetyTipsModal__TipTitle--GrapheneMessengerChat": {
+  "icu:SafetyTipsModal__TipTitle--SignalChat": {
     "messageformat": "GrapheneMessenger నుండి వచ్చే చాట్‌లకు స్పందించవద్దు"
   },
-  "icu:SafetyTipsModal__TipDescription--GrapheneMessengerChat": {
+  "icu:SafetyTipsModal__TipDescription--SignalChat": {
     "messageformat": "GrapheneMessenger మీ నమోదు కోడ్, PIN లేదా రికవర్ కీ కోసం మీకు ఎప్పటికీ సందేశం పంపదు. GrapheneMessenger అని నటిస్తూ చేసే చాట్‌కు ఎప్పుడూ స్పందించవద్దు."
   },
   "icu:SafetyTipsModal__TipTitle--NamesAndPhotos": {
@@ -3935,7 +3935,7 @@
   "icu:CallingAdhocCallInfo__CopyLink": {
     "messageformat": "కాల్ లింక్‌ను కాపీ చేయండి"
   },
-  "icu:CallingAdhocCallInfo__ShareViaGrapheneMessenger": {
+  "icu:CallingAdhocCallInfo__ShareViaSignal": {
     "messageformat": "కాల్ లింక్ GrapheneMessenger ద్వారా పంచుకోండి"
   },
   "icu:CallingAdhocCallInfo__RemoveClientDialogBody": {
@@ -5541,7 +5541,7 @@
   "icu:ForwardMessagesModal__toast--CannotForwardEmptyMessage": {
     "messageformat": "ఖాళీ లేదా తొలగించబడిన సందేశాలను ఫార్వర్డ్ చేయలేము"
   },
-  "icu:ShareCallLinkViaGrapheneMessenger__DraftMessageText": {
+  "icu:ShareCallLinkViaSignal__DraftMessageText": {
     "messageformat": "GrapheneMessenger కాల్‌లో చేరడానికి ఈ లింక్‌ను ఉపయోగించండి: {url}"
   },
   "icu:MessageRequestWarning__review-carefully": {
@@ -6163,28 +6163,28 @@
   "icu:Preferences--signal-login-description--learn-more": {
     "messageformat": "మరింత నేర్చుకోండి"
   },
-  "icu:Preferences__GrapheneMessengerAccount__label": {
+  "icu:Preferences__SignalAccount__label": {
     "messageformat": "ఖాతా & పునరుద్ధరణ"
   },
-  "icu:Preferences__GrapheneMessengerAccount__description": {
+  "icu:Preferences__SignalAccount__description": {
     "messageformat": "రెండు కీలు"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Title": {
+  "icu:Preferences__SignalAccountKeys__Title": {
     "messageformat": "మీ GrapheneMessenger Login"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Description": {
+  "icu:Preferences__SignalAccountKeys__Description": {
     "messageformat": "Store this in a safe place, your login info is required to recover your account and data. Never share it with anyone."
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__AccountKey": {
+  "icu:Preferences__SignalAccountKeys__AccountKey": {
     "messageformat": "ఖాతా కీ"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__AccountID": {
+  "icu:Preferences__SignalAccountKeys__AccountID": {
     "messageformat": "ఖాతా ID"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__RecoveryKey": {
+  "icu:Preferences__SignalAccountKeys__RecoveryKey": {
     "messageformat": "రికవరీ కీ"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Save": {
+  "icu:Preferences__SignalAccountKeys__Save": {
     "messageformat": "భద్రపరుచు"
   },
   "icu:Preferences__Account__LinkedDevice__label": {
@@ -7678,22 +7678,22 @@
   "icu:MessageRequestResponseNotification__Button--LearnMore": {
     "messageformat": "మరింత తెలుసుకోండి"
   },
-  "icu:GrapheneMessengerConnectionsModal__title": {
+  "icu:SignalConnectionsModal__title": {
     "messageformat": "GrapheneMessenger కనెక్షన్‌లు"
   },
-  "icu:GrapheneMessengerConnectionsModal__header": {
+  "icu:SignalConnectionsModal__header": {
     "messageformat": "{connections}, మీరు వీటి ద్వారా విశ్వసించడానికి ఎంచుకున్న వ్యక్తులు:"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--1": {
+  "icu:SignalConnectionsModal__bullet--1": {
     "messageformat": "ఒక చాట్‌ను ప్రారంభించడం"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--2": {
+  "icu:SignalConnectionsModal__bullet--2": {
     "messageformat": "సందేశం అభ్యర్ధన ఆమోదించడం"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--3": {
+  "icu:SignalConnectionsModal__bullet--3": {
     "messageformat": "మీ సిస్టమ్ కాంటాక్ట్‌ల్లో వారు ఉండటం"
   },
-  "icu:GrapheneMessengerConnectionsModal__footer": {
+  "icu:SignalConnectionsModal__footer": {
     "messageformat": "మీ కనెక్షన్స్ మీ పేరు మరియు ఫోటోను చూడగలరు, మరియు దాన్ని వారి నుంచి మీరు దాచిపెడితే తప్ప, ‘‘నా కథ’’ కు పోస్ట్‌లను చూడగలరు"
   },
   "icu:Stories__title": {
@@ -8468,7 +8468,7 @@
   "icu:CallLinkDetails__CopyLink": {
     "messageformat": "లింక్‌ను కాపీ చేయండి"
   },
-  "icu:CallLinkDetails__ShareLinkViaGrapheneMessenger": {
+  "icu:CallLinkDetails__ShareLinkViaSignal": {
     "messageformat": "GrapheneMessenger ద్వారా లింక్‌ను పంచుకోండి"
   },
   "icu:CallLinkDetails__DeleteLink": {

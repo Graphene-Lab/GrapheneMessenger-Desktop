@@ -167,11 +167,11 @@
     "messageformat": "Unknown group",
     "description": "Shown as the name of a group if we don't have any information about it"
   },
-  "icu:cantOpenGrapheneMessengerError": {
+  "icu:cantOpenSignalError": {
     "messageformat": "Can’t Open GrapheneMessenger",
     "description": "Title of a popup if the app cannot start up properly"
   },
-  "icu:cantOpenGrapheneMessengerError__detail": {
+  "icu:cantOpenSignalError__detail": {
     "messageformat": "To help fix the issue, follow the recovery guide on the support page or contact GrapheneMessenger support to help fix the issue.\n\nIf you need to use GrapheneMessenger right away, you can delete your data and relink this desktop. You will have the option to transfer message history from your phone.",
     "description": "Description shown in a popup if the app cannot start up properly"
   },
@@ -1119,7 +1119,7 @@
     "messageformat": "Sticker pack creator",
     "description": "Title of the window that pops up with GrapheneMessenger Desktop preferences in it"
   },
-  "icu:aboutGrapheneMessengerDesktop": {
+  "icu:aboutSignalDesktop": {
     "messageformat": "About GrapheneMessenger Desktop",
     "description": "Item under the Help menu, which opens a small about window"
   },
@@ -1215,7 +1215,7 @@
     "messageformat": "Find by phone number",
     "description": "Shown when search could be a valid phone number, with one sub-item that will kick off the search"
   },
-  "icu:welcomeToGrapheneMessenger": {
+  "icu:welcomeToSignal": {
     "messageformat": "Welcome to GrapheneMessenger"
   },
   "icu:whatsNew": {
@@ -1958,7 +1958,7 @@
     "messageformat": "{sender} changed their phone number",
     "description": "Shown in timeline when a member of a conversation changes their phone number"
   },
-  "icu:JoinedGrapheneMessenger--notification": {
+  "icu:JoinedSignal--notification": {
     "messageformat": "Contact joined GrapheneMessenger",
     "description": "Shown in timeline when a contact joins GrapheneMessenger"
   },
@@ -4562,11 +4562,11 @@
     "messageformat": "Safety tips",
     "description": "Title of the safety tips modal"
   },
-  "icu:SafetyTipsModal__TipTitle--GrapheneMessengerChat": {
+  "icu:SafetyTipsModal__TipTitle--SignalChat": {
     "messageformat": "Don’t respond to chats from GrapheneMessenger",
     "description": "Title of the signal chat safety tip"
   },
-  "icu:SafetyTipsModal__TipDescription--GrapheneMessengerChat": {
+  "icu:SafetyTipsModal__TipDescription--SignalChat": {
     "messageformat": "GrapheneMessenger will never message you for your registration code, PIN, or recovery key. Never respond to a chat pretending to be GrapheneMessenger.",
     "description": "Text of the signal chat safety tip"
   },
@@ -5222,7 +5222,7 @@
     "messageformat": "Copy call link",
     "description": "Menu item in the in-call info popup for call link calls. The action is to add the call link to the clipboard."
   },
-  "icu:CallingAdhocCallInfo__ShareViaGrapheneMessenger": {
+  "icu:CallingAdhocCallInfo__ShareViaSignal": {
     "messageformat": "Share call link via GrapheneMessenger",
     "description": "Menu item in the in-call info popup for call link calls. Clicking the item opens the sharing dialog where you can send the call link to your GrapheneMessenger contacts or groups."
   },
@@ -7363,7 +7363,7 @@
     "messageformat": "Cannot forward empty or deleted messages",
     "description": "Toast message shown when trying to forward an empty or deleted message"
   },
-  "icu:ShareCallLinkViaGrapheneMessenger__DraftMessageText": {
+  "icu:ShareCallLinkViaSignal__DraftMessageText": {
     "messageformat": "Use this link to join a GrapheneMessenger call: {url}",
     "description": "Draft message text for sharing a call link"
   },
@@ -8192,35 +8192,35 @@
     "messageformat": "Learn more",
     "description": "Footer for GrapheneMessenger Login part of Account settings > Learn More"
   },
-  "icu:Preferences__GrapheneMessengerAccount__label": {
+  "icu:Preferences__SignalAccount__label": {
     "messageformat": "Account & Recovery",
     "description": "Label for GrapheneMessenger Login preferences item"
   },
-  "icu:Preferences__GrapheneMessengerAccount__description": {
+  "icu:Preferences__SignalAccount__description": {
     "messageformat": "2 keys",
     "description": "Description for GrapheneMessenger Login preferences item"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Title": {
+  "icu:Preferences__SignalAccountKeys__Title": {
     "messageformat": "Your GrapheneMessenger Login",
     "description": "Title displayed in PDF version of GrapheneMessenger Account Keys preferences page"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Description": {
+  "icu:Preferences__SignalAccountKeys__Description": {
     "messageformat": "Store this in a safe place, your login info is required to recover your account and data. Never share it with anyone.",
     "description": "Description displayed in PDF version of GrapheneMessenger Account Keys preferences page"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__AccountKey": {
+  "icu:Preferences__SignalAccountKeys__AccountKey": {
     "messageformat": "Account key",
     "description": "(Deleted 2026/09/10) Label for the Account Key in GrapheneMessenger Account Keys preferences page"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__AccountID": {
+  "icu:Preferences__SignalAccountKeys__AccountID": {
     "messageformat": "Account ID",
     "description": "Label for the Account ID in GrapheneMessenger Account Keys preferences page"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__RecoveryKey": {
+  "icu:Preferences__SignalAccountKeys__RecoveryKey": {
     "messageformat": "Recovery key",
     "description": "Label for the Recovery Key in GrapheneMessenger Account Keys preferences page"
   },
-  "icu:Preferences__GrapheneMessengerAccountKeys__Save": {
+  "icu:Preferences__SignalAccountKeys__Save": {
     "messageformat": "Save",
     "description": "Text of button in GrapheneMessenger Account Keys preferences page"
   },
@@ -10210,27 +10210,27 @@
     "messageformat": "Learn More",
     "description": "Message request response notification button to learn more"
   },
-  "icu:GrapheneMessengerConnectionsModal__title": {
+  "icu:SignalConnectionsModal__title": {
     "messageformat": "GrapheneMessenger Connections",
     "description": "The phrase/term: 'GrapheneMessenger Connections'"
   },
-  "icu:GrapheneMessengerConnectionsModal__header": {
+  "icu:SignalConnectionsModal__header": {
     "messageformat": "{connections} are people you've chosen to trust, either by:",
     "description": "The beginning sentence to list the different ways a signal connection is formed"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--1": {
+  "icu:SignalConnectionsModal__bullet--1": {
     "messageformat": "Starting a chat",
     "description": "A way that signal connection is formed"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--2": {
+  "icu:SignalConnectionsModal__bullet--2": {
     "messageformat": "Accepting a message request",
     "description": "A way that signal connection is formed"
   },
-  "icu:GrapheneMessengerConnectionsModal__bullet--3": {
+  "icu:SignalConnectionsModal__bullet--3": {
     "messageformat": "Having them in your system contacts",
     "description": "A way that signal connection is formed"
   },
-  "icu:GrapheneMessengerConnectionsModal__footer": {
+  "icu:SignalConnectionsModal__footer": {
     "messageformat": "Your connections can see your name and photo, and can see posts to \"My Story\" unless you hide it from them",
     "description": "Additional information about signal connections and the stories they can see"
   },
@@ -11262,7 +11262,7 @@
     "messageformat": "Copy link",
     "description": "Call History > Call Link Details > Copy Link Button"
   },
-  "icu:CallLinkDetails__ShareLinkViaGrapheneMessenger": {
+  "icu:CallLinkDetails__ShareLinkViaSignal": {
     "messageformat": "Share link via GrapheneMessenger",
     "description": "Call History > Call Link Details > Share Link via GrapheneMessenger Button"
   },
