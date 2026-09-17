@@ -1,0 +1,163 @@
+# Copyright 2024 GrapheneMessenger (fork of Signal Messenger, LLC)
+# SPDX-License-Identifier: AGPL-3.0-only
+
+# Auto-release: on every push to main we bump the patch version, build the
+# installer for Windows, Linux and macOS, run the automatic tests, and publish
+# a GitHub Release with all three installers.
+#
+# Installers are UNSIGNED (no code-signing certificate is configured). To sign
+# them later, add the signing secrets and drop the noop signing overrides.
+
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  version:
+    name: Compute next version
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.bump.outputs.version }}
+      tag: ${{ steps.bump.outputs.tag }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Bump patch from latest tag
+        id: bump
+        run: |
+          base=$(node -p "require('./package.json').version" | sed 's/-.*$//')
+          latest=$(git tag -l 'v*' --sort=-v:refname | head -n1 || true)
+          if [ -n "$latest" ]; then
+            cur=${latest#v}
+            major=$(echo "$cur" | cut -d. -f1)
+            minor=$(echo "$cur" | cut -d. -f2)
+            patch=$(echo "$cur" | cut -d. -f3)
+            patch=$((patch + 1))
+          else
+            major=$(echo "$base" | cut -d. -f1)
+            minor=$(echo "$base" | cut -d. -f2)
+            patch=$(echo "$base" | cut -d. -f3)
+          fi
+          version="$major.$minor.$patch"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "tag=v$version" >> "$GITHUB_OUTPUT"
+          echo "Next version: $version"
+
+  build:
+    name: Build ${{ matrix.os }}
+    needs: version
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            target: win
+          - os: ubuntu-22.04
+            target: linux
+          - os: macos-14
+            target: macos
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup environment
+        uses: ./.github/actions/setup
+        with:
+          cache-electron-builder: true
+
+      - name: Prepare build
+        run: pnpm run prepare-beta-build
+
+      - name: Generate
+        run: pnpm run generate
+
+      - name: Run node tests
+        run: pnpm run test-node
+
+      - name: Create preload cache
+        run: pnpm run build:preload-cache
+        env:
+          ARTIFACTS_DIR: artifacts/${{ matrix.target }}
+
+      - name: Build installer (unsigned)
+        run: |
+          if [ "$RUNNER_OS" = "macOS" ]; then
+            touch noop.sh && chmod +x noop.sh
+            SIGN_MACOS_SCRIPT=noop.sh DISABLE_INSPECT_FUSE=on \
+              pnpm run build:release --publish=never -c.extraMetadata.version=${{ needs.version.outputs.version }}
+          elif [ "$RUNNER_OS" = "Windows" ]; then
+            DISABLE_INSPECT_FUSE=on \
+              pnpm run build:release --publish=never -c.extraMetadata.version=${{ needs.version.outputs.version }}
+          else
+            DISABLE_INSPECT_FUSE=on \
+              pnpm run build:release --publish=never -c.extraMetadata.version=${{ needs.version.outputs.version }}
+          fi
+        shell: bash
+
+      - name: Run release tests
+        run: pnpm run test-release
+        env:
+          NODE_ENV: production
+
+      - name: Upload installers
+        uses: actions/upload-artifact@v4
+        with:
+          name: installers-${{ matrix.target }}
+          path: |
+            artifacts/${{ matrix.target }}/**/*.exe
+            artifacts/${{ matrix.target }}/**/*.dmg
+            artifacts/${{ matrix.target }}/**/*.zip
+            artifacts/${{ matrix.target }}/**/*.deb
+          if-no-files-found: warn
+
+  release:
+    name: Publish GitHub Release
+    needs: [version, build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all installers
+        uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+
+      - name: Create tag
+        run: |
+          git config user.name "graphene-release-bot"
+          git config user.email "bot@graphene.invalid"
+          git tag -a "${{ needs.version.outputs.tag }}" -m "Release ${{ needs.version.outputs.version }}" || true
+          git push origin "${{ needs.version.outputs.tag }}" || true
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ needs.version.outputs.tag }}
+          name: GrapheneMessenger Desktop ${{ needs.version.outputs.version }}
+          body: |
+            GrapheneMessenger Desktop ${{ needs.version.outputs.version }}
+
+            Installers for Windows, Linux and macOS.
+
+            > Note: these installers are currently unsigned.
+          files: |
+            dist/**/*.exe
+            dist/**/*.dmg
+            dist/**/*.zip
+            dist/**/*.deb
+          prerelease: false
