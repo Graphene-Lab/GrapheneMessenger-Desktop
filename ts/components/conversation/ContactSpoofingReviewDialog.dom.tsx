@@ -362,6 +362,7 @@ export function ContactSpoofingReviewDialog(props: PropsType): JSX.Element {
                       theme={theme}
                       oldName={oldName}
                       onClick={() => {
+                        onClose();
                         showContactModal({
                           contactId: conversationInfo.conversation.id,
                         });
