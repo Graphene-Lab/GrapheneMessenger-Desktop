@@ -146,11 +146,11 @@ jobs:
         with:
           name: installers-${{ matrix.target }}
           path: |
-            artifacts/${{ matrix.target }}/**/*.exe
-            artifacts/${{ matrix.target }}/**/*.dmg
-            artifacts/${{ matrix.target }}/**/*.zip
-            artifacts/${{ matrix.target }}/**/*.deb
-          if-no-files-found: warn
+            release/**/*.exe
+            release/**/*.dmg
+            release/**/*.zip
+            release/**/*.deb
+          if-no-files-found: error
 
   release:
     name: Publish GitHub Release
