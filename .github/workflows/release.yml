@@ -156,6 +156,7 @@ jobs:
     name: Publish GitHub Release
     needs: [version, build]
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -194,13 +195,15 @@ jobs:
           > Note: these installers are currently unsigned."
           fi
           # Upload each installer on its own, with retries. Large files (the macOS
-          # .dmg) can hit transient "other side closed" connection errors.
+          # .dmg) can hit transient "other side closed" errors, or hang on a
+          # stalled connection. A per-upload timeout kills a hang so the retry
+          # loop can actually fire.
           fail=0
           for f in dist/**/*.exe dist/**/*.dmg dist/**/*.zip dist/**/*.deb; do
             [ -f "$f" ] || continue
             ok=0
             for attempt in 1 2 3 4 5; do
-              if gh release upload "$TAG" "$f" --clobber; then
+              if timeout --kill-after=30 240 gh release upload "$TAG" "$f" --clobber; then
                 ok=1
                 break
               fi
