@@ -129,7 +129,14 @@ jobs:
           fi
         shell: bash
 
+      - name: Run release tests (linux needs xvfb)
+        if: matrix.target == 'linux'
+        run: xvfb-run --auto-servernum pnpm run test-release
+        env:
+          NODE_ENV: production
+
       - name: Run release tests
+        if: matrix.target != 'linux'
         run: pnpm run test-release
         env:
           NODE_ENV: production
