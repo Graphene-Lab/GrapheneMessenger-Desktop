@@ -567,7 +567,7 @@
     "messageformat": "See logi postitatakse internetti avalikult, et kaaspanustajad saaksid seda näha. Võid selle enne üleslaadimist üle vaadata."
   },
   "icu:debugLogError": {
-    "messageformat": "Midagi läks üleslaadimisega kehvasti! Palun saada kiri aadressile support@signal.org ja lisa logifailid tekstifailina."
+    "messageformat": "Midagi läks üleslaadimisega kehvasti! Palun saada kiri aadressile github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues ja lisa logifailid tekstifailina."
   },
   "icu:debugLogSuccess": {
     "messageformat": "Silumislogi postitatud"
@@ -2310,7 +2310,7 @@
     "messageformat": "See GrapheneMessenger Desktopi versioon on aegunud. Palun uuenda uusimale versioonile sõnumite saatmiseks jätkamiseks."
   },
   "icu:upgrade": {
-    "messageformat": "Klõpsa aadressile signal.org/download minemiseks"
+    "messageformat": "Klõpsa aadressile github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases minemiseks"
   },
   "icu:mediaMessage": {
     "messageformat": "Meediasõnum"

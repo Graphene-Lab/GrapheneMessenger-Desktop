@@ -567,7 +567,7 @@
     "messageformat": "ეს რეესტრი საჯაროდ გამოქვეყნდება, რომ კონტრიბუტორებმა ნახონ. შეგიძლია ატვირთვამდე გადმოწერო."
   },
   "icu:debugLogError": {
-    "messageformat": "ატვირთვისას რაღაც შეცდომა მოხდა! გთხოვთ, support@signal.org -ს მიწერო და შენი რეესტრი ტექსტურ ფაილად დაურთო."
+    "messageformat": "ატვირთვისას რაღაც შეცდომა მოხდა! გთხოვთ, github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues -ს მიწერო და შენი რეესტრი ტექსტურ ფაილად დაურთო."
   },
   "icu:debugLogSuccess": {
     "messageformat": "გაუმართაობის რეესტრი ატვირთულია"
@@ -2310,7 +2310,7 @@
     "messageformat": "This version of GrapheneMessenger Desktop has expired. Please upgrade to the latest version to continue messaging."
   },
   "icu:upgrade": {
-    "messageformat": "დააჭირე signal.org/download-ზე გადასასვლელად"
+    "messageformat": "დააჭირე github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases-ზე გადასასვლელად"
   },
   "icu:mediaMessage": {
     "messageformat": "მედია შეტყობინება"

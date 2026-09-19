@@ -38,7 +38,7 @@ export function InstallScreenErrorStep({
       errorMessage = i18n('icu:installTooOld');
       buttonText = i18n('icu:upgrade');
       onClickButton = () => {
-        openLinkInWebBrowser('https://signal.org/download');
+        openLinkInWebBrowser('https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases');
       };
       shouldShowQuitButton = true;
       break;

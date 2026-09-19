@@ -80,7 +80,7 @@ export function NewlyCreatedGroupInvitedContactsDialog({
       )}
       onClickSecondaryButton={() => {
         openLinkInWebBrowser(
-          'https://support.signal.org/hc/articles/360007319331-Group-chats'
+          'https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues'
         );
       }}
       onClose={onClose}

@@ -325,7 +325,7 @@ function DonationsHome({
           className="PreferencesDonations__list-item"
           onAction={() => {
             openLinkInWebBrowser(
-              'https://support.signal.org/hc/articles/360031949872-Donor-FAQs'
+              'https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues'
             );
           }}
         >

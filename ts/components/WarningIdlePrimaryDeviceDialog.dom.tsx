@@ -18,7 +18,7 @@ export type Props = {
 };
 
 const SUPPORT_PAGE =
-  'https://support.signal.org/hc/articles/9021007554074-Open-Signal-on-your-phone-to-keep-your-account-active';
+  'https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues';
 
 export function WarningIdlePrimaryDeviceDialog({
   containerWidthBreakpoint,

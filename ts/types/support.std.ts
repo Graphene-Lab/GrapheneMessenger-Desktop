@@ -1,17 +1,19 @@
 // Copyright 2023 Signal Messenger, LLC
 // SPDX-License-Identifier: AGPL-3.0-only
 
-export const PRODUCTION_DOWNLOAD_URL = 'https://signal.org/download/';
-export const BETA_DOWNLOAD_URL = 'https://support.signal.org/beta';
+export const PRODUCTION_DOWNLOAD_URL =
+  'https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases';
+export const BETA_DOWNLOAD_URL =
+  'https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases';
 export const UNSUPPORTED_OS_URL =
-  'https://support.signal.org/hc/articles/5109141421850';
+  'https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues';
 export const LINK_SIGNAL_DESKTOP =
-  'https://support.signal.org/hc/articles/360007320451#desktop_multiple_device';
+  'https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues';
 export const SAFETY_NUMBER_URL =
-  'https://support.signal.org/hc/articles/360007060632';
+  'https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues';
 export const KEY_TRANSPARENCY_URL =
-  'https://support.signal.org/hc/articles/10223569377562';
+  'https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues';
 export const SYNCING_MESSAGES_SECURITY_URL =
-  'https://support.signal.org/hc/articles/360007320391';
+  'https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues';
 export const RESTORE_ACCOUNT_URL =
-  'https://support.signal.org/hc/articles/11197884108826/';
+  'https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues';

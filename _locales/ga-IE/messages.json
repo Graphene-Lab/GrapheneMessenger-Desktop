@@ -567,7 +567,7 @@
     "messageformat": "Postálfar an loga seo go poiblí ar líne le go mbeidh rannpháirtithe in ann féachaint air. Is féidir leat é a íoslódáil sula gcuireann tú isteach é."
   },
   "icu:debugLogError": {
-    "messageformat": "Chuaigh rud éigin mícheart leis an uaslódáil! Seol ríomhphost chuig support@signal.org agus cuir do loga i gceangal mar chomhad téacs."
+    "messageformat": "Chuaigh rud éigin mícheart leis an uaslódáil! Seol ríomhphost chuig github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues agus cuir do loga i gceangal mar chomhad téacs."
   },
   "icu:debugLogSuccess": {
     "messageformat": "Loga dífhabhtaithe curtha isteach"
@@ -2310,7 +2310,7 @@
     "messageformat": "Tá an leagan Dheasc GrapheneMessenger seo imithe as feidhm. Uasghrádaigh chuig an leagan is déanaí le leanúint le cur teachtaireachtaí."
   },
   "icu:upgrade": {
-    "messageformat": "Cliceáil le dul chuig signal.org/download"
+    "messageformat": "Cliceáil le dul chuig github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases"
   },
   "icu:mediaMessage": {
     "messageformat": "Teachtaireacht mheán"

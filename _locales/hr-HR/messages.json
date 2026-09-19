@@ -567,7 +567,7 @@
     "messageformat": "Ovaj će zapisnik biti javno objavljen na internetu kako bi ga suradnici mogli pregledati. Možete ga preuzeti prije slanja."
   },
   "icu:debugLogError": {
-    "messageformat": "Došlo je do pogreške pri učitavanju! Pošaljite e-poruku na support@signal.org i priložite svoj zapisnik u obliku tekstualne datoteke."
+    "messageformat": "Došlo je do pogreške pri učitavanju! Pošaljite e-poruku na github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues i priložite svoj zapisnik u obliku tekstualne datoteke."
   },
   "icu:debugLogSuccess": {
     "messageformat": "Zapisnik otklanjanja pogrešaka je podnesen"
@@ -2310,7 +2310,7 @@
     "messageformat": "Vaša verzija GrapheneMessengera za Desktop je istekla. Ažurirajte kako bi nastavili slati poruke."
   },
   "icu:upgrade": {
-    "messageformat": "Kliknite za odlazak na signal.org/download"
+    "messageformat": "Kliknite za odlazak na github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases"
   },
   "icu:mediaMessage": {
     "messageformat": "Poruka s medijskim zapisom"

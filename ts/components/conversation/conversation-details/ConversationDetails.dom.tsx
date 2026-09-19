@@ -504,7 +504,7 @@ export function ConversationDetails({
                 label={i18n('icu:ConversationDetails--support-center')}
                 arrow="external-link"
                 onClick={() => {
-                  openLinkInWebBrowser('https://support.signal.org');
+                  openLinkInWebBrowser('https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues');
                 }}
               />
               <AxoClickableItem.Root

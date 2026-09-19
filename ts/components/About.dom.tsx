@@ -48,13 +48,15 @@ export function About({
         <div className="About__Body environment">{env}</div>
         <br />
         <div>
-          <a href="https://signal.org">signal.org</a>
+          <a href="https://github.com/Graphene-Lab/GrapheneMessenger-Desktop">
+            GrapheneMessenger
+          </a>
         </div>
         <br />
         <div>
           <a
             className="acknowledgments"
-            href="https://github.com/signalapp/Signal-Desktop/blob/main/ACKNOWLEDGMENTS.md"
+            href="https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/blob/main/ACKNOWLEDGMENTS.md"
           >
             {i18n('icu:softwareAcknowledgments')}
           </a>

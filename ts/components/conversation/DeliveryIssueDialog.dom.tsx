@@ -32,7 +32,7 @@ export function DeliveryIssueDialog(props: PropsType): ReactElement {
       <Button
         onClick={() =>
           openLinkInWebBrowser(
-            'https://support.signal.org/hc/articles/4404859745690'
+            'https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues'
           )
         }
         size={ButtonSize.Medium}

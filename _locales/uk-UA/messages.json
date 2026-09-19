@@ -567,7 +567,7 @@
     "messageformat": "Цей журнал буде загальнодоступний онлайн для перегляду відповідними фахівцями. Ви можете завантажити його перед надсиланням."
   },
   "icu:debugLogError": {
-    "messageformat": "Під час вивантаження сталася помилка! Надішліть електронний лист на адресу support@signal.org, вклавши до нього журнал налагодження як текстовий файл."
+    "messageformat": "Під час вивантаження сталася помилка! Надішліть електронний лист на адресу github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues, вклавши до нього журнал налагодження як текстовий файл."
   },
   "icu:debugLogSuccess": {
     "messageformat": "Журнал налагодження надіслано"
@@ -2310,7 +2310,7 @@
     "messageformat": "Ця версія GrapheneMessenger Desktop застаріла. Оновіть застосунок до останньої версії, щоб і надалі надсилати повідомлення."
   },
   "icu:upgrade": {
-    "messageformat": "Натисніть, щоб перейти на signal.org/download"
+    "messageformat": "Натисніть, щоб перейти на github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases"
   },
   "icu:mediaMessage": {
     "messageformat": "Медіаповідомлення"

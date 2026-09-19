@@ -34,7 +34,7 @@ export function ChatSessionRefreshedNotification(
     setIsDialogOpen(false);
 
     const url =
-      'https://support.signal.org/hc/requests/new?desktop&chat_refreshed';
+      'https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues';
 
     openLinkInWebBrowser(url);
   }, [setIsDialogOpen]);

@@ -567,7 +567,7 @@
     "messageformat": "Dieses Diagnoseprotokoll wird öffentlich online gestellt, sodass Mitwirkende es einsehen können. Du kannst es vor dem Abschicken herunterladen."
   },
   "icu:debugLogError": {
-    "messageformat": "Beim Hochladen gab es ein Problem. Schreib bitte eine E-Mail an support@signal.org und hänge das Diagnoseprotokoll als Textdatei an."
+    "messageformat": "Beim Hochladen gab es ein Problem. Schreib bitte eine E-Mail an github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues und hänge das Diagnoseprotokoll als Textdatei an."
   },
   "icu:debugLogSuccess": {
     "messageformat": "Diagnoseprotokoll übermittelt"
@@ -2310,7 +2310,7 @@
     "messageformat": "Diese Version von GrapheneMessenger Desktop ist veraltet. Bitte führe eine Aktualisierung auf die aktuellste Version durch, um weiterhin Nachrichten austauschen zu können."
   },
   "icu:upgrade": {
-    "messageformat": "Anklicken, um signal.org/download aufzurufen"
+    "messageformat": "Anklicken, um github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases aufzurufen"
   },
   "icu:mediaMessage": {
     "messageformat": "Nachricht mit Medieninhalten"

@@ -567,7 +567,7 @@
     "messageformat": "Ovaj zapisnik će biti javno objavljen online kako bi ga saradnici mogli pregledati. Možete ga preuzeti prije slanja."
   },
   "icu:debugLogError": {
-    "messageformat": "Nešto nije u redu s prijenosom! Pošaljite e-poruku na support@signal.org i priložite zapisnik kao tekstualni dokument."
+    "messageformat": "Nešto nije u redu s prijenosom! Pošaljite e-poruku na github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues i priložite zapisnik kao tekstualni dokument."
   },
   "icu:debugLogSuccess": {
     "messageformat": "Zapisnik o otklanjanju grešaka je poslan"
@@ -2310,7 +2310,7 @@
     "messageformat": "This version of GrapheneMessenger Desktop has expired. Please upgrade to the latest version to continue messaging."
   },
   "icu:upgrade": {
-    "messageformat": "Kliknite da posjetite signal.org/download"
+    "messageformat": "Kliknite da posjetite github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases"
   },
   "icu:mediaMessage": {
     "messageformat": "Medijska poruka"

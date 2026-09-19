@@ -27,7 +27,7 @@ export function GroupV1DisabledActions({
             learnMoreLink: parts => {
               return (
                 <a
-                  href="https://support.signal.org/hc/articles/360007319331"
+                  href="https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues"
                   target="_blank"
                   rel="noreferrer"
                   className="module-group-v1-disabled-actions__message__learn-more"

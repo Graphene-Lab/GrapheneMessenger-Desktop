@@ -51,7 +51,7 @@ const getQrCodeClassName = getClassNamesFor(
 );
 
 const SUPPORT_PAGE =
-  'https://support.signal.org/hc/articles/360007320551-Linked-Devices';
+  'https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues';
 
 export function InstallScreenQrCodeNotScannedStep({
   currentVersion,

@@ -567,7 +567,7 @@
     "messageformat": "یہ لاگ عوامی طور پر آن لائن شائع کیا جائے گا تاکہ معاونین اسے دیکھیں۔ آپ اسے جمع کروانے سے پہلے ڈاؤن لوڈ کر سکتے ہیں۔"
   },
   "icu:debugLogError": {
-    "messageformat": "اپ لوڈ کے ساتھ کوئی خرابی واقع ہو گئی ہے! براہ کرم support@signal.org پر ای میل کریں اور متنی فائل کے طور پر اپنا لاگ منسلک کریں۔"
+    "messageformat": "اپ لوڈ کے ساتھ کوئی خرابی واقع ہو گئی ہے! براہ کرم github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues پر ای میل کریں اور متنی فائل کے طور پر اپنا لاگ منسلک کریں۔"
   },
   "icu:debugLogSuccess": {
     "messageformat": "ڈیبگ لاگ جمع کروا دیا گیا"
@@ -2310,7 +2310,7 @@
     "messageformat": "GrapheneMessenger Desktop کا یہ ورژن کی میعاد ختم ہوچکی ہے۔ مہربانی فرما کر پیغامات جاری رکھنے کے لئے حالیہ ورژن میں اپ گریڈ کریں۔"
   },
   "icu:upgrade": {
-    "messageformat": "signal.org/download پر جانے کے لیے کلک کریں"
+    "messageformat": "github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases پر جانے کے لیے کلک کریں"
   },
   "icu:mediaMessage": {
     "messageformat": "میڈیا پیغام"

@@ -567,7 +567,7 @@
     "messageformat": "Tento denník bude zverejnený online, aby ho mohli prispievatelia vidieť. Pred odoslaním si ho môžete stiahnuť."
   },
   "icu:debugLogError": {
-    "messageformat": "Pri nahrávaní sa niečo pokazilo! Pošlite e-mail na adresu support@signal.org a priložte svoj denník ako textový súbor."
+    "messageformat": "Pri nahrávaní sa niečo pokazilo! Pošlite e-mail na adresu github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues a priložte svoj denník ako textový súbor."
   },
   "icu:debugLogSuccess": {
     "messageformat": "Bol odoslaný denník ladenia"
@@ -2310,7 +2310,7 @@
     "messageformat": "Táto verzia aplikácie GrapheneMessenger Desktop je zastaralá. Pre pokračovanie ju prosím aktualizujte na najnovšiu verziu."
   },
   "icu:upgrade": {
-    "messageformat": "Kliknutím prejdete na stránku signal.org/download"
+    "messageformat": "Kliknutím prejdete na stránku github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases"
   },
   "icu:mediaMessage": {
     "messageformat": "Multimediálna správa"

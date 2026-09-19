@@ -567,7 +567,7 @@
     "messageformat": "Loki julkaistaan verkossa, jossa se on kehittäjien nähtävissä. Voit ladata sen ennen lähettämistä."
   },
   "icu:debugLogError": {
-    "messageformat": "Jotain meni pieleen tiedostoa lähetettäessä! Lähetä sähköpostia osoitteeseen support@signal.org ja liitä loki siihen tekstitiedostona."
+    "messageformat": "Jotain meni pieleen tiedostoa lähetettäessä! Lähetä sähköpostia osoitteeseen github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues ja liitä loki siihen tekstitiedostona."
   },
   "icu:debugLogSuccess": {
     "messageformat": "Vianetsintäloki lähetetty"
@@ -2310,7 +2310,7 @@
     "messageformat": "Käyttämäsi versio GrapheneMessenger Desktopista on vanhentunut. Voit lähettää ja vastaanottaa viestejä päivittämällä uusimpaan versioon."
   },
   "icu:upgrade": {
-    "messageformat": "Siirry lataussivulle signal.org/download napsauttamalla"
+    "messageformat": "Siirry lataussivulle github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases napsauttamalla"
   },
   "icu:mediaMessage": {
     "messageformat": "Mediaviesti"

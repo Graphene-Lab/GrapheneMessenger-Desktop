@@ -567,7 +567,7 @@
     "messageformat": "Šis žurnalas bus viešai paskelbtas internete talkininkams peržiūrėti. Prieš pateikdami, galite jį atsisiųsti."
   },
   "icu:debugLogError": {
-    "messageformat": "Kažkas nutiko su išsiuntimu! Prašome parašyti el. laišką adresu support@signal.org ir pridėti savo žurnalą kaip tekstinį failą."
+    "messageformat": "Kažkas nutiko su išsiuntimu! Prašome parašyti el. laišką adresu github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues ir pridėti savo žurnalą kaip tekstinį failą."
   },
   "icu:debugLogSuccess": {
     "messageformat": "Derinimo žurnalas pateiktas"
@@ -2310,7 +2310,7 @@
     "messageformat": "Pasibaigė šios GrapheneMessenger Desktop skirtos versijos galiojimas. Norint tęsti susirašinėjimą, prašome atsinaujinti iki naujausios versijos."
   },
   "icu:upgrade": {
-    "messageformat": "Spustelėkite, norėdami pereiti į signal.org/download"
+    "messageformat": "Spustelėkite, norėdami pereiti į github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases"
   },
   "icu:mediaMessage": {
     "messageformat": "Medijos žinutė"

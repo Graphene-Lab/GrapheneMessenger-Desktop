@@ -2721,14 +2721,6 @@ export function Preferences({
                   }
                 />
               )}
-              <PreferencesButton
-                symbol="heart"
-                label={i18n('icu:Preferences__button--donate')}
-                current={isDonationsPage(settingsLocation.page)}
-                onClick={() =>
-                  setSettingsLocation({ page: SettingsPage.Donations })
-                }
-              />
               <div className={tw('mx-3.5 my-2 border-be border-primary')} />
               <PreferencesButton
                 symbol="settings"

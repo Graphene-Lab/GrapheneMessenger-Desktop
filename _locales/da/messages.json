@@ -567,7 +567,7 @@
     "messageformat": "Denne log vil blive offentliggjort online, så bidragydere kan se den. Du kan downloade den før indsendelse."
   },
   "icu:debugLogError": {
-    "messageformat": "Noget gik galt med upload! Send venligst en e-mail til support@signal.org og vedhæft din log som en tekstfil."
+    "messageformat": "Noget gik galt med upload! Send venligst en e-mail til github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues og vedhæft din log som en tekstfil."
   },
   "icu:debugLogSuccess": {
     "messageformat": "Fejlsøgningslog indsendt"
@@ -2310,7 +2310,7 @@
     "messageformat": "Denne version af GrapheneMessenger Desktop er forældet. Opgrader venligst til den nyeste version for at fortsætte"
   },
   "icu:upgrade": {
-    "messageformat": "Klik for at gå til signal.org/download"
+    "messageformat": "Klik for at gå til github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases"
   },
   "icu:mediaMessage": {
     "messageformat": "Mediebesked"

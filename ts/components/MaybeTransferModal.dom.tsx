@@ -12,7 +12,7 @@ import { AxoAlertDialog } from '../axo/AxoAlertDialog.dom.tsx';
 import { AxoButton } from '../axo/AxoButton.dom.tsx';
 
 const LEARN_MORE_LINK =
-  'https://support.signal.org/hc/articles/360007320551-Linked-Devices';
+  'https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues';
 
 export function MaybeTransferModal({
   i18n,

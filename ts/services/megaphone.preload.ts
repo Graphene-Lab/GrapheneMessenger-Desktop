@@ -189,6 +189,11 @@ export function isMegaphoneShowable(
     secondaryCtaId,
   } = megaphone;
 
+  // Fork: never surface donation megaphones.
+  if (primaryCtaId === 'donate') {
+    return false;
+  }
+
   if (
     isFinished ||
     nowMs < dontShowBeforeEpochMs ||

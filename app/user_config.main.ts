@@ -18,7 +18,7 @@ if (config.has('storagePath')) {
   userData = join(
     app.getPath('appData'),
     // oxlint-disable-next-line typescript/restrict-template-expressions
-    `Signal-${config.get('storageProfile')}`
+    `GrapheneMessenger-${config.get('storageProfile')}`
   );
 } else if (OS.isAppImage()) {
   userData = join(app.getPath('appData'), `${app.getName()} AppImage`);

@@ -768,7 +768,7 @@
     "description": "Explanation text shown in the debug log window when opened in close mode - the user can't submit, just view"
   },
   "icu:debugLogError": {
-    "messageformat": "Something went wrong with the upload! Please email support@signal.org and attach your log as a text file.",
+    "messageformat": "Something went wrong with the upload! Please email github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues and attach your log as a text file.",
     "description": "Error message a recommendations if debug log upload fails"
   },
   "icu:debugLogSuccess": {
@@ -3069,7 +3069,7 @@
     "description": "Warning notification that this version of the app has expired"
   },
   "icu:upgrade": {
-    "messageformat": "Click to go to signal.org/download",
+    "messageformat": "Click to go to github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases",
     "description": "Label text for button to upgrade the app to the latest version"
   },
   "icu:mediaMessage": {

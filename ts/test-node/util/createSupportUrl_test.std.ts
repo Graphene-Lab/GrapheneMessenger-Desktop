@@ -6,25 +6,19 @@ import { assert } from 'chai';
 import { createSupportUrl } from '../../util/createSupportUrl.std.ts';
 
 describe('createSupportUrl', () => {
-  it('returns support url for "en" locale', () => {
+  it('points to the fork GitHub issues with the locale in the body', () => {
+    const url = new URL(createSupportUrl({ locale: 'fr' }));
     assert.strictEqual(
-      createSupportUrl({ locale: 'en' }),
-      'https://support.signal.org/hc/en-us/requests/new?desktop'
+      url.origin + url.pathname,
+      'https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/issues/new'
     );
+    assert.include(url.searchParams.get('body') ?? '', 'Locale: fr');
   });
 
-  it('returns support url for "fr" locale', () => {
-    assert.strictEqual(
-      createSupportUrl({ locale: 'fr' }),
-      'https://support.signal.org/hc/fr/requests/new?desktop'
+  it('includes query params in the body', () => {
+    const url = new URL(
+      createSupportUrl({ locale: 'en', query: { debugLog: 'https://' } })
     );
-  });
-
-  it('returns support url with a query', () => {
-    assert.strictEqual(
-      createSupportUrl({ locale: 'en', query: { debugLog: 'https://' } }),
-      'https://support.signal.org/hc/en-us/requests/new?' +
-        'desktop&debugLog=https%3A%2F%2F'
-    );
+    assert.include(url.searchParams.get('body') ?? '', 'debugLog: https://');
   });
 });
