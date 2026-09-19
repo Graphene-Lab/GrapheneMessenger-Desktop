@@ -20,7 +20,6 @@ import { safeSetTimeout } from '../util/timeout.std.ts';
 import { clearTimeoutIfNecessary } from '../util/clearTimeoutIfNecessary.std.ts';
 import { itemStorage } from '../textsecure/Storage.preload.ts';
 import { isMoreRecentThan } from '../util/timestamp.std.ts';
-import { maybeHydrateDonationConfigCache } from '../util/subscriptionConfiguration.preload.ts';
 
 const log = createLogger('megaphoneService');
 
@@ -145,14 +144,14 @@ async function processMegaphone(
   }
 
   if (isMegaphoneShowable(megaphone)) {
+    // Fork: never surface donation megaphones.
     if (
       megaphone.primaryCtaId === 'donate' ||
-      megaphone.secondaryCtaId === 'donate'
+      megaphone.secondaryCtaId === 'donate' ||
+      megaphone.conditionalId === 'standard_donate'
     ) {
-      log.info(
-        'processMegaphone: Megaphone ctaId donate, prefetching donation amount config'
-      );
-      drop(maybeHydrateDonationConfigCache());
+      log.info(`processMegaphone: Skipping donation megaphone ${id}`);
+      return 'not-shown';
     }
 
     log.info(`processMegaphone: Showing ${id}`);
@@ -188,11 +187,6 @@ export function isMegaphoneShowable(
     primaryCtaId,
     secondaryCtaId,
   } = megaphone;
-
-  // Fork: never surface donation megaphones.
-  if (primaryCtaId === 'donate') {
-    return false;
-  }
 
   if (
     isFinished ||
