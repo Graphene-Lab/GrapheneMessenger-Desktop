@@ -18,10 +18,12 @@ const log = createLogger('preconnect');
 // (and other connectivity params) of the services.
 function resolveLibsignalNet(
   url: string,
-  version: string,
   certificateAuthority?: string
 ): Net.Net {
-  const userAgent = getUserAgent(version);
+  // The user-agent carries the upstream Signal Desktop version we are built from,
+  // not this product's release number. Signal's servers reject requests whose
+  // `Signal-Desktop/<version>` looks too old with HTTP 499, before authenticating.
+  const userAgent = getUserAgent();
   log.info(`libsignal net url: ${url}`);
   if (isStagingServer(url)) {
     log.info('libsignal net environment resolved to staging');
@@ -69,7 +71,6 @@ if (window.SignalContext.config?.serverUrl) {
 
   libsignalNet = resolveLibsignalNet(
     config.serverUrl,
-    config.version,
     config.certificateAuthority
   );
 

@@ -111,6 +111,7 @@ import {
 } from './protocol_filter.node.ts';
 import OS from '../ts/util/os/osMain.node.ts';
 import { isNightly, isProduction } from '../ts/util/version.std.ts';
+import { getReportedSignalVersion } from '../ts/util/getUserAgent.node.ts';
 import { clearTimeoutIfNecessary } from '../ts/util/clearTimeoutIfNecessary.std.ts';
 import { toggleMaximizedBrowserWindow } from '../ts/util/toggleMaximizedBrowserWindow.std.ts';
 import { ChallengeMainHandler } from '../ts/main/challengeMain.main.ts';
@@ -2337,6 +2338,15 @@ app.on('ready', async () => {
 
   log.info('app ready');
   log.info(`starting version ${packageJson.version}`);
+  // What we tell Signal's servers we are, which is the upstream Signal Desktop
+  // version whose code we actually run - not our release number. If these ever
+  // drift apart, or if the reported version is older than what Signal's
+  // `RemoteDeprecationFilter` accepts, requests get dropped with HTTP 499 before
+  // they are authenticated, and linking or sending fails with "connection to
+  // server failed". Useful when diagnosing that.
+  log.info(
+    `reporting upstream Signal Desktop version ${getReportedSignalVersion()}`
+  );
 
   // This logging helps us debug user reports about broken devices.
   {
@@ -3060,8 +3070,10 @@ ipc.handle(
 ipc.handle('DebugLogs.upload', async (_event, content: string) => {
   return uploadDebugLog.upload({
     content,
-    appVersion: app.getVersion(),
     logger: log,
+    // Only names the file; the request itself uses the upstream Signal Desktop
+    // version, never this product number.
+    appVersion: app.getVersion(),
   });
 });
 

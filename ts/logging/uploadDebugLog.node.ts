@@ -44,24 +44,29 @@ const parseTokenBody = (
 
 export type UploadOptionsType = Readonly<{
   content: string | Buffer<ArrayBuffer> | Uint8Array<ArrayBuffer>;
-  appVersion: string;
   logger: LoggerType;
   extension?: string;
   contentType?: string;
   compress?: boolean;
   prefix?: string;
+  // Used only to name the uploaded file, so support can tell which build
+  // produced a log. It is never part of the identity we present to Signal.
+  appVersion?: string;
 }>;
 
 export const upload = async ({
   content,
-  appVersion,
   logger,
   extension = 'gz',
   contentType = 'application/gzip',
   compress = true,
   prefix,
+  appVersion = 'unknown',
 }: UploadOptionsType): Promise<string> => {
-  const headers = { 'User-Agent': getUserAgent(appVersion) };
+  // The user-agent we send everywhere to Signal services must be the upstream
+  // Signal Desktop version we are built from, never this product's release
+  // number - see ts/util/signalBaseVersion.std.ts.
+  const headers = { 'User-Agent': getUserAgent() };
 
   const formUrl = new URL(BASE_URL);
 

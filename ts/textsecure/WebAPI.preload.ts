@@ -256,7 +256,6 @@ type PromiseAjaxOptionsType<Type extends ResponseType, OutputShape> = {
   user?: string;
   // oxlint-disable-next-line typescript/no-explicit-any
   validateResponse?: any;
-  version: string;
   abortSignal?: AbortSignal;
 } & (
   | {
@@ -418,9 +417,7 @@ async function getFetchOptions<Type extends ResponseType, OutputShape>(
     body,
     headers: {
       // libsignal-net adds the user-agent header for us
-      ...(options.socketManager
-        ? null
-        : { 'User-Agent': getUserAgent(options.version) }),
+      ...(options.socketManager ? null : { 'User-Agent': getUserAgent() }),
       'X-Signal-Agent': 'OWD',
       ...options.headers,
     } satisfies FetchHeaderListType,
@@ -1668,7 +1665,6 @@ const {
   storageUrl,
   stripePublishableKey,
   updatesUrl,
-  version,
 } = window.SignalContext.config;
 
 const cdnUrlObject: Readonly<{
@@ -1865,7 +1861,6 @@ async function _ajax<Type extends AjaxResponseType, OutputShape>(
     redactUrl: param.redactUrl,
     storageUrl,
     validateResponse: param.validateResponse,
-    version,
     unauthenticated:
       'unauthenticated' in param ? param.unauthenticated : undefined,
     accessKey: 'accessKey' in param ? param.accessKey : undefined,
@@ -2225,7 +2220,6 @@ export async function getReleaseNoteImageAttachment(
     responseType: 'byteswithdetails',
     timeout: 0,
     type: 'GET',
-    version,
   });
 
   return {
@@ -2542,7 +2536,6 @@ export async function getBadgeImageFile(
       const pattern = RegExp(escapeRegExp(pathname), 'g');
       return href.replace(pattern, `[REDACTED]${pathname.slice(-3)}`);
     },
-    version,
   });
 }
 
@@ -2561,7 +2554,6 @@ export async function downloadOnboardingStories(
           responseType: 'bytes',
           timeout: 0,
           type: 'GET',
-          version,
         }
       )
     )
@@ -2595,7 +2587,6 @@ export async function getAvatar(
       const pattern = RegExp(escapeRegExp(path), 'g');
       return href.replace(pattern, `[REDACTED]${path.slice(-3)}`);
     },
-    version,
   });
 }
 
@@ -3276,7 +3267,6 @@ export function createFetchForAttachmentUpload({
       certificateAuthority,
       proxyUrl,
       timeout: 0,
-      version,
 
       headers: uploadHeaders,
     });
@@ -3978,7 +3968,6 @@ export async function getSticker(
       responseType: 'bytes',
       type: 'GET',
       redactUrl: redactStickerUrl,
-      version,
     }
   );
 }
@@ -3995,7 +3984,6 @@ export async function getStickerPackManifest(
     responseType: 'bytes',
     type: 'GET',
     redactUrl: redactStickerUrl,
-    version,
   });
 }
 
@@ -4087,7 +4075,6 @@ export async function putStickers(
     proxyUrl,
     timeout: 0,
     type: 'POST',
-    version,
     responseType: 'raw',
   });
 
@@ -4108,7 +4095,6 @@ export async function putStickers(
           proxyUrl,
           timeout: 0,
           type: 'POST',
-          version,
           responseType: 'raw',
         })
       );
@@ -4188,7 +4174,6 @@ async function _getAttachmentHeaders({
     timeout: DEFAULT_TIMEOUT,
     type: 'HEAD',
     redactUrl: redactor,
-    version,
   });
   return response.headers;
 }
@@ -4233,7 +4218,6 @@ async function _getAttachment({
       timeout: options?.timeout ?? DEFAULT_TIMEOUT,
       type: 'GET',
       redactUrl: redactor,
-      version,
       abortSignal: abortController.signal,
     });
 
@@ -4350,7 +4334,6 @@ export async function putEncryptedAttachment(
     proxyUrl,
     timeout: 0,
     type: 'POST',
-    version,
     headers,
     redactUrl: () => {
       const tmp = new URL(signedUploadLocation);
@@ -4391,7 +4374,6 @@ export async function putEncryptedAttachment(
         proxyUrl,
         timeout: 0,
         type: 'PUT',
-        version,
         headers: {
           'Content-Range': `bytes ${start}-*/${encryptedSize}`,
         },
@@ -4415,7 +4397,6 @@ export async function putEncryptedAttachment(
       certificateAuthority,
       proxyUrl,
       type: 'PUT',
-      version,
       headers: {
         'Content-Range': `bytes */${encryptedSize}`,
       },
@@ -4487,7 +4468,6 @@ export async function fetchJsonViaProxy(
       'X-SignalPadding': getHeaderPadding(),
       ...params.headers,
     },
-    version,
     abortSignal: params.signal,
   });
 }
@@ -4505,7 +4485,6 @@ export async function fetchBytesViaProxy(
       'X-SignalPadding': getHeaderPadding(),
       ...params.headers,
     },
-    version,
     abortSignal: params.signal,
   });
 }
@@ -4524,7 +4503,6 @@ export async function makeSfuRequest(
     responseType: 'byteswithdetails',
     timeout: 0,
     type,
-    version,
   });
 }
 
@@ -4628,7 +4606,6 @@ export async function uploadAvatar(
     proxyUrl,
     timeout: 0,
     type: 'POST',
-    version,
     responseType: 'raw',
   });
 
@@ -4665,7 +4642,6 @@ export async function uploadGroupAvatar(
     proxyUrl,
     timeout: 0,
     type: 'POST',
-    version,
     responseType: 'raw',
   });
 
@@ -4681,7 +4657,6 @@ export async function getGroupAvatar(
     responseType: 'bytes',
     timeout: 0,
     type: 'GET',
-    version,
     redactUrl: _createRedactor(encodeURIComponent(key)),
   });
 }
@@ -4764,7 +4739,6 @@ export function confirmIntentWithStripe(
     },
     responseType: 'json',
     type: 'POST',
-    version,
     zodSchema: ConfirmIntentWithStripeResultSchema,
   });
 }
@@ -4798,7 +4772,6 @@ export function createPaymentMethodWithStripe(
     proxyUrl,
     responseType: 'json',
     type: 'POST',
-    version,
     zodSchema: CreatePaymentMethodWithStripeResultSchema,
   });
 }

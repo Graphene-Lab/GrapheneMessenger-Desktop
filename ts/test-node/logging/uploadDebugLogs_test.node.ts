@@ -11,11 +11,16 @@ import * as zlib from 'node:zlib';
 import * as durations from '../../util/durations/index.std.ts';
 import { upload } from '../../logging/uploadDebugLog.node.ts';
 import { createLogger } from '../../logging/log.std.ts';
+import { DEFAULT_SIGNAL_BASE_VERSION } from '../../util/signalBaseVersion.std.ts';
 
 const logger = createLogger('uploadDebugLogs_test');
 
 const gzip: (_: zlib.InputType) => Promise<Buffer<ArrayBuffer>> =
   util.promisify(zlib.gzip);
+
+// The user-agent carries the upstream Signal Desktop version we are built from,
+// never this product's release number - see ts/util/signalBaseVersion.std.ts.
+const USER_AGENT = `Signal-Desktop/${DEFAULT_SIGNAL_BASE_VERSION}`;
 
 describe('upload', () => {
   beforeEach(function (this: Mocha.Context) {
@@ -44,14 +49,14 @@ describe('upload', () => {
 
   it('makes a request to get the S3 bucket, then uploads it there', async function (this: Mocha.Context) {
     assert.strictEqual(
-      await upload({ content: 'hello world', appVersion: '1.2.3', logger }),
+      await upload({ content: 'hello world', logger }),
       'https://debuglogs.org/abc123.gz'
     );
 
     sinon.assert.calledOnce(this.fakeGet);
     sinon.assert.calledWith(this.fakeGet, 'https://debuglogs.org/', {
       responseType: 'json',
-      headers: { 'User-Agent': 'Signal-Desktop/1.2.3' },
+      headers: { 'User-Agent': USER_AGENT },
       timeout: { request: durations.MINUTE },
     });
 
@@ -59,7 +64,7 @@ describe('upload', () => {
 
     sinon.assert.calledOnce(this.fakePost);
     sinon.assert.calledWith(this.fakePost, 'https://example.com/fake-upload', {
-      headers: { 'User-Agent': 'Signal-Desktop/1.2.3' },
+      headers: { 'User-Agent': USER_AGENT },
       timeout: { request: durations.MINUTE },
       body: sinon.match((value: unknown) => {
         if (!(value instanceof FormData)) {
@@ -83,7 +88,7 @@ describe('upload', () => {
 
     let err: unknown;
     try {
-      await upload({ content: 'hello world', appVersion: '1.2.3', logger });
+      await upload({ content: 'hello world', logger });
     } catch (e) {
       err = e;
     }
@@ -109,7 +114,7 @@ describe('upload', () => {
       try {
         // Again, these should be run serially.
         // oxlint-disable-next-line no-await-in-loop
-        await upload({ content: 'hello world', appVersion: '1.2.3', logger });
+        await upload({ content: 'hello world', logger });
       } catch (e) {
         err = e;
       }
@@ -122,7 +127,7 @@ describe('upload', () => {
 
     let err: unknown;
     try {
-      await upload({ content: 'hello world', appVersion: '1.2.3', logger });
+      await upload({ content: 'hello world', logger });
     } catch (e) {
       err = e;
     }
