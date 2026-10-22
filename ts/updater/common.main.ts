@@ -6,7 +6,7 @@ import fsExtra from 'fs-extra';
 import { mkdir, readdir, stat, writeFile } from 'node:fs/promises';
 import lodash from 'lodash';
 import { release as osRelease, tmpdir } from 'node:os';
-import { extname, join, normalize } from 'node:path';
+import { basename, extname, join, normalize } from 'node:path';
 
 import config from 'config';
 import { FAILSAFE_SCHEMA, load as loadYaml } from 'js-yaml';
@@ -37,6 +37,7 @@ import {
 import { isPathInside } from '../util/isPathInside.node.ts';
 
 import { packageJson } from '../util/packageJson.main.ts';
+import { isUpdateArtifactOwned, resolveUpdatesBase } from './feedPolicy.std.ts';
 
 import {
   getSignatureFileName,
@@ -696,6 +697,24 @@ export abstract class Updater {
       await this.#getArch()
     );
 
+    // The artifact must be one we produced. An official Signal installer would
+    // pass signature verification - it is signed with the key in
+    // `updatesPublicKey` - and would replace this fork with a stock Signal build.
+    const productName = packageJson.name;
+    if (!isUpdateArtifactOwned(fileName, productName)) {
+      this.logger.error(
+        `${logId}: refusing '${fileName}', it is not a '${productName}' artifact`
+      );
+
+      if (checkType === CheckType.ForceCheck) {
+        throw new Error(
+          `${logId}: '${fileName}' is not a ${productName} artifact!`
+        );
+      }
+
+      return;
+    }
+
     const sha512 = getSHA512(parsedYaml, fileName);
     strictAssert(sha512 !== undefined, 'Missing required hash');
 
@@ -758,7 +777,16 @@ export abstract class Updater {
       return join(cacheDir, fileName);
     });
 
-    return oldFiles.find(fileName => extname(fileName) === extension);
+    // Only our own installers can be the base of a differential patch. Anything
+    // cached by earlier builds - official Signal installers, most importantly -
+    // is skipped, so a patch is never applied on top of a binary that is not
+    // ours; that would produce a corrupted result.
+    return oldFiles.find(fileName => {
+      return (
+        extname(fileName) === extension &&
+        isUpdateArtifactOwned(basename(fileName), packageJson.name)
+      );
+    });
   }
 
   async #downloadUpdate(
@@ -1039,8 +1067,15 @@ function getUpdateCheckUrl(): string {
   return `${getUpdatesBase()}/${getUpdatesFileName()}`;
 }
 
+// There is no fallback to `updatesUrl` here on purpose: that is Signal's own
+// feed, and anything it serves is an official Signal build, never a
+// GrapheneMessenger one. Automatic updates stay off until `updateFeedUrl`
+// points at a feed we operate and its host is allow-listed.
 function getUpdatesBase(): string {
-  return config.get('updatesUrl');
+  return resolveUpdatesBase(
+    config.get<string>('updateFeedUrl'),
+    config.get<ReadonlyArray<string>>('updateFeedAllowedHosts')
+  );
 }
 
 function getUpdatesFileName(): string {

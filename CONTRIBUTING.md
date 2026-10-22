@@ -334,6 +334,45 @@ infrastructure doesn't kick in while you're developing.
 production servers will _unregister_ your mobile device! All messages from your contacts
 will go to your new development desktop app instead of your phone.
 
+## App updates in this fork
+
+This is a fork of Signal Desktop, and out of the box it still carries Signal's
+update settings: `updatesUrl` points at `https://updates2.signal.org/desktop`, and
+the update-signing public keys (`updatesPublicKey`, `appImageUpdatesPublicKey`) are
+Signal's. Anything that feed serves is an official Signal build. An update check
+there finds a Signal version number, downloads `signal-desktop-win-x64-*.exe`, and
+restarting into it would replace GrapheneMessenger Desktop with a stock Signal app
+that talks to Signal's servers under Signal's identity.
+
+So automatic updates are switched off here, in layers:
+
+- `config/production.json` sets `updatesEnabled` to `false`.
+- `config/default.json` adds `updateFeedUrl` (empty) and `updateFeedAllowedHosts`
+  (empty). `updatesUrl` is kept untouched because the renderer uses it to build
+  badge image URLs; the updater itself no longer reads it.
+- `ts/updater/feedPolicy.std.ts` holds the policy, and `ts/updater/index.main.ts`
+  refuses to start version checks unless `updateFeedUrl` is set, its host is in
+  `updateFeedAllowedHosts`, and that host is not a Signal host (`updates.signal.org`,
+  `updates2.signal.org`).
+- `ts/updater/common.main.ts` also refuses any update artifact that is not named
+  after this product, and ignores cached installers that are not ours, so a
+  differential patch can never be applied on top of a Signal binary.
+
+Until we run our own feed, users get new versions by hand from
+<https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases>.
+
+To turn automatic updates on once that infrastructure exists:
+
+1. Publish our own feed and artifacts. Artifact names must start with the package
+   name (`${name}-...`), which is what `artifactName` in `package.json` produces.
+2. Generate our own update key pair and replace `updatesPublicKey` (and
+   `appImageUpdatesPublicKey`) with it. Our artifacts cannot be signed with
+   Signal's private key, and verifying them against Signal's public key would
+   prove nothing.
+3. Set `updateFeedUrl` and add its host to `updateFeedAllowedHosts`.
+4. Set `updatesEnabled` back to `true`, then check in the logs that the offered
+   version and the artifact name are really GrapheneMessenger's before shipping.
+
 ## Testing Production Builds
 
 To test changes to the build system, build a release using

@@ -8,6 +8,7 @@ import { MacOSUpdater } from './macos.main.ts';
 import { WindowsUpdater } from './windows.main.ts';
 import { LinuxAppImageUpdater } from './linuxAppImage.main.ts';
 import { initLinux } from './linux.main.ts';
+import { RELEASES_URL, resolveUpdatesBase } from './feedPolicy.std.ts';
 
 let initialized = false;
 
@@ -26,9 +27,12 @@ export async function start(options: UpdaterOptionsType): Promise<void> {
     throw new Error('updater/start: Must provide logger!');
   }
 
-  if (autoUpdateDisabled()) {
+  const disabledReason = autoUpdateDisabledReason();
+  if (disabledReason) {
     logger.info(
-      'updater/start: Updates disabled - not starting new version checks'
+      `updater/start: Updates disabled (${disabledReason}) - ` +
+        'not starting new version checks; ' +
+        `install new versions by hand from ${RELEASES_URL}`
     );
 
     return;
@@ -67,6 +71,26 @@ export function onRestartCanceled(): void {
   }
 }
 
-function autoUpdateDisabled() {
-  return !app.isPackaged || !config.get('updatesEnabled');
+// Even when `updatesEnabled` is on, checks must never reach a feed that is not
+// ours. The inherited Signal feed serves official Signal installers, and
+// applying one would replace this fork with an unmodified Signal build.
+function autoUpdateDisabledReason(): string | undefined {
+  if (!app.isPackaged) {
+    return 'not a packaged install';
+  }
+
+  if (!config.get<boolean>('updatesEnabled')) {
+    return 'updatesEnabled is false';
+  }
+
+  try {
+    resolveUpdatesBase(
+      config.get<string>('updateFeedUrl'),
+      config.get<ReadonlyArray<string>>('updateFeedAllowedHosts')
+    );
+  } catch (error) {
+    return (error as Error).message;
+  }
+
+  return undefined;
 }

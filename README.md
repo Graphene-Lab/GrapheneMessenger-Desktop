@@ -108,11 +108,17 @@ Click your **profile picture** (top left), then **Settings**. Here you can chang
 
 ## Update the app
 
-The app checks for updates by itself. When a new version is ready, you see a
-message. Click **Restart to update**.
+Automatic updates are turned off for now. The update feed this app inherited from
+Signal only serves the official Signal installers, and installing one of those
+would replace GrapheneMessenger Desktop with a plain Signal app.
 
-You can also download the newest version from the
-[Releases page](https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases).
+To update, go to the
+[Releases page](https://github.com/Graphene-Lab/GrapheneMessenger-Desktop/releases),
+download the installer for your system, and run it. Your chats, contacts, and
+settings are kept.
+
+When our own update feed is ready, automatic updates will be switched back on and
+the app will offer a **Restart to update** button again.
 
 ## Troubleshooting
 
